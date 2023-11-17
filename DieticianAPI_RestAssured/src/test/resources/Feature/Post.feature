@@ -12,8 +12,14 @@ Then User receives Bearer Token
     Then User receives response for POST "<sheetName>" with "<header>"
 
     Examples: 
-      | sheetName  | header                                      |
-      | reqres     | Post_User_Valid                          |
-      | reqres     | Post_User_Existing                           |
-      | reqres     | Post_user_MissingName                         |
-      | reqres      | Post_user_MissingJob                          |
+      | sheetName  |            header                    |
+      |  patient   | Post_Patient_Valid                   |
+      |  patient   | Post_Patient_ExistingUniqueField     |
+      |  patient   | Post_Patient_NonAcceptedFoodCategory |
+      |  patient   | Post_Patient_Missing_FirstName       |
+      |  patient   | Post_Patient_Missing_LastName        |
+      |  patient   | Post_Patient_Missing_Email           |
+      |  patient   | Post_Patient_Missing_ContactNumber   |
+      |  patient   | Post_Patient_Missing_DateOfBirth     |
+      
+     
