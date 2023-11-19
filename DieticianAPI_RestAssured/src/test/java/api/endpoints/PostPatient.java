@@ -1,6 +1,7 @@
 package api.endpoints;
 
 import Utilities.ConfigReader;
+
 import api.request.PostPatient_request;
 import api.routes.PostPatient_routes;
 import io.restassured.RestAssured;
@@ -8,6 +9,15 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
 public class PostPatient {
+	
+
+	String baseUrl;
+	
+	public PostPatient(String baseUrl)
+	{
+		this.baseUrl = baseUrl;
+	}
+	
 	public Response CreateAssignment(PostPatient_request postreq)
 	{
 		RestAssured.baseURI = ConfigReader.BaseURL();

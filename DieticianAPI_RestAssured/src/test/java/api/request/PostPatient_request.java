@@ -12,8 +12,6 @@ public class PostPatient_request {
 		public String FoodCategory;
 		public String DateOfBirth;
 
-		
-		
 	    public PostPatient_request(String FirstName, String LastName, String ContactNumber,String Email, String Allergy,
 		                                   String FoodCategory, String DateOfBirth)
 	    {
