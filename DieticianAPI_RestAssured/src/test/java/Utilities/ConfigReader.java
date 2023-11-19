@@ -72,7 +72,7 @@ public class ConfigReader {
 			return data;
 		else
 			throw new RuntimeException("postUrl is not specified in the config.properties file");
-	}
+
 	public static String MorbidityFile()
 	{
 		String data = properties.getProperty("filePath");
@@ -80,6 +80,14 @@ public class ConfigReader {
 			return data;
 		else
 			throw new RuntimeException("filePath is not specified in the config.properties file");
+	}
+	public static String PutURL()
+	{
+		String data = properties.getProperty("putUrl");
+		if (data != null)
+			return data;
+		else
+			throw new RuntimeException("putUrl is not specified in the config.properties file");
 	}
 	
 }
