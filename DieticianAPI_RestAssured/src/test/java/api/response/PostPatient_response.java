@@ -1,6 +1,7 @@
 package api.response;
 
 import java.io.File;
+import java.util.Map;
 
 public class PostPatient_response {
 	
@@ -12,7 +13,7 @@ public class PostPatient_response {
 	public String Allergy;
 	public String FoodCategory;
 	public String DateOfBirth;
-	public File MorbidityFile;
 	public int DieticianId;
-
+	 public Map<String, Map<String, String>> FileMorbidity;
+	    public Map<String, String> FileMorbidityCondition;
 }
