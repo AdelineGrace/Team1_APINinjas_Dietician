@@ -14,7 +14,7 @@ Then User receives Bearer Token
     Examples: 
       | sheetName  |            header                    |
       |  patient   | Put_Patient_Valid                   |
-      |  patient   | Put_Patient_InvalidPatientId     |
+      |  patient   | Put_Patient_InvalidPatientId       |
       |  patient   | Put_Patient_Missing_FirstName       |
       |  patient   | Put_Patient_Missing_LastName        |
       |  patient   | Put_Patient_Missing_Email           |
