@@ -21,5 +21,7 @@ Then User receives Bearer Token
       |  patient   | Post_Patient_Missing_Email           |
       |  patient   | Post_Patient_Missing_ContactNumber   |
       |  patient   | Post_Patient_Missing_DateOfBirth     |
+      |  patient   | Post_Patient_Missing_File            |
+      
       
      

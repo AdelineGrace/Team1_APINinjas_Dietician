@@ -1,5 +1,7 @@
 package api.request;
 
+import java.io.File;
+
 import Utilities.LoggerLoad;
 
 public class PostPatient_request {
@@ -11,11 +13,12 @@ public class PostPatient_request {
 		public String Allergy;
 		public String FoodCategory;
 		public String DateOfBirth;
+		public File MorbidityFile;
 
 		
 		
 	    public PostPatient_request(String FirstName, String LastName, String ContactNumber,String Email, String Allergy,
-		                                   String FoodCategory, String DateOfBirth)
+		                                   String FoodCategory, String DateOfBirth,File MorbidityFile)
 	    {
 	        this.FirstName = FirstName;
 	        this.LastName = LastName;
@@ -23,7 +26,9 @@ public class PostPatient_request {
 	        this.Email = Email;
 	        this.Allergy = Allergy;
 	        this.FoodCategory = FoodCategory;
-	        this.DateOfBirth = DateOfBirth;	        
+	        this.DateOfBirth = DateOfBirth;	 
+	        this.MorbidityFile = MorbidityFile;	        
+
 	       
 	        LoggerLoad.logInfo("PatientInfo is initialized");
 	    }
