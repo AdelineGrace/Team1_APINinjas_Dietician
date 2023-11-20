@@ -28,3 +28,18 @@
 [INFO ] 2023-11-19 15:19:17.475 [main] LoggerLoad - Get patient morbidity details request created for InvalidFileId
 [INFO ] 2023-11-19 15:19:17.476 [main] LoggerLoad - Get patient morbidity details request sent for- InvalidFileId
 [INFO ] 2023-11-19 15:19:17.476 [main] LoggerLoad - Cannot invoke "io.restassured.response.Response.then()" because "this.response" is null
+[INFO ] 2023-11-20 07:41:52.765 [main] LoggerLoad - Get patient morbidity details request created for ValidPatientIdMorbidityFileAttached
+[INFO ] 2023-11-20 07:41:53.402 [main] LoggerLoad - Illegal character in path at index 173: dietician-dev-41d9a344a720.herokuapp.com/dietician/dietician-dev-41d9a344a720.herokuapp.com/dietician/dietician-dev-41d9a344a720.herokuapp.com/dietician/patient/testReports/{patientId}0/dietician-dev-41d9a344a720.herokuapp.com/dietician/dietician-dev-41d9a344a720.herokuapp.com/dietician/dietician-dev-41d9a344a720.herokuapp.com/dietician/patient/testReports/%7BpatientId%7D0
+[INFO ] 2023-11-20 07:41:53.443 [main] LoggerLoad - Cannot invoke "io.restassured.response.Response.then()" because "this.response" is null
+[INFO ] 2023-11-20 07:41:53.509 [main] LoggerLoad - Get patient morbidity details request created for ValidPatientIdMorbidityFileMissing
+[INFO ] 2023-11-20 07:41:53.519 [main] LoggerLoad - Illegal character in path at index 173: dietician-dev-41d9a344a720.herokuapp.com/dietician/dietician-dev-41d9a344a720.herokuapp.com/dietician/dietician-dev-41d9a344a720.herokuapp.com/dietician/patient/testReports/{patientId}0/dietician-dev-41d9a344a720.herokuapp.com/dietician/dietician-dev-41d9a344a720.herokuapp.com/dietician/dietician-dev-41d9a344a720.herokuapp.com/dietician/patient/testReports/%7BpatientId%7D0
+[INFO ] 2023-11-20 07:41:53.523 [main] LoggerLoad - Cannot invoke "io.restassured.response.Response.then()" because "this.response" is null
+[INFO ] 2023-11-20 07:41:53.544 [main] LoggerLoad - Get patient morbidity details request created for InvalidPatientIdMorbidityFileAttached
+[INFO ] 2023-11-20 07:41:53.549 [main] LoggerLoad - Illegal character in path at index 173: dietician-dev-41d9a344a720.herokuapp.com/dietician/dietician-dev-41d9a344a720.herokuapp.com/dietician/dietician-dev-41d9a344a720.herokuapp.com/dietician/patient/testReports/{patientId}0/dietician-dev-41d9a344a720.herokuapp.com/dietician/dietician-dev-41d9a344a720.herokuapp.com/dietician/dietician-dev-41d9a344a720.herokuapp.com/dietician/patient/testReports/%7BpatientId%7D0
+[INFO ] 2023-11-20 07:41:53.555 [main] LoggerLoad - Cannot invoke "io.restassured.response.Response.then()" because "this.response" is null
+[INFO ] 2023-11-20 07:41:53.573 [main] LoggerLoad - Get patient morbidity details request created for ValidFileId
+[INFO ] 2023-11-20 07:41:53.574 [main] LoggerLoad - Get patient morbidity details request sent for- ValidFileId
+[INFO ] 2023-11-20 07:41:53.574 [main] LoggerLoad - Cannot invoke "io.restassured.response.Response.then()" because "this.response" is null
+[INFO ] 2023-11-20 07:41:53.592 [main] LoggerLoad - Get patient morbidity details request created for InvalidFileId
+[INFO ] 2023-11-20 07:41:53.594 [main] LoggerLoad - Get patient morbidity details request sent for- InvalidFileId
+[INFO ] 2023-11-20 07:41:53.595 [main] LoggerLoad - Cannot invoke "io.restassured.response.Response.then()" because "this.response" is null

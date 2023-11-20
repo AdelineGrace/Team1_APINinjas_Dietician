@@ -3,6 +3,7 @@ package api.stepdefinition;
 
 import static org.testng.Assert.assertEquals;
 
+import java.io.File;
 import java.util.List;
 
 import org.apache.http.HttpStatus;
@@ -205,6 +206,7 @@ public class UserDieticianSteps extends BaseStep{
 		try
 		{	
 			UserDietician_response userDieticianResponse = null;
+			File responsebodyfile=new File("src/test/resources/Hypo Thyroid-Report.pdf.pdf");
 			
 			switch(scenario)
 			{
@@ -215,8 +217,7 @@ public class UserDieticianSteps extends BaseStep{
 						// Validate content type
 						.contentType(ContentType.JSON)
 						// Validate json schema
-						.body(JsonSchemaValidator.matchesJsonSchema(
-							getClass().getClassLoader().getResourceAsStream("Hypo Thyroid-Report.pdf.pdf")));
+						.body(JsonSchemaValidator.matchesJsonSchema(responsebodyfile));
 					
 					userDieticianResponse = response.getBody().as(UserDietician_response.class);
 					break;
@@ -240,7 +241,7 @@ public class UserDieticianSteps extends BaseStep{
 	
 			// Validate json response values
 			
-			assertEquals(userDieticianFileAdded.fileId, userDieticianResponse.fileId);
+			assertEquals(userDieticianFileAdded.MorbidityFile, userDieticianResponse.MorbidityFile);
 			
 			LoggerLoad.logInfo("Get patient file report validated for- " + scenario);
 		}
