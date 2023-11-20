@@ -37,8 +37,7 @@ public class GetDeletePatient_SD {
 
 	@Then("the bearer token is generated and is stored for future use")
 	public void the_bearer_token_is_generated_and_is_stored_for_future_use() {
-	    // Write code here that turns the phrase above into concrete actions
-	    //																																	
+	    																															
 	}
 
 	@Given("User creates POST Request for the Dietician  API endpoint")
