@@ -12,7 +12,7 @@ import Utilities.LoggerLoad;
 
 public class ConfigReader {
 	private static Properties properties;
-	private static final String propertyFilePath = "C:\\Users\\shaun\\eclipse-workspace\\Tryyyyyyy_API\\src\\test\\resources\\Config\\config.properties";
+	private static final String propertyFilePath = "src/test/resources/configs/Configuration.properties";
 	static {
         loadProperty();
     }
@@ -74,4 +74,30 @@ public class ConfigReader {
 			throw new RuntimeException("postUrl is not specified in the config.properties file");
 	}
 	
+	public static String getMorbidityGetAllUrl()
+	{
+		String data = properties.getProperty("morbidity.getallurl");
+		if (data != null)
+			return data;
+		else
+			throw new RuntimeException("morbidity.getallurl not specified in the Configuration.properties file.");
+	}
+	public static String getMorbidityGetAllUrlByTestNameUrl()
+	{
+		String data = properties.getProperty("morbidity.getbyTestNameurl");
+		if (data != null)
+			return data;
+		else
+			throw new RuntimeException("morbidity.getbyTestNameurl not specified in the Configuration.properties file.");
+	}
+	
+	public static String LogoutUrl()
+	{
+		String data = properties.getProperty("UserLogout");
+		if (data != null)
+			return data;
+		else
+			throw new RuntimeException("morbidity.getallurl not specified in the Configuration.properties file.");
+	
+}
 }
