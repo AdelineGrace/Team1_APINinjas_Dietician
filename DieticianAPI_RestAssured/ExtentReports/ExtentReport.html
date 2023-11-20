@@ -49,7 +49,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Nov 20, 2023 10:36:14 a.m.</span>
+			<span class='label blue darken-3 suite-start-time'>Nov 20, 2023 02:14:13 p.m.</span>
 			</a>
 		</ul>
 	</div>
@@ -177,7 +177,7 @@
 				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Create Patient with Post</span>
-						<span class='test-time'>Nov 20, 2023 10:36:19 a.m.</span>
+						<span class='test-time'>Nov 20, 2023 02:14:17 p.m.</span>
 						<span class='test-status right fail'>Fail</span>
 					</div>
 					<div class='test-content hide'>
@@ -190,7 +190,7 @@
 
 <div class='scenario outline node' test-id='2' status='fail'>
 
-	<span class='duration right label'>00 00 31.046</span>
+	<span class='duration right label'>00 00 15.218</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario Outline: Check if user able to create a Patient with valid endpoint and request body (non existing values)</div>
 	</div>
@@ -227,32 +227,11 @@
 				<li test-id='9' class='gc then Fail' status='Fail'>
 					<h6 class="step-name" title="api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(java.lang.String,java.lang.String)"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Then User receives response for POST "patient" with "Post_Patient_Valid"</h6>
 
-							<textarea disabled class="code-block">java.lang.AssertionError: 1 expectation failed.
-Expected status code <201> but was <400>.
-
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
-	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:126)
+							<textarea disabled class="code-block">java.lang.NullPointerException
+	at java.base/java.io.Reader.<init>(Reader.java:168)
+	at java.base/java.io.InputStreamReader.<init>(InputStreamReader.java:89)
+	at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:127)
+	at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:104)
 	at ✽.User receives response for POST "patient" with "Post_Patient_Valid"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
 </textarea>
 				</li>
@@ -290,7 +269,7 @@ Expected status code <201> but was <400>.
 	at java.base/java.io.Reader.<init>(Reader.java:168)
 	at java.base/java.io.InputStreamReader.<init>(InputStreamReader.java:89)
 	at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:127)
-	at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:155)
+	at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:145)
 	at ✽.User receives response for POST "patient" with "Post_Patient_ExistingUniqueField"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
 </textarea>
 				</li>
@@ -328,7 +307,7 @@ Expected status code <201> but was <400>.
 	at java.base/java.io.Reader.<init>(Reader.java:168)
 	at java.base/java.io.InputStreamReader.<init>(InputStreamReader.java:89)
 	at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:127)
-	at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:155)
+	at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:145)
 	at ✽.User receives response for POST "patient" with "Post_Patient_NonAcceptedFoodCategory"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
 </textarea>
 				</li>
@@ -362,11 +341,32 @@ Expected status code <201> but was <400>.
 				<li test-id='30' class='gc then Fail' status='Fail'>
 					<h6 class="step-name" title="api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(java.lang.String,java.lang.String)"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Then User receives response for POST "patient" with "Post_Patient_Missing_FirstName"</h6>
 
-							<textarea disabled class="code-block">java.lang.NullPointerException
-	at java.base/java.io.Reader.<init>(Reader.java:168)
-	at java.base/java.io.InputStreamReader.<init>(InputStreamReader.java:89)
-	at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:127)
-	at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:155)
+							<textarea disabled class="code-block">java.lang.AssertionError: 1 expectation failed.
+Expected status code <400> but was <201>.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:144)
 	at ✽.User receives response for POST "patient" with "Post_Patient_Missing_FirstName"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
 </textarea>
 				</li>
@@ -400,11 +400,30 @@ Expected status code <201> but was <400>.
 				<li test-id='37' class='gc then Fail' status='Fail'>
 					<h6 class="step-name" title="api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(java.lang.String,java.lang.String)"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Then User receives response for POST "patient" with "Post_Patient_Missing_LastName"</h6>
 
-							<textarea disabled class="code-block">java.lang.NullPointerException
-	at java.base/java.io.Reader.<init>(Reader.java:168)
-	at java.base/java.io.InputStreamReader.<init>(InputStreamReader.java:89)
-	at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:127)
-	at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:155)
+							<textarea disabled class="code-block">java.lang.AssertionError: 1 expectation failed.
+Expected status code <400> but was <201>.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:144)
 	at ✽.User receives response for POST "patient" with "Post_Patient_Missing_LastName"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
 </textarea>
 				</li>
@@ -442,7 +461,7 @@ Expected status code <201> but was <400>.
 	at java.base/java.io.Reader.<init>(Reader.java:168)
 	at java.base/java.io.InputStreamReader.<init>(InputStreamReader.java:89)
 	at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:127)
-	at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:155)
+	at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:145)
 	at ✽.User receives response for POST "patient" with "Post_Patient_Invalid_Email"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
 </textarea>
 				</li>
@@ -480,7 +499,7 @@ Expected status code <201> but was <400>.
 	at java.base/java.io.Reader.<init>(Reader.java:168)
 	at java.base/java.io.InputStreamReader.<init>(InputStreamReader.java:89)
 	at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:127)
-	at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:155)
+	at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:145)
 	at ✽.User receives response for POST "patient" with "Post_Patient_Missing_ContactNumber"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
 </textarea>
 				</li>
@@ -506,11 +525,12 @@ Expected status code <201> but was <400>.
 				<li test-id='56' class='gc given Fail' status='Fail'>
 					<h6 class="step-name" title="api.stepdefinition.Post_StepDefinition.user_creates_post_request_for_the_dietician_api_endpoint_with(java.lang.String,java.lang.String)"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given User creates POST Request for the Dietician  API endpoint with "patient" and "Post_Patient_Missing_DateOfBirth"</h6>
 
-							<textarea disabled class="code-block">java.lang.NumberFormatException: Cannot parse null string
-	at java.base/java.lang.Integer.parseInt(Integer.java:627)
+							<textarea disabled class="code-block">java.lang.NumberFormatException: For input string: ""
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:675)
 	at java.base/java.lang.Integer.parseInt(Integer.java:781)
-	at api.stepdefinition.Post_StepDefinition.CreatePatientRequest(Post_StepDefinition.java:183)
-	at api.stepdefinition.Post_StepDefinition.user_creates_post_request_for_the_dietician_api_endpoint_with(Post_StepDefinition.java:102)
+	at api.stepdefinition.Post_StepDefinition.CreatePatientRequest(Post_StepDefinition.java:160)
+	at api.stepdefinition.Post_StepDefinition.user_creates_post_request_for_the_dietician_api_endpoint_with(Post_StepDefinition.java:86)
 	at ✽.User creates POST Request for the Dietician  API endpoint with "patient" and "Post_Patient_Missing_DateOfBirth"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:9)
 </textarea>
 				</li>
@@ -554,31 +574,89 @@ Expected status code <201> but was <400>.
 				<li test-id='65' class='gc then Fail' status='Fail'>
 					<h6 class="step-name" title="api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(java.lang.String,java.lang.String)"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Then User receives response for POST "patient" with "Post_Patient_Missing_File"</h6>
 
-							<textarea disabled class="code-block">java.lang.AssertionError: 1 expectation failed.
-Expected status code <201> but was <400>.
-
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
-	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+							<textarea disabled class="code-block">java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "token" (class api.response.PostPatient_response), not marked as ignorable (12 known properties: "patientId", "LastName", "DieticianId", "FileMorbidity", "FileMorbidityCondition", "fileId", "ContactNumber", "DateOfBirth", "FirstName", "Email", "Allergy", "FoodCategory"])
+ at [Source: (String)"{"token":"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZGVsaW5lZ3JhY2UuYUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1MDc2NzIsImV4cCI6MTcwMDUzNjQ3Mn0.REKM-sHMhKXEo-pnuOS7AvD95LUWVjzdfZ2VBAu_bdNaeNLp4Zla-fw49NmJ5_tJ7qkwvFwxky1E9PBoeGjd7w","type":"Bearer ","userId":107,"loginUserEmail":"adelinegrace.a@gmail.com","roles":["ROLE_DIETICIAN"]}"; line: 1, column: 11] (through reference chain: api.response.PostPatient_response["token"])
+	at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:30)
+	at io.restassured.path.json.mapping.JsonPathObjectDeserializer$deserialize.call(Unknown Source)
+	at io.restassured.internal.mapping.Jackson2Mapper.deserialize(Jackson2Mapper.groovy:58)
+	at io.restassured.mapper.ObjectMapper$deserialize$0.call(Unknown Source)
+	at io.restassured.internal.mapping.ObjectMapping.parseWithJackson2(ObjectMapping.groovy:254)
+	at io.restassured.internal.mapping.ObjectMapping$parseWithJackson2$1.callStatic(Unknown Source)
+	at io.restassured.internal.mapping.ObjectMapping.deserialize(ObjectMapping.groovy:56)
+	at io.restassured.internal.mapping.ObjectMapping$deserialize$0.call(Unknown Source)
+	at io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.as(RestAssuredResponseOptionsGroovyImpl.groovy:229)
+	at io.restassured.internal.RestAssuredResponseOptionsImpl.as(RestAssuredResponseOptionsImpl.java:169)
+	at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:124)
+	at ✽.User receives response for POST "patient" with "Post_Patient_Missing_File"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
+Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "token" (class api.response.PostPatient_response), not marked as ignorable (12 known properties: "patientId", "LastName", "DieticianId", "FileMorbidity", "FileMorbidityCondition", "fileId", "ContactNumber", "DateOfBirth", "FirstName", "Email", "Allergy", "FoodCategory"])
+ at [Source: (String)"{"token":"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZGVsaW5lZ3JhY2UuYUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1MDc2NzIsImV4cCI6MTcwMDUzNjQ3Mn0.REKM-sHMhKXEo-pnuOS7AvD95LUWVjzdfZ2VBAu_bdNaeNLp4Zla-fw49NmJ5_tJ7qkwvFwxky1E9PBoeGjd7w","type":"Bearer ","userId":107,"loginUserEmail":"adelinegrace.a@gmail.com","roles":["ROLE_DIETICIAN"]}"; line: 1, column: 11] (through reference chain: api.response.PostPatient_response["token"])
+	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1138)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2224)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1709)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1687)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:320)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:177)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3772)
+	at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:28)
+	at io.restassured.path.json.mapping.JsonPathObjectDeserializer$deserialize.call(Unknown Source)
+	at io.restassured.internal.mapping.Jackson2Mapper.deserialize(Jackson2Mapper.groovy:58)
+	at io.restassured.mapper.ObjectMapper$deserialize$0.call(Unknown Source)
+	at io.restassured.internal.mapping.ObjectMapping.parseWithJackson2(ObjectMapping.groovy:254)
+	at io.restassured.internal.mapping.ObjectMapping$parseWithJackson2$1.callStatic(Unknown Source)
+	at io.restassured.internal.mapping.ObjectMapping.deserialize(ObjectMapping.groovy:56)
+	at io.restassured.internal.mapping.ObjectMapping$deserialize$0.call(Unknown Source)
+	at io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.as(RestAssuredResponseOptionsGroovyImpl.groovy:229)
+	at io.restassured.internal.RestAssuredResponseOptionsImpl.as(RestAssuredResponseOptionsImpl.java:169)
+	at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:124)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:126)
-	at ✽.User receives response for POST "patient" with "Post_Patient_Missing_File"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </textarea>
 				</li>
 			</ul>
@@ -629,7 +707,93 @@ Expected status code <201> but was <400>.
 			<ul id='exception-collection' class='exception-collection'>
 				<li class='exception displayed active'>
 					<div class='exception-heading'>
-						<span class='exception-name'>java.lang.NumberFormatException</span>
+						<span class='exception-name'>java.lang.NullPointerException</span>
+						<span class='exception-count right'><span class='label red lighten-1 white-text'>5</span></span>
+					</div>
+					<div class='exception-content hide'>
+						<div class='exception-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>StackTrace</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nov 20, 2023 02:14:24 p.m.</td>
+										<td class='linked' test-id='9'>Then User receives response for POST "patient" with "Post_Patient_Valid"</td>
+										<td>
+											<textarea disabled class="code-block">java.lang.NullPointerException
+	at java.base/java.io.Reader.<init>(Reader.java:168)
+	at java.base/java.io.InputStreamReader.<init>(InputStreamReader.java:89)
+	at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:127)
+	at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:104)
+	at ✽.User receives response for POST "patient" with "Post_Patient_Valid"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
+</textarea>
+										</td>
+									</tr>
+									<tr>
+										<td>Nov 20, 2023 02:14:25 p.m.</td>
+										<td class='linked' test-id='16'>Then User receives response for POST "patient" with "Post_Patient_ExistingUniqueField"</td>
+										<td>
+											<textarea disabled class="code-block">java.lang.NullPointerException
+	at java.base/java.io.Reader.<init>(Reader.java:168)
+	at java.base/java.io.InputStreamReader.<init>(InputStreamReader.java:89)
+	at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:127)
+	at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:104)
+	at ✽.User receives response for POST "patient" with "Post_Patient_Valid"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
+</textarea>
+										</td>
+									</tr>
+									<tr>
+										<td>Nov 20, 2023 02:14:27 p.m.</td>
+										<td class='linked' test-id='23'>Then User receives response for POST "patient" with "Post_Patient_NonAcceptedFoodCategory"</td>
+										<td>
+											<textarea disabled class="code-block">java.lang.NullPointerException
+	at java.base/java.io.Reader.<init>(Reader.java:168)
+	at java.base/java.io.InputStreamReader.<init>(InputStreamReader.java:89)
+	at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:127)
+	at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:104)
+	at ✽.User receives response for POST "patient" with "Post_Patient_Valid"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
+</textarea>
+										</td>
+									</tr>
+									<tr>
+										<td>Nov 20, 2023 02:14:30 p.m.</td>
+										<td class='linked' test-id='44'>Then User receives response for POST "patient" with "Post_Patient_Invalid_Email"</td>
+										<td>
+											<textarea disabled class="code-block">java.lang.NullPointerException
+	at java.base/java.io.Reader.<init>(Reader.java:168)
+	at java.base/java.io.InputStreamReader.<init>(InputStreamReader.java:89)
+	at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:127)
+	at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:104)
+	at ✽.User receives response for POST "patient" with "Post_Patient_Valid"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
+</textarea>
+										</td>
+									</tr>
+									<tr>
+										<td>Nov 20, 2023 02:14:31 p.m.</td>
+										<td class='linked' test-id='51'>Then User receives response for POST "patient" with "Post_Patient_Missing_ContactNumber"</td>
+										<td>
+											<textarea disabled class="code-block">java.lang.NullPointerException
+	at java.base/java.io.Reader.<init>(Reader.java:168)
+	at java.base/java.io.InputStreamReader.<init>(InputStreamReader.java:89)
+	at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:127)
+	at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:104)
+	at ✽.User receives response for POST "patient" with "Post_Patient_Valid"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
+</textarea>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='exception displayed active'>
+					<div class='exception-heading'>
+						<span class='exception-name'>java.lang.RuntimeException</span>
 						<span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
 					</div>
 					<div class='exception-content hide'>
@@ -644,114 +808,92 @@ Expected status code <201> but was <400>.
 								</thead>
 								<tbody>
 									<tr>
-										<td>Nov 20, 2023 10:36:49 a.m.</td>
-										<td class='linked' test-id='56'>Given User creates POST Request for the Dietician  API endpoint with "patient" and "Post_Patient_Missing_DateOfBirth"</td>
+										<td>Nov 20, 2023 02:14:32 p.m.</td>
+										<td class='linked' test-id='65'>Then User receives response for POST "patient" with "Post_Patient_Missing_File"</td>
 										<td>
-											<textarea disabled class="code-block">java.lang.NumberFormatException: Cannot parse null string
-	at java.base/java.lang.Integer.parseInt(Integer.java:627)
-	at java.base/java.lang.Integer.parseInt(Integer.java:781)
-	at api.stepdefinition.Post_StepDefinition.CreatePatientRequest(Post_StepDefinition.java:183)
-	at api.stepdefinition.Post_StepDefinition.user_creates_post_request_for_the_dietician_api_endpoint_with(Post_StepDefinition.java:102)
-	at ✽.User creates POST Request for the Dietician  API endpoint with "patient" and "Post_Patient_Missing_DateOfBirth"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:9)
-</textarea>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-				<li class='exception displayed active'>
-					<div class='exception-heading'>
-						<span class='exception-name'>java.lang.NullPointerException</span>
-						<span class='exception-count right'><span class='label red lighten-1 white-text'>6</span></span>
-					</div>
-					<div class='exception-content hide'>
-						<div class='exception-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>StackTrace</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Nov 20, 2023 10:36:40 a.m.</td>
-										<td class='linked' test-id='16'>Then User receives response for POST "patient" with "Post_Patient_ExistingUniqueField"</td>
-										<td>
-											<textarea disabled class="code-block">java.lang.NullPointerException
-	at java.base/java.io.Reader.<init>(Reader.java:168)
-	at java.base/java.io.InputStreamReader.<init>(InputStreamReader.java:89)
-	at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:127)
-	at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:155)
-	at ✽.User receives response for POST "patient" with "Post_Patient_ExistingUniqueField"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
-</textarea>
-										</td>
-									</tr>
-									<tr>
-										<td>Nov 20, 2023 10:36:42 a.m.</td>
-										<td class='linked' test-id='23'>Then User receives response for POST "patient" with "Post_Patient_NonAcceptedFoodCategory"</td>
-										<td>
-											<textarea disabled class="code-block">java.lang.NullPointerException
-	at java.base/java.io.Reader.<init>(Reader.java:168)
-	at java.base/java.io.InputStreamReader.<init>(InputStreamReader.java:89)
-	at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:127)
-	at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:155)
-	at ✽.User receives response for POST "patient" with "Post_Patient_ExistingUniqueField"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
-</textarea>
-										</td>
-									</tr>
-									<tr>
-										<td>Nov 20, 2023 10:36:45 a.m.</td>
-										<td class='linked' test-id='30'>Then User receives response for POST "patient" with "Post_Patient_Missing_FirstName"</td>
-										<td>
-											<textarea disabled class="code-block">java.lang.NullPointerException
-	at java.base/java.io.Reader.<init>(Reader.java:168)
-	at java.base/java.io.InputStreamReader.<init>(InputStreamReader.java:89)
-	at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:127)
-	at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:155)
-	at ✽.User receives response for POST "patient" with "Post_Patient_ExistingUniqueField"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
-</textarea>
-										</td>
-									</tr>
-									<tr>
-										<td>Nov 20, 2023 10:36:47 a.m.</td>
-										<td class='linked' test-id='37'>Then User receives response for POST "patient" with "Post_Patient_Missing_LastName"</td>
-										<td>
-											<textarea disabled class="code-block">java.lang.NullPointerException
-	at java.base/java.io.Reader.<init>(Reader.java:168)
-	at java.base/java.io.InputStreamReader.<init>(InputStreamReader.java:89)
-	at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:127)
-	at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:155)
-	at ✽.User receives response for POST "patient" with "Post_Patient_ExistingUniqueField"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
-</textarea>
-										</td>
-									</tr>
-									<tr>
-										<td>Nov 20, 2023 10:36:48 a.m.</td>
-										<td class='linked' test-id='44'>Then User receives response for POST "patient" with "Post_Patient_Invalid_Email"</td>
-										<td>
-											<textarea disabled class="code-block">java.lang.NullPointerException
-	at java.base/java.io.Reader.<init>(Reader.java:168)
-	at java.base/java.io.InputStreamReader.<init>(InputStreamReader.java:89)
-	at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:127)
-	at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:155)
-	at ✽.User receives response for POST "patient" with "Post_Patient_ExistingUniqueField"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
-</textarea>
-										</td>
-									</tr>
-									<tr>
-										<td>Nov 20, 2023 10:36:48 a.m.</td>
-										<td class='linked' test-id='51'>Then User receives response for POST "patient" with "Post_Patient_Missing_ContactNumber"</td>
-										<td>
-											<textarea disabled class="code-block">java.lang.NullPointerException
-	at java.base/java.io.Reader.<init>(Reader.java:168)
-	at java.base/java.io.InputStreamReader.<init>(InputStreamReader.java:89)
-	at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:127)
-	at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:155)
-	at ✽.User receives response for POST "patient" with "Post_Patient_ExistingUniqueField"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
+											<textarea disabled class="code-block">java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "token" (class api.response.PostPatient_response), not marked as ignorable (12 known properties: "patientId", "LastName", "DieticianId", "FileMorbidity", "FileMorbidityCondition", "fileId", "ContactNumber", "DateOfBirth", "FirstName", "Email", "Allergy", "FoodCategory"])
+ at [Source: (String)"{"token":"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZGVsaW5lZ3JhY2UuYUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1MDc2NzIsImV4cCI6MTcwMDUzNjQ3Mn0.REKM-sHMhKXEo-pnuOS7AvD95LUWVjzdfZ2VBAu_bdNaeNLp4Zla-fw49NmJ5_tJ7qkwvFwxky1E9PBoeGjd7w","type":"Bearer ","userId":107,"loginUserEmail":"adelinegrace.a@gmail.com","roles":["ROLE_DIETICIAN"]}"; line: 1, column: 11] (through reference chain: api.response.PostPatient_response["token"])
+	at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:30)
+	at io.restassured.path.json.mapping.JsonPathObjectDeserializer$deserialize.call(Unknown Source)
+	at io.restassured.internal.mapping.Jackson2Mapper.deserialize(Jackson2Mapper.groovy:58)
+	at io.restassured.mapper.ObjectMapper$deserialize$0.call(Unknown Source)
+	at io.restassured.internal.mapping.ObjectMapping.parseWithJackson2(ObjectMapping.groovy:254)
+	at io.restassured.internal.mapping.ObjectMapping$parseWithJackson2$1.callStatic(Unknown Source)
+	at io.restassured.internal.mapping.ObjectMapping.deserialize(ObjectMapping.groovy:56)
+	at io.restassured.internal.mapping.ObjectMapping$deserialize$0.call(Unknown Source)
+	at io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.as(RestAssuredResponseOptionsGroovyImpl.groovy:229)
+	at io.restassured.internal.RestAssuredResponseOptionsImpl.as(RestAssuredResponseOptionsImpl.java:169)
+	at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:124)
+	at ✽.User receives response for POST "patient" with "Post_Patient_Missing_File"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
+Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "token" (class api.response.PostPatient_response), not marked as ignorable (12 known properties: "patientId", "LastName", "DieticianId", "FileMorbidity", "FileMorbidityCondition", "fileId", "ContactNumber", "DateOfBirth", "FirstName", "Email", "Allergy", "FoodCategory"])
+ at [Source: (String)"{"token":"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZGVsaW5lZ3JhY2UuYUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1MDc2NzIsImV4cCI6MTcwMDUzNjQ3Mn0.REKM-sHMhKXEo-pnuOS7AvD95LUWVjzdfZ2VBAu_bdNaeNLp4Zla-fw49NmJ5_tJ7qkwvFwxky1E9PBoeGjd7w","type":"Bearer ","userId":107,"loginUserEmail":"adelinegrace.a@gmail.com","roles":["ROLE_DIETICIAN"]}"; line: 1, column: 11] (through reference chain: api.response.PostPatient_response["token"])
+	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1138)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2224)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1709)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1687)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:320)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:177)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3772)
+	at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:28)
+	at io.restassured.path.json.mapping.JsonPathObjectDeserializer$deserialize.call(Unknown Source)
+	at io.restassured.internal.mapping.Jackson2Mapper.deserialize(Jackson2Mapper.groovy:58)
+	at io.restassured.mapper.ObjectMapper$deserialize$0.call(Unknown Source)
+	at io.restassured.internal.mapping.ObjectMapping.parseWithJackson2(ObjectMapping.groovy:254)
+	at io.restassured.internal.mapping.ObjectMapping$parseWithJackson2$1.callStatic(Unknown Source)
+	at io.restassured.internal.mapping.ObjectMapping.deserialize(ObjectMapping.groovy:56)
+	at io.restassured.internal.mapping.ObjectMapping$deserialize$0.call(Unknown Source)
+	at io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.as(RestAssuredResponseOptionsGroovyImpl.groovy:229)
+	at io.restassured.internal.RestAssuredResponseOptionsImpl.as(RestAssuredResponseOptionsImpl.java:169)
+	at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:124)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </textarea>
 										</td>
 									</tr>
@@ -777,11 +919,11 @@ Expected status code <201> but was <400>.
 								</thead>
 								<tbody>
 									<tr>
-										<td>Nov 20, 2023 10:36:38 a.m.</td>
-										<td class='linked' test-id='9'>Then User receives response for POST "patient" with "Post_Patient_Valid"</td>
+										<td>Nov 20, 2023 02:14:27 p.m.</td>
+										<td class='linked' test-id='30'>Then User receives response for POST "patient" with "Post_Patient_Missing_FirstName"</td>
 										<td>
 											<textarea disabled class="code-block">java.lang.AssertionError: 1 expectation failed.
-Expected status code <201> but was <400>.
+Expected status code <400> but was <201>.
 
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
@@ -805,17 +947,17 @@ Expected status code <201> but was <400>.
 	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:126)
-	at ✽.User receives response for POST "patient" with "Post_Patient_Valid"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
+	at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:144)
+	at ✽.User receives response for POST "patient" with "Post_Patient_Missing_FirstName"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
 </textarea>
 										</td>
 									</tr>
 									<tr>
-										<td>Nov 20, 2023 10:36:50 a.m.</td>
-										<td class='linked' test-id='65'>Then User receives response for POST "patient" with "Post_Patient_Missing_File"</td>
+										<td>Nov 20, 2023 02:14:29 p.m.</td>
+										<td class='linked' test-id='37'>Then User receives response for POST "patient" with "Post_Patient_Missing_LastName"</td>
 										<td>
 											<textarea disabled class="code-block">java.lang.AssertionError: 1 expectation failed.
-Expected status code <201> but was <400>.
+Expected status code <400> but was <201>.
 
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
@@ -839,8 +981,43 @@ Expected status code <201> but was <400>.
 	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:126)
-	at ✽.User receives response for POST "patient" with "Post_Patient_Valid"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
+	at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:144)
+	at ✽.User receives response for POST "patient" with "Post_Patient_Missing_FirstName"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
+</textarea>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='exception displayed active'>
+					<div class='exception-heading'>
+						<span class='exception-name'>java.lang.NumberFormatException</span>
+						<span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
+					</div>
+					<div class='exception-content hide'>
+						<div class='exception-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>StackTrace</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nov 20, 2023 02:14:32 p.m.</td>
+										<td class='linked' test-id='56'>Given User creates POST Request for the Dietician  API endpoint with "patient" and "Post_Patient_Missing_DateOfBirth"</td>
+										<td>
+											<textarea disabled class="code-block">java.lang.NumberFormatException: For input string: ""
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:675)
+	at java.base/java.lang.Integer.parseInt(Integer.java:781)
+	at api.stepdefinition.Post_StepDefinition.CreatePatientRequest(Post_StepDefinition.java:160)
+	at api.stepdefinition.Post_StepDefinition.user_creates_post_request_for_the_dietician_api_endpoint_with(Post_StepDefinition.java:86)
+	at ✽.User creates POST Request for the Dietician  API endpoint with "patient" and "Post_Patient_Missing_DateOfBirth"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:9)
 </textarea>
 										</td>
 									</tr>
@@ -884,19 +1061,19 @@ Expected status code <201> but was <400>.
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Nov 20, 2023 10:36:14 a.m.</div>
+					<div class='panel-lead'>Nov 20, 2023 02:14:13 p.m.</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Nov 20, 2023 10:36:51 a.m.</div>
+			 		<div class='panel-lead'>Nov 20, 2023 02:14:33 p.m.</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>00 00 36.109</div>
+					<div class='panel-lead'>00 00 19.225</div>
 				</div>
 			</div>
 		</div>
@@ -935,7 +1112,7 @@ Expected status code <201> but was <400>.
 		
 		<script>
 			var timeline = {
-			        "Create Patient with Post":31.053
+			        "Create Patient with Post":15.223
 			};
 		</script>
 		

@@ -11,12 +11,11 @@ public class DynamicValues {
 
 	
 
-	    public static int PhoneNumber() {
+	    public static long PhoneNumber() {
 	    	 Faker faker = new Faker();
 
-	         int random10DigitInteger = (int) faker.number().randomNumber(10, true);
-
-	        return random10DigitInteger;
+	    	 long random10DigitInteger = faker.number().randomNumber(10, false);
+	         return Math.abs(random10DigitInteger);
 	    }
 
 	}
