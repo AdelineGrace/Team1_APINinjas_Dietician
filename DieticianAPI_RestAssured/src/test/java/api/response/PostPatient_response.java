@@ -1,6 +1,5 @@
 package api.response;
 
-import java.io.File;
 import java.util.Map;
 
 public class PostPatient_response {

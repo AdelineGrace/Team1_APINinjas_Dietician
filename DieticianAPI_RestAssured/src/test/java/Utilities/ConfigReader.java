@@ -1,14 +1,11 @@
 package Utilities;
 
 import java.io.BufferedReader;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
-
-import Utilities.LoggerLoad;
 
 public class ConfigReader {
 	private static Properties properties;
@@ -72,6 +69,7 @@ public class ConfigReader {
 			return data;
 		else
 			throw new RuntimeException("postUrl is not specified in the config.properties file");
+	}
 
 	public static String MorbidityFile()
 	{

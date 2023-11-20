@@ -1,7 +1,5 @@
 package api.request;
 
-import java.io.File;
-
 import Utilities.LoggerLoad;
 
 public class PostPatient_request {
