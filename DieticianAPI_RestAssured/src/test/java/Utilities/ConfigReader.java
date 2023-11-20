@@ -12,7 +12,11 @@ import Utilities.LoggerLoad;
 
 public class ConfigReader {
 	private static Properties properties;
+<<<<<<< HEAD
 	private static final String propertyFilePath = "C:\\Users\\shaun\\git\\repository3\\DieticianAPI_RestAssured\\src\\test\\resources\\Config\\config.properties";
+=======
+	private static final String propertyFilePath = "C:\\Users\\shaun\\eclipse-workspace\\Tryyyyyyy_API\\src\\test\\resources\\Config\\config.properties";
+>>>>>>> branch 'master' of https://github.com/AdelineGrace/Team1_APINinjas_Dietician.git
 	static {
         loadProperty();
     }
@@ -73,14 +77,15 @@ public class ConfigReader {
 		else
 			throw new RuntimeException("postUrl is not specified in the config.properties file");
 	}
-	public static String MorbidityFile()
+	public static String LoginURL()
 	{
-		String data = properties.getProperty("filePath");
+		String data = properties.getProperty("loginUrl");
 		if (data != null)
 			return data;
 		else
-			throw new RuntimeException("filePath is not specified in the config.properties file");
+			throw new RuntimeException("loginUrl is not specified in the config.properties file");
 	}
+<<<<<<< HEAD
 	public static String PostPatientSchema()
 	{
 		String data = properties.getProperty("postpatientschema");
@@ -112,5 +117,22 @@ public class ConfigReader {
 			return data;
 		else
 			throw new RuntimeException("userloginUrl is not specified in the config.properties file");
+=======
+	public static String GetPatientsURL()
+	{
+		String data = properties.getProperty("getPatientsUrl");
+		if (data != null)
+			return data;
+		else
+			throw new RuntimeException("getPatientsUrl is not specified in the config.properties file");
+	}
+	public static String DeletePatientURL()
+	{
+		String data = properties.getProperty("deletePatientUrl");
+		if (data != null)
+			return data;
+		else
+			throw new RuntimeException("deletePatientUrl is not specified in the config.properties file");
+>>>>>>> branch 'master' of https://github.com/AdelineGrace/Team1_APINinjas_Dietician.git
 	}
 }

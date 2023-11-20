@@ -1,9 +1,10 @@
 package api.request;
 
-import Utilities.LoggerLoad;
-import io.restassured.http.Headers;
+import java.io.File;
 
-public class PostPatient_request {
+import Utilities.LoggerLoad;
+
+public class PutPatient_request {
 	
 		public String FirstName;
 		public String LastName;
@@ -12,11 +13,12 @@ public class PostPatient_request {
 		public String Allergy;
 		public String FoodCategory;
 		public String DateOfBirth;
+		public File MorbidityFile;
 
 		
 		
-	    public PostPatient_request(String FirstName, String LastName, String ContactNumber,String Email, String Allergy,
-		                                   String FoodCategory, String DateOfBirth)
+	    public PutPatient_request(String FirstName, String LastName, String ContactNumber,String Email, String Allergy,
+		                                   String FoodCategory, String DateOfBirth,File MorbidityFile)
 	    {
 	        this.FirstName = FirstName;
 	        this.LastName = LastName;
@@ -25,17 +27,9 @@ public class PostPatient_request {
 	        this.Allergy = Allergy;
 	        this.FoodCategory = FoodCategory;
 	        this.DateOfBirth = DateOfBirth;	 
+	        this.MorbidityFile = MorbidityFile;	        
+
 	       
 	        LoggerLoad.logInfo("PatientInfo is initialized");
 	    }
-
-
-
-		public void headers(Headers headers) {
-			// TODO Auto-generated method stub
-			
-		}
 	}
-
-
-
