@@ -3,6 +3,7 @@ package api.request;
 import java.io.File;
 
 import Utilities.LoggerLoad;
+import io.restassured.http.Headers;
 
 public class PostPatient_request {
 	
@@ -29,6 +30,13 @@ public class PostPatient_request {
 	       
 	        LoggerLoad.logInfo("PatientInfo is initialized");
 	    }
+
+
+
+		public void headers(Headers headers) {
+			// TODO Auto-generated method stub
+			
+		}
 	}
 
 

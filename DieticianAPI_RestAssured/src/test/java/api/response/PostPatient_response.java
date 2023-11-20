@@ -14,6 +14,7 @@ public class PostPatient_response {
 	public String FoodCategory;
 	public String DateOfBirth;
 	public int DieticianId;
+	public int fileId;
 	 public Map<String, Map<String, String>> FileMorbidity;
 	    public Map<String, String> FileMorbidityCondition;
 }

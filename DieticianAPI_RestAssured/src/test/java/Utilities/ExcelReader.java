@@ -20,7 +20,7 @@ public class ExcelReader {
 	private static XSSFWorkbook excelWorkbook;
 	private static XSSFCell cell;
 	private static XSSFRow row;
-	private static String sheetPath = ConfigReader.getProperty("datapath")+ConfigReader.getProperty("exceldata");
+	private static String sheetPath = ConfigReader.getProperty("exceldata");
 	
 
 	private static void setExcelFile(String sheetName) throws IOException {

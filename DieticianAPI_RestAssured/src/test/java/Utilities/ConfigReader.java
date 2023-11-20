@@ -12,7 +12,7 @@ import Utilities.LoggerLoad;
 
 public class ConfigReader {
 	private static Properties properties;
-	private static final String propertyFilePath = "./src/test/resources/Config/config.properties";
+	private static final String propertyFilePath = "C:\\Users\\shaun\\git\\repository3\\DieticianAPI_RestAssured\\src\\test\\resources\\Config\\config.properties";
 	static {
         loadProperty();
     }
@@ -81,5 +81,36 @@ public class ConfigReader {
 		else
 			throw new RuntimeException("filePath is not specified in the config.properties file");
 	}
-	
+	public static String PostPatientSchema()
+	{
+		String data = properties.getProperty("postpatientschema");
+		if (data != null)
+			return data;
+		else
+			throw new RuntimeException("postpatientschema is not specified in the config.properties file");
+	}
+	public static String BadRequestSchema()
+	{
+		String data = properties.getProperty("400badrequestschema");
+		if (data != null)
+			return data;
+		else
+			throw new RuntimeException("400badrequestschema is not specified in the config.properties file");
+	}
+	public static String AloginCredentials()
+	{
+		String data = properties.getProperty("alogincredentials");
+		if (data != null)
+			return data;
+		else
+			throw new RuntimeException("alogincredentials is not specified in the config.properties file");
+	}
+	public static String UserLoginUrl()
+	{
+		String data = properties.getProperty("userloginUrl");
+		if (data != null)
+			return data;
+		else
+			throw new RuntimeException("userloginUrl is not specified in the config.properties file");
+	}
 }

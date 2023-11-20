@@ -1,68 +1,323 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="0" failed="9" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-18T21:58:39 EST" name="Default suite" finished-at="2023-11-18T21:58:41 EST" duration-ms="1998">
+  <suite started-at="2023-11-20T10:36:13 EST" name="Default suite" finished-at="2023-11-20T10:36:56 EST" duration-ms="42333">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@62ddbd7e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-11-18T21:58:39 EST" name="Default test" finished-at="2023-11-18T21:58:41 EST" duration-ms="1998">
+    <test started-at="2023-11-20T10:36:13 EST" name="Default test" finished-at="2023-11-20T10:36:56 EST" duration-ms="42333">
       <class name="runner.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@62ddbd7e]" started-at="2023-11-18T21:58:39 EST" name="setUpClass" finished-at="2023-11-18T21:58:40 EST" duration-ms="1912" status="FAIL">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T10:36:14 EST" name="setUpClass" finished-at="2023-11-20T10:36:19 EST" duration-ms="5309" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@282308c3]]>
+                <![CDATA[org.testng.TestRunner@6cd1ee]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.IllegalArgumentException">
-            <message>
-              <![CDATA[path must exist: C:\Users\shaun\git\repository3\DieticianAPI_RestAssured\src\test\resources\Feature\Post.feature]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalArgumentException: path must exist: C:\Users\shaun\git\repository3\DieticianAPI_RestAssured\src\test\resources\Feature\Post.feature
-at io.cucumber.core.resource.PathScanner.findResourcesForPath(PathScanner.java:49)
-at io.cucumber.core.resource.PathScanner.findResourcesForUri(PathScanner.java:31)
-at io.cucumber.core.resource.ResourceScanner.findResourcesForUri(ResourceScanner.java:61)
-at io.cucumber.core.resource.ResourceScanner.scanForResourcesUri(ResourceScanner.java:134)
-at io.cucumber.core.runtime.FeaturePathFeatureSupplier.loadFeatures(FeaturePathFeatureSupplier.java:62)
-at io.cucumber.core.runtime.FeaturePathFeatureSupplier.get(FeaturePathFeatureSupplier.java:45)
-at io.cucumber.testng.TestNGCucumberRunner.<init>(TestNGCucumberRunner.java:122)
-at io.cucumber.testng.AbstractTestNGCucumberTests.setUpClass(AbstractTestNGCucumberTests.java:27)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalArgumentException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@62ddbd7e]" started-at="2023-11-18T21:58:41 EST" name="tearDownClass" finished-at="2023-11-18T21:58:41 EST" duration-ms="2" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T10:36:19 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T10:36:38 EST" duration-ms="19516" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to create a Patient with valid endpoint and request body (non existing values)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create Patient with Post"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <201> but was <400>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <400>.
+
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:126)
+at ✽.User receives response for POST "patient" with "Post_Patient_Valid"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T10:36:39 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T10:36:40 EST" duration-ms="1537" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to create a Patient with valid endpoint and request body (non existing values)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create Patient with Post"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at java.base/java.io.Reader.<init>(Reader.java:168)
+at java.base/java.io.InputStreamReader.<init>(InputStreamReader.java:89)
+at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:127)
+at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:155)
+at ✽.User receives response for POST "patient" with "Post_Patient_ExistingUniqueField"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T10:36:40 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T10:36:42 EST" duration-ms="1888" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to create a Patient with valid endpoint and request body (non existing values)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create Patient with Post"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at java.base/java.io.Reader.<init>(Reader.java:168)
+at java.base/java.io.InputStreamReader.<init>(InputStreamReader.java:89)
+at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:127)
+at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:155)
+at ✽.User receives response for POST "patient" with "Post_Patient_NonAcceptedFoodCategory"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T10:36:42 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T10:36:45 EST" duration-ms="2779" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to create a Patient with valid endpoint and request body (non existing values)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create Patient with Post"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at java.base/java.io.Reader.<init>(Reader.java:168)
+at java.base/java.io.InputStreamReader.<init>(InputStreamReader.java:89)
+at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:127)
+at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:155)
+at ✽.User receives response for POST "patient" with "Post_Patient_Missing_FirstName"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T10:36:45 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T10:36:47 EST" duration-ms="1953" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to create a Patient with valid endpoint and request body (non existing values)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create Patient with Post"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at java.base/java.io.Reader.<init>(Reader.java:168)
+at java.base/java.io.InputStreamReader.<init>(InputStreamReader.java:89)
+at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:127)
+at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:155)
+at ✽.User receives response for POST "patient" with "Post_Patient_Missing_LastName"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T10:36:47 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T10:36:48 EST" duration-ms="854" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to create a Patient with valid endpoint and request body (non existing values)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create Patient with Post"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at java.base/java.io.Reader.<init>(Reader.java:168)
+at java.base/java.io.InputStreamReader.<init>(InputStreamReader.java:89)
+at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:127)
+at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:155)
+at ✽.User receives response for POST "patient" with "Post_Patient_Invalid_Email"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T10:36:48 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T10:36:48 EST" duration-ms="765" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to create a Patient with valid endpoint and request body (non existing values)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create Patient with Post"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at java.base/java.io.Reader.<init>(Reader.java:168)
+at java.base/java.io.InputStreamReader.<init>(InputStreamReader.java:89)
+at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:127)
+at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:155)
+at ✽.User receives response for POST "patient" with "Post_Patient_Missing_ContactNumber"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T10:36:48 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T10:36:49 EST" duration-ms="525" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to create a Patient with valid endpoint and request body (non existing values)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create Patient with Post"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[Cannot parse null string]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: Cannot parse null string
+at java.base/java.lang.Integer.parseInt(Integer.java:627)
+at java.base/java.lang.Integer.parseInt(Integer.java:781)
+at api.stepdefinition.Post_StepDefinition.CreatePatientRequest(Post_StepDefinition.java:183)
+at api.stepdefinition.Post_StepDefinition.user_creates_post_request_for_the_dietician_api_endpoint_with(Post_StepDefinition.java:102)
+at ✽.User creates POST Request for the Dietician  API endpoint with "patient" and "Post_Patient_Missing_DateOfBirth"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T10:36:49 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T10:36:50 EST" duration-ms="1537" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to create a Patient with valid endpoint and request body (non existing values)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create Patient with Post"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <201> but was <400>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <400>.
+
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:126)
+at ✽.User receives response for POST "patient" with "Post_Patient_Missing_File"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T10:36:50 EST" name="tearDownClass" finished-at="2023-11-20T10:36:56 EST" duration-ms="5392" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

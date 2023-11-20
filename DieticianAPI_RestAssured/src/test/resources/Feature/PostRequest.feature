@@ -6,7 +6,7 @@ When User sends HTTP POST Request for User login with valid endpoint
 Then User receives Bearer Token 
     
   Scenario Outline: Check if user able to create a Patient with valid endpoint and request body (non existing values)
-    Given User creates POST Request for the Dietician  API endpoint
+    Given User creates POST Request for the Dietician  API endpoint with "<sheetName>" and "<header>"
     When  User sends HTTPS Request and  request Body with mandatory fields and morbidity files from "<sheetName>" with "<header>"  
     Then User receives response for POST "<sheetName>" with "<header>"
 
