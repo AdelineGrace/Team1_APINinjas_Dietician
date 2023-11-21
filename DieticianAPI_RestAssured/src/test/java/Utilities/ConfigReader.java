@@ -12,7 +12,13 @@ import Utilities.LoggerLoad;
 
 public class ConfigReader {
 	private static Properties properties;
-	private static final String propertyFilePath = "src/test/resources/configs/Configuration.properties";
+
+
+
+	private static final String propertyFilePath = "./src/test/resources/config/config.properties";
+	
+
+
 	static {
         loadProperty();
     }
@@ -73,6 +79,98 @@ public class ConfigReader {
 		else
 			throw new RuntimeException("postUrl is not specified in the config.properties file");
 	}
+	public static String PutURL()
+	{
+		String data = properties.getProperty("putUrl");
+		if (data != null)
+			return data;
+		else
+			throw new RuntimeException("postUrl is not specified in the config.properties file");
+	}
+	public static String LoginURL()
+	{
+		String data = properties.getProperty("loginUrl");
+		if (data != null)
+			return data;
+		else
+			throw new RuntimeException("loginUrl is not specified in the config.properties file");
+	}
+	public static String PostPatientSchema()
+	{
+		String data = properties.getProperty("postpatientschema");
+		if (data != null)
+			return data;
+		else
+			throw new RuntimeException("postpatientschema is not specified in the config.properties file");
+	}
+	public static String BadRequestSchema()
+	{
+		String data = properties.getProperty("400badrequestschema");
+		if (data != null)
+			return data;
+		else
+			throw new RuntimeException("400badrequestschema is not specified in the config.properties file");
+	}
+	public static String AloginCredentials()
+	{
+		String data = properties.getProperty("alogincredentials");
+		if (data != null)
+			return data;
+		else
+			throw new RuntimeException("alogincredentials is not specified in the config.properties file");
+	}
+	public static String UserLoginUrl()
+	{
+		String data = properties.getProperty("userloginUrl");
+		if (data != null)
+			return data;
+		else
+			throw new RuntimeException("userloginUrl is not specified in the config.properties file");
+	}
+	public static String GetPatientsURL()
+	{
+		String data = properties.getProperty("getPatientsUrl");
+		if (data != null)
+			return data;
+		else
+			throw new RuntimeException("getPatientsUrl is not specified in the config.properties file");
+	}
+	public static String DeletePatientURL()
+	{
+		String data = properties.getProperty("deletePatientUrl");
+		if (data != null)
+			return data;
+		else
+			throw new RuntimeException("deletePatientUrl is not specified in the config.properties file");
+	}
+	public static String MorbidityFile()
+	{
+		String data = properties.getProperty("morbidityfile");
+		if (data != null)
+			return data;
+		else
+			throw new RuntimeException("morbidityfile is not specified in the config.properties file");
+	}
+	
+	//User Dietician 
+	public static String getPatientDetailsURL()
+	{
+		String data = properties.getProperty("getPatientDetailsUrl");
+		if (data != null)
+			return data;
+		else
+			throw new RuntimeException("getPatientDetailsUrl is not specified in the config.properties file");
+	}
+	
+	public static String getPatientFileURL()
+	{
+		String data = properties.getProperty("getPatientFileUrl");
+		if (data != null)
+			return data;
+		else
+			throw new RuntimeException("getPatientFileUrl is not specified in the config.properties file");
+	}
+	
 	
 	public static String getMorbidityGetAllUrl()
 	{

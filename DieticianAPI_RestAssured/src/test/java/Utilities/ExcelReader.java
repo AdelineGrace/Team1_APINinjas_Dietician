@@ -13,28 +13,20 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-import Utilities.LoggerLoad;
-
-
 
 public class ExcelReader {
 	
-
-
 	private static XSSFSheet excelSheet;
 	private static XSSFWorkbook excelWorkbook;
 	private static XSSFCell cell;
 	private static XSSFRow row;
-	private static String sheetPath = "C:\\Users\\shaun\\eclipse-workspace\\Tryyyyyyy_API\\src\\test\\resources\\reqres.xlsx"; 
-	
+	private static String sheetPath = ConfigReader.getProperty("exceldata");
 	
 
 	private static void setExcelFile(String sheetName) throws IOException {
-		   // LoggerLoad.logInfo("Getting sheets from the workbook.");
-			System.out.println("sheetPath" + sheetPath );
+		
 			FileInputStream excelFile = new FileInputStream(new File(sheetPath).getAbsolutePath());
 			excelWorkbook = new XSSFWorkbook(excelFile);
-			System.out.println("sheetName" + sheetName );
 			excelSheet = excelWorkbook.getSheet(sheetName);
 	}
 
@@ -50,7 +42,6 @@ public class ExcelReader {
 
 	private static String getCellData(int rowNumb, int colNumb) {
 		cell = excelSheet.getRow(rowNumb).getCell(colNumb);
-		//LOG.info("Getting cell data.");
 		if(cell.getCellType() == CellType.NUMERIC) {
 			cell.setCellType(CellType.STRING);
 		}
@@ -86,9 +77,8 @@ public class ExcelReader {
 		Map<String, String> dataMap = new HashMap<String, String>();
 			setExcelFile(sheetName);
 			int dataRow = getDataRow(header.trim(), 0);
-			//LoggerLoad.logInfo("Test Data Found in Row: "+dataRow);
 			if (dataRow == 0) {
-				throw new Exception("NO DATA FOUND for dataKey: "+header);
+				throw new Exception("NO DATA FOUND for header: "+header);
 			}
 			int columnCount = excelSheet.getRow(dataRow).getLastCellNum();
 			for(int i=0;i<columnCount;i++) {
@@ -106,13 +96,8 @@ public class ExcelReader {
 	}
 
 	
-	public static void main(String []args) throws Exception {
-		Map<String,String> dataMap = new HashMap<String, String>();
-		dataMap = getData("updateBooking21","sheet1");
-		for(Map.Entry<String, String> data: dataMap.entrySet()) {
-			LoggerLoad.logInfo(data.getKey()+ " ==> " + data.getValue());
-		}
+	
 	}
 
 
-}
+

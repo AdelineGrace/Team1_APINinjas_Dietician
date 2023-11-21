@@ -11,14 +11,11 @@ import io.cucumber.testng.CucumberOptions;
 					"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
 					}, 
 			monochrome=false,  
-			features = {"src/test/resources/Feature/Post.feature"
-					
-					}, 
-					
-			
 
-			glue= "api.stepdefinition" 
+			features = {"src/test/resources/Feature/PostRequest.feature"}, 
+
+			glue= {"api.stepdefinition"} 
 		)
-public class TestRunner extends AbstractTestNGCucumberTests  {
-	
+public class TestRunner extends AbstractTestNGCucumberTests{
+
 }

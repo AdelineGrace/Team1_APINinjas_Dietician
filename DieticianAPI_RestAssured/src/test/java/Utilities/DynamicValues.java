@@ -1,22 +1,23 @@
 package Utilities;
 
+
 import com.github.javafaker.Faker;
+
 
 public class DynamicValues {
 	
+
+	 
+
 	
-	 public static String FirstName()
-		{
-		 Faker faker = new Faker();
 
-	     String randomFirstName = faker.name().firstName();
+	    public static long PhoneNumber() {
+	    	 Faker faker = new Faker();
 
-			return randomFirstName;
-		}
+	    	 long random10DigitInteger = faker.number().randomNumber(10, false);
+	         return Math.abs(random10DigitInteger);
+	    }
 
-	public static int PhoneNumber()
-	{
-		return (int) (Math.floor(Math.random() * 1000000000));
 	}
 
-}
+

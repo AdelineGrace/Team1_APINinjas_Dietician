@@ -1,0 +1,371 @@
+Request method:	POST
+Request URI:	http://dietician-dev-41d9a344a720.herokuapp.com/dietician/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "Clover21",
+    "userLoginEmail": "adelinegrace.a@gmail.com"
+}
+Request method:	POST
+Request URI:	http://dietician-dev-41d9a344a720.herokuapp.com/dietician/patient
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZGVsaW5lZ3JhY2UuYUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1MjQxMDEsImV4cCI6MTcwMDU1MjkwMX0.hbRJ69jTDn78BpFyW20enM0jPBZwE79qU0ddorEhrQrfEacPqLO7Z6F1erji1gQJp5lewgLT3HRNPrr--J6DcQ
+				Accept=*/*
+				Content-Type=multipart/form-data
+Cookies:		<none>
+Multiparts:		------------
+				Content-Disposition: form-data; name = file; filename = HypoThyroid-Report.pdf.pdf
+				Content-Type: application/octet-stream
+
+				src\test\resources\HypoThyroid-Report.pdf.pdf
+				------------
+				Content-Disposition: form-data; name = patientInfo; filename = file
+				Content-Type: application/json
+
+				{
+    "FirstName": "John",
+    "LastName": "Mark",
+    "ContactNumber": "5108738917",
+    "Email": "john_mark@yyy.com",
+    "Allergy": "Almond",
+    "FoodCategory": "Vegan",
+    "DateOfBirth": "2006-09-03"
+}
+Body:			<none>
+Request method:	POST
+Request URI:	http://dietician-dev-41d9a344a720.herokuapp.com/dietician/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "Clover21",
+    "userLoginEmail": "adelinegrace.a@gmail.com"
+}
+Request method:	POST
+Request URI:	http://dietician-dev-41d9a344a720.herokuapp.com/dietician/patient
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZGVsaW5lZ3JhY2UuYUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1MjQxMDksImV4cCI6MTcwMDU1MjkwOX0.Yf5YzV5vnufHdO3Z5PmfQ4Vf4OftcJQtRrLYywSj5P28vzOVQZGTqVEBUm-2qlX7sxzsoK9NTBmR4g7bZQIbGA
+				Accept=*/*
+				Content-Type=multipart/form-data
+Cookies:		<none>
+Multiparts:		------------
+				Content-Disposition: form-data; name = file; filename = HypoThyroid-Report.pdf.pdf
+				Content-Type: application/octet-stream
+
+				src\test\resources\HypoThyroid-Report.pdf.pdf
+				------------
+				Content-Disposition: form-data; name = patientInfo; filename = file
+				Content-Type: application/json
+
+				{
+    "FirstName": "John",
+    "LastName": "Mark",
+    "ContactNumber": "5108738917",
+    "Email": "john_mark@yyy.com",
+    "Allergy": "Milk",
+    "FoodCategory": "Vegetarian",
+    "DateOfBirth": "2006-09-03"
+}
+Body:			<none>
+Request method:	POST
+Request URI:	http://dietician-dev-41d9a344a720.herokuapp.com/dietician/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "Clover21",
+    "userLoginEmail": "adelinegrace.a@gmail.com"
+}
+Request method:	POST
+Request URI:	http://dietician-dev-41d9a344a720.herokuapp.com/dietician/patient
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZGVsaW5lZ3JhY2UuYUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1MjQxMTAsImV4cCI6MTcwMDU1MjkxMH0.4sbX52FlRu25P4PVRpmtqTx4Puj03In42Lxm_q1A4OzULLuamlavBlcyU_Knj8PK8aQButFyWNmbfVSuO9kwSg
+				Accept=*/*
+				Content-Type=multipart/form-data
+Cookies:		<none>
+Multiparts:		------------
+				Content-Disposition: form-data; name = file; filename = HypoThyroid-Report.pdf.pdf
+				Content-Type: application/octet-stream
+
+				src\test\resources\HypoThyroid-Report.pdf.pdf
+				------------
+				Content-Disposition: form-data; name = patientInfo; filename = file
+				Content-Type: application/json
+
+				{
+    "FirstName": "John",
+    "LastName": "Mark",
+    "ContactNumber": "3012857383",
+    "Email": "john_mark@yyy.com",
+    "Allergy": "Soy",
+    "FoodCategory": "Paleo",
+    "DateOfBirth": "2006-09-05"
+}
+Body:			<none>
+Request method:	POST
+Request URI:	http://dietician-dev-41d9a344a720.herokuapp.com/dietician/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "Clover21",
+    "userLoginEmail": "adelinegrace.a@gmail.com"
+}
+Request method:	POST
+Request URI:	http://dietician-dev-41d9a344a720.herokuapp.com/dietician/patient
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZGVsaW5lZ3JhY2UuYUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1MjQxMTEsImV4cCI6MTcwMDU1MjkxMX0.eGzbtsZA1a2mnwyZPZcuA_QkYUxIhRfpECfRN0xDuHyVH1RJT_8AnhHloeL2L0VO7VNSmJ1oj9XiviOk3WWlig
+				Accept=*/*
+				Content-Type=multipart/form-data
+Cookies:		<none>
+Multiparts:		------------
+				Content-Disposition: form-data; name = file; filename = HypoThyroid-Report.pdf.pdf
+				Content-Type: application/octet-stream
+
+				src\test\resources\HypoThyroid-Report.pdf.pdf
+				------------
+				Content-Disposition: form-data; name = patientInfo; filename = file
+				Content-Type: application/json
+
+				{
+    "FirstName": null,
+    "LastName": "Mark",
+    "ContactNumber": "3035287095",
+    "Email": "john_mark@yyy.com",
+    "Allergy": "Peanuts",
+    "FoodCategory": "Eggetarian",
+    "DateOfBirth": "2006-09-06"
+}
+Body:			<none>
+Request method:	POST
+Request URI:	http://dietician-dev-41d9a344a720.herokuapp.com/dietician/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "Clover21",
+    "userLoginEmail": "adelinegrace.a@gmail.com"
+}
+Request method:	POST
+Request URI:	http://dietician-dev-41d9a344a720.herokuapp.com/dietician/patient
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZGVsaW5lZ3JhY2UuYUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1MjQxMTIsImV4cCI6MTcwMDU1MjkxMn0.QS4plP32gB2fjpv2ZNTnAiXE6hD7GaaqAEtewrmr1Boyy9JEAk2qmQiRsBTLVzJyiQIki_pjEScNsPxFeWsdVw
+				Accept=*/*
+				Content-Type=multipart/form-data
+Cookies:		<none>
+Multiparts:		------------
+				Content-Disposition: form-data; name = file; filename = HypoThyroid-Report.pdf.pdf
+				Content-Type: application/octet-stream
+
+				src\test\resources\HypoThyroid-Report.pdf.pdf
+				------------
+				Content-Disposition: form-data; name = patientInfo; filename = file
+				Content-Type: application/json
+
+				{
+    "FirstName": "John",
+    "LastName": null,
+    "ContactNumber": "8141227715",
+    "Email": "john_mark@yyy.com",
+    "Allergy": "Peanuts",
+    "FoodCategory": "NonVeg",
+    "DateOfBirth": "2006-09-07"
+}
+Body:			<none>
+Request method:	POST
+Request URI:	http://dietician-dev-41d9a344a720.herokuapp.com/dietician/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "Clover21",
+    "userLoginEmail": "adelinegrace.a@gmail.com"
+}
+Request method:	POST
+Request URI:	http://dietician-dev-41d9a344a720.herokuapp.com/dietician/patient
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZGVsaW5lZ3JhY2UuYUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1MjQxMTIsImV4cCI6MTcwMDU1MjkxMn0.QS4plP32gB2fjpv2ZNTnAiXE6hD7GaaqAEtewrmr1Boyy9JEAk2qmQiRsBTLVzJyiQIki_pjEScNsPxFeWsdVw
+				Accept=*/*
+				Content-Type=multipart/form-data
+Cookies:		<none>
+Multiparts:		------------
+				Content-Disposition: form-data; name = file; filename = HypoThyroid-Report.pdf.pdf
+				Content-Type: application/octet-stream
+
+				src\test\resources\HypoThyroid-Report.pdf.pdf
+				------------
+				Content-Disposition: form-data; name = patientInfo; filename = file
+				Content-Type: application/json
+
+				{
+    "FirstName": "John",
+    "LastName": "Mark",
+    "ContactNumber": "5795886200",
+    "Email": "$$$",
+    "Allergy": "Almond",
+    "FoodCategory": "Vegetarian",
+    "DateOfBirth": "2006-09-08"
+}
+Body:			<none>
+Request method:	POST
+Request URI:	http://dietician-dev-41d9a344a720.herokuapp.com/dietician/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "Clover21",
+    "userLoginEmail": "adelinegrace.a@gmail.com"
+}
+Request method:	POST
+Request URI:	http://dietician-dev-41d9a344a720.herokuapp.com/dietician/patient
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZGVsaW5lZ3JhY2UuYUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1MjQxMTMsImV4cCI6MTcwMDU1MjkxM30.uoAysSRNHmSBYygA34dm2fmuslIeOOr88FQsrtqKNJ9B7c1VU5PC4XYPk6EGrvADGIEFsue0nNM7Zcbn2W0O5Q
+				Accept=*/*
+				Content-Type=multipart/form-data
+Cookies:		<none>
+Multiparts:		------------
+				Content-Disposition: form-data; name = file; filename = HypoThyroid-Report.pdf.pdf
+				Content-Type: application/octet-stream
+
+				src\test\resources\HypoThyroid-Report.pdf.pdf
+				------------
+				Content-Disposition: form-data; name = patientInfo; filename = file
+				Content-Type: application/json
+
+				{
+    "FirstName": "John",
+    "LastName": "Mark",
+    "ContactNumber": "5666",
+    "Email": "john_mark@yyy.com",
+    "Allergy": "Pistachio",
+    "FoodCategory": "Jain",
+    "DateOfBirth": "2006-09-09"
+}
+Body:			<none>
+Request method:	POST
+Request URI:	http://dietician-dev-41d9a344a720.herokuapp.com/dietician/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "Clover21",
+    "userLoginEmail": "adelinegrace.a@gmail.com"
+}
+Request method:	POST
+Request URI:	http://dietician-dev-41d9a344a720.herokuapp.com/dietician/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "Clover21",
+    "userLoginEmail": "adelinegrace.a@gmail.com"
+}
+Request method:	POST
+Request URI:	http://dietician-dev-41d9a344a720.herokuapp.com/dietician/patient
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZGVsaW5lZ3JhY2UuYUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1MjQxMTUsImV4cCI6MTcwMDU1MjkxNX0.NVgyZ7fni7P_Y-GKFHZhU5GZ3BMx1mxfxBAkSnH-a25xH0dk-drHfxcqTRVnnlqgeU0do3stUCjScWnQRToQ-A
+				Accept=*/*
+				Content-Type=multipart/form-data
+Cookies:		<none>
+Multiparts:		------------
+				Content-Disposition: form-data; name = patientInfo; filename = file
+				Content-Type: application/json
+
+				null
+Body:			<none>
