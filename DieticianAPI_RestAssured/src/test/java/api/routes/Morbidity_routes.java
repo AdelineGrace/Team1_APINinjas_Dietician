@@ -29,14 +29,5 @@ public class Morbidity_routes {
 		return endpoint;
 	}
 	
-	public static String Userlogout(String DataKey)
-	{
-		String endpoint = null;
-		if("Invalid".equals(DataKey))
-			endpoint = ConfigReader.LogoutUrl() + "0000" ;
-		else 
-			endpoint = ConfigReader.LogoutUrl();
-		return endpoint;
-	}
-
+	
 }

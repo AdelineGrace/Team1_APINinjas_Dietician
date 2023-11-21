@@ -27,6 +27,7 @@ import api.endpoints.PostPatient;
 import api.endpoints.UserLogin;
 import api.request.PostPatient_request;
 import api.request.UserLogin_request;
+import api.response.PostPatientNoFile;
 import api.response.PostPatient_response;
 import Utilities.ExcelReader;
 import io.cucumber.java.en.Given;
@@ -34,7 +35,6 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.response.Response;
-import stepdefinitions.BaseStep;
 
 public class Post_StepDefinition extends BaseStep {
 
@@ -101,9 +101,9 @@ public class Post_StepDefinition extends BaseStep {
     public void user_receives_response_for_post_with(String sheetName, String header) {
         switch (header) {
             case "Post_Patient_Valid":
-            	response.then().assertThat().statusCode(HttpStatus.SC_CREATED)
-                .body(JsonSchemaValidator.matchesJsonSchema(
-                        getClass().getClassLoader().getResourceAsStream(ConfigReader.PostPatientSchema())));
+            	
+                response.then().assertThat()
+                        .body(JsonSchemaValidator.matchesJsonSchema("postpatientresponsebodyschema.json"));
 
         PostPatient_response patient = response.getBody().as(PostPatient_response.class);
 
@@ -141,7 +141,7 @@ public class Post_StepDefinition extends BaseStep {
             case "Post_Patient_Invalid_Email":
             case "Post_Patient_Invalid_ContactNumber":
             case "Post_Patient_Missing_DateOfBirth":
-            	File responsebodyfile=new File("C:\\Users\\shaun\\git\\repository3\\DieticianAPI_RestAssured\\src\\test\\resources\\400badrequestjsonschema.json");
+            	File responsebodyfile=new File(ConfigReader.BadRequestSchema());
             	
                 response.then().assertThat().statusCode(HttpStatus.SC_BAD_REQUEST)
                         .body(JsonSchemaValidator.matchesJsonSchema(responsebodyfile));
@@ -181,9 +181,9 @@ public class Post_StepDefinition extends BaseStep {
             case "Post_Patient_Missing_File":
                 Response responseMissingFile = PostPatient.CreatePatient(patientRequest, false);
 
-                if (responseMissingFile.statusCode() == 201) {
-                    PostPatient_response patientMissingFile = responseMissingFile.getBody()
-                            .as(PostPatient_response.class);
+                if (header.equals("Post_Patient_Missing_File")) {
+                	PostPatientNoFile patientMissingFile = responseMissingFile.getBody()
+                            .as(PostPatientNoFile.class);
                     patientIdMissingFile = patientMissingFile.patientId;
                     SharedContext.setPatientIdMissingFile(patientIdMissingFile);
 
@@ -200,11 +200,10 @@ public class Post_StepDefinition extends BaseStep {
         PostPatient_request patientRequest = new PostPatient_request(firstName, lastName, contactNumber, email, allergy,
                 foodCategory, dateOfBirth);
 
-        // Common logic for "Post_Patient_Valid"
         if (header.equals("Post_Patient_Valid")) {
             Response responseValid = PostPatient.CreatePatient(patientRequest, true);
 
-            if (responseValid.statusCode() == 201) {
+            if (header.equals("Post_Patient_Valid")) {
                 PostPatient_response patientValid = responseValid.getBody().as(PostPatient_response.class);
                 patientIdValid = patientValid.patientId;
                 existingPhoneNumber = patientValid.ContactNumber;

@@ -174,7 +174,7 @@ public class ConfigReader {
 	
 	public static String getMorbidityGetAllUrl()
 	{
-		String data = properties.getProperty("morbidity.getallurl");
+		String data = properties.getProperty("morbiditygetallurl");
 		if (data != null)
 			return data;
 		else
@@ -182,7 +182,7 @@ public class ConfigReader {
 	}
 	public static String getMorbidityGetAllUrlByTestNameUrl()
 	{
-		String data = properties.getProperty("morbidity.getbyTestNameurl");
+		String data = properties.getProperty("morbiditygetbyTestNameurl");
 		if (data != null)
 			return data;
 		else
@@ -195,7 +195,7 @@ public class ConfigReader {
 		if (data != null)
 			return data;
 		else
-			throw new RuntimeException("morbidity.getallurl not specified in the Configuration.properties file.");
+			throw new RuntimeException("UserLogout not specified in the Configuration.properties file.");
 	
 }
 }

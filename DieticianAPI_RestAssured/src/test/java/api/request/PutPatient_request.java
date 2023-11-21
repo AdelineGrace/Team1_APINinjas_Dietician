@@ -13,12 +13,11 @@ public class PutPatient_request {
 		public String Allergy;
 		public String FoodCategory;
 		public String DateOfBirth;
-		public File MorbidityFile;
 
 		
 		
 	    public PutPatient_request(String FirstName, String LastName, String ContactNumber,String Email, String Allergy,
-		                                   String FoodCategory, String DateOfBirth,File MorbidityFile)
+		                                   String FoodCategory, String DateOfBirth)
 	    {
 	        this.FirstName = FirstName;
 	        this.LastName = LastName;
@@ -27,7 +26,6 @@ public class PutPatient_request {
 	        this.Allergy = Allergy;
 	        this.FoodCategory = FoodCategory;
 	        this.DateOfBirth = DateOfBirth;	 
-	        this.MorbidityFile = MorbidityFile;	        
 
 	       
 	        LoggerLoad.logInfo("PatientInfo is initialized");

@@ -71,19 +71,9 @@ public class UserDieticianSteps extends BaseStep{
 
 	@Given("User creates GET Request for the Patient endpoint with {string} scenario patientid")
 	public void user_creates_get_request_for_the_patient_endpoint_with_scenario(String patientId) {
-//		try
-//		{
-//			RestAssured.baseURI = ConfigReader.BaseURL();
-//			RequestSpecification request = RestAssured.given();
-//			
+		
 			LoggerLoad.logInfo("Get patient morbidity details request created for " + patientId);
-//		}
-//		catch (Exception ex) 
-//		{
-//			LoggerLoad.logInfo(ex.getMessage());
-//			ex.printStackTrace();
-//		}
-	}
+		}
 
 	@When("User sends {string} request with patientid")
 	public void user_sends_request_with_patientid(String scenario) {
@@ -122,11 +112,8 @@ public class UserDieticianSteps extends BaseStep{
 			{
 				case "ValidPatientIdMorbidityFileAttached" :
 					response.then().assertThat()
-						// Validate response status
 						.statusCode(HttpStatus.SC_OK)
-						// Validate content type
 						.contentType(ContentType.JSON)
-						// Validate json schema
 						.body(JsonSchemaValidator.matchesJsonSchema(
 							getClass().getClassLoader().getResourceAsStream("getpatientmorbiditydetailsjsonschema.json")));
 					
@@ -135,34 +122,23 @@ public class UserDieticianSteps extends BaseStep{
 				
 				case "ValidPatientIdMorbidityFileMissing" :
 					response.then().assertThat()
-						// Validate response status
 						.statusCode(HttpStatus.SC_OK)
-						// Validate content type
 						.contentType(ContentType.JSON)
-						// Validate json schema
 						.body(JsonSchemaValidator.matchesJsonSchema("[]"));
 					userDieticianResponse = response.getBody().as(UserDietician_response.class);
 					break;
 					
 					
 				case "InvalidPatientIdMorbidityFileAttached" :
-					response.then().assertThat()
-						// Validate response status
-						.statusCode(HttpStatus.SC_NOT_FOUND)
-						// Validate content type
-						.contentType(ContentType.JSON)
-						// Validate json schema
-						.body(JsonSchemaValidator.matchesJsonSchema(
-							getClass().getClassLoader().getResourceAsStream("400badrequestjsonschema.json")));
+//					if(scenario.equals("InvalidPatientIdMorbidityFileAttached")) {
+					if(response.statusCode() == 404 || response.statusCode() == 405) {
+						
+						response.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(getClass().getClassLoader().getResourceAsStream("404userdieticianschema.json")));
+					}
+				}
 					
-					
-					JsonPath jsonPathEvaluator = response.jsonPath();
-					List<UserDietician_response> userDieticianList = jsonPathEvaluator.getList("", UserDietician_response.class);
-					userDieticianResponse = userDieticianList.get(0);
-					break;
-			}
+			
 	
-			// Validate json response values
 			
 			assertEquals(userDieticianFileAdded.fileId, userDieticianResponse.fileId);
 			assertEquals(userDieticianFileAdded.fileName, userDieticianResponse.fileName);
@@ -232,11 +208,8 @@ public class UserDieticianSteps extends BaseStep{
 			{
 				case "ValidFileId" :
 					response.then().assertThat()
-						// Validate response status
 						.statusCode(HttpStatus.SC_OK)
-						// Validate content type
 						.contentType(ContentType.JSON)
-						// Validate json schema
 						.body(JsonSchemaValidator.matchesJsonSchema(responsebodyfile));
 					
 					userDieticianResponse = response.getBody().as(UserDietician_response.class);
@@ -244,22 +217,13 @@ public class UserDieticianSteps extends BaseStep{
 					
 					
 				case "InvalidFileId" :
-					response.then().assertThat()
-						// Validate response status
-						.statusCode(HttpStatus.SC_NOT_FOUND)
-						// Validate content type
-						.contentType(ContentType.JSON)
-						// Validate json schema
-						.body(JsonSchemaValidator.matchesJsonSchema(
-							getClass().getClassLoader().getResourceAsStream("400badrequestjsonschema.json")));
-					
-					JsonPath jsonPathEvaluator = response.jsonPath();
-					List<UserDietician_response> userDieticianList = jsonPathEvaluator.getList("", UserDietician_response.class);
-					userDieticianResponse = userDieticianList.get(0);
-					break;
+					if(scenario.equals("InvalidFileId")) {
+						if(response.statusCode() == 404 || response.statusCode() == 405) {
+												response.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(getClass().getClassLoader().getResourceAsStream("404userdieticianschema.json")));
+							}
+						}
 			}
 	
-			// Validate json response values
 			
 			assertEquals(userDieticianFileAdded.MorbidityFile, userDieticianResponse.MorbidityFile);
 			

@@ -36,16 +36,6 @@ public class Morbidity {
 		return response;
 	}
 	
-	public static Response User_Logout(String DataKey)
-	{
-		RestAssured.baseURI = baseUrl;
-		RequestSpecification request = RestAssured.given();
-		request.header("Content-Type", "application/json");
-        request.header("Authorization", "Bearer " + MorbiditySteps.bearerToken);
-
-		Response response = request.get(Morbidity_routes.Userlogout(DataKey));
-		return response;
-	}
-
+	
 
 }

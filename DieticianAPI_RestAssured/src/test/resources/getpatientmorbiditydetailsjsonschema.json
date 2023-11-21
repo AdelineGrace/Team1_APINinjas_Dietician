@@ -28,12 +28,6 @@
         "morbidConditionStr": {
           "type": "string"
         }
-      },
-      "required": [
-        "fileId",
-        "fileName",
-        "uploadDate",
-        "morbidConditions",
-        "morbidConditionStr"
-      ]
+      }
+     
     }

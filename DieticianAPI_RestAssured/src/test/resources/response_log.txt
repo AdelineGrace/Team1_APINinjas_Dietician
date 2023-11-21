@@ -1,7 +1,7 @@
 HTTP/1.1 200 
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700548262&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=VDWDYsN68c19yKn7fjqcfVPcMB%2FaFDNZj1Putmv5OoU%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700548262&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=VDWDYsN68c19yKn7fjqcfVPcMB%2FaFDNZj1Putmv5OoU%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700601835&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=n2xSAGGomz9BKcui332tlQw9qwwMv9u6sn5umqYgiZI%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700601835&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=n2xSAGGomz9BKcui332tlQw9qwwMv9u6sn5umqYgiZI%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 Vary: Origin
@@ -15,409 +15,22 @@ Expires: 0
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 21 Nov 2023 06:31:02 GMT
+Date: Tue, 21 Nov 2023 21:23:55 GMT
 Via: 1.1 vegur
 
 {
-    "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZGVsaW5lZ3JhY2UuYUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1NDgyNjIsImV4cCI6MTcwMDU3NzA2Mn0.HkJQNvRW5nP_KCUkjRHvAVGaG6eAPwyDAGsf4AIWtN0kfqXxhMfBtjUA6B6tFOmH7YGGNf17viepxzYCpo3muQ",
+    "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkZWVwdGkuc29uaTRAZ21haWwuY29tIiwiaWF0IjoxNzAwNjAxODM1LCJleHAiOjE3MDA2MzA2MzV9.0Q8PB5bAP76LoIOr6jXd0PfdusJFYxtf8prhZmhF0DeFw2VweANPk6tGGLEU3sgLYIh9Qv9iqZyl-fFxYTL9cg",
     "type": "Bearer ",
-    "userId": 107,
-    "loginUserEmail": "adelinegrace.a@gmail.com",
-    "roles": [
-        "ROLE_DIETICIAN"
-    ]
-}
-HTTP/1.1 201 
-Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700548264&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=FZ%2FG9WSUr1y8rwGTFQlkEVBao2G4OdzHvc8zbKqKpQ8%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700548264&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=FZ%2FG9WSUr1y8rwGTFQlkEVBao2G4OdzHvc8zbKqKpQ8%3D
-Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
-Connection: keep-alive
-Vary: Origin
-Vary: Access-Control-Request-Method
-Vary: Access-Control-Request-Headers
-X-Content-Type-Options: nosniff
-X-Xss-Protection: 1; mode=block
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Tue, 21 Nov 2023 06:31:04 GMT
-Via: 1.1 vegur
-
-{
-    "patientId": 5535,
-    "FirstName": "John",
-    "LastName": "Mark",
-    "ContactNumber": "7649848976",
-    "Email": "john_mark@yyy.com",
-    "Allergy": "Almond",
-    "FoodCategory": "Vegan",
-    "FileMorbidity": {
-        "655c4ea8fa57dd184cbea68a": {
-            "T4": "1.22 µg/dl",
-            "TSH": "100.0 mIU/L"
-        }
-    },
-    "FileMorbidityCondition": {
-        "655c4ea8fa57dd184cbea68a": "Thyroid: Hypothyroidism \n"
-    },
-    "DateOfBirth": "2006-09-03T00:00:00.000+00:00",
-    "DieticianId": 107
-}
-HTTP/1.1 200 
-Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700548264&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=FZ%2FG9WSUr1y8rwGTFQlkEVBao2G4OdzHvc8zbKqKpQ8%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700548264&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=FZ%2FG9WSUr1y8rwGTFQlkEVBao2G4OdzHvc8zbKqKpQ8%3D
-Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
-Connection: keep-alive
-Vary: Origin
-Vary: Access-Control-Request-Method
-Vary: Access-Control-Request-Headers
-X-Content-Type-Options: nosniff
-X-Xss-Protection: 1; mode=block
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Tue, 21 Nov 2023 06:31:04 GMT
-Via: 1.1 vegur
-
-{
-    "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZGVsaW5lZ3JhY2UuYUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1NDgyNjUsImV4cCI6MTcwMDU3NzA2NX0.-15d-SO_-lgTMZ9EbGIPsbHUH5TNUzAbtRrSCDyRUET2ga8ddNPOoLMfXvoGwNsk2O3KXuZyTOaDRt2JLBV2IA",
-    "type": "Bearer ",
-    "userId": 107,
-    "loginUserEmail": "adelinegrace.a@gmail.com",
-    "roles": [
-        "ROLE_DIETICIAN"
-    ]
-}
-HTTP/1.1 400 
-Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700548265&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=T7006FtgnYOI3oXC6A3%2FIWX7ZHXnoO7z11SLdAsf%2Bjk%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700548265&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=T7006FtgnYOI3oXC6A3%2FIWX7ZHXnoO7z11SLdAsf%2Bjk%3D
-Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
-Connection: keep-alive
-Vary: Origin
-Vary: Access-Control-Request-Method
-Vary: Access-Control-Request-Headers
-X-Content-Type-Options: nosniff
-X-Xss-Protection: 1; mode=block
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Tue, 21 Nov 2023 06:31:06 GMT
-Via: 1.1 vegur
-
-{
-    "errorCode": "DUPLICATE_ENTITY",
-    "errorMessage": "Patient already exists with given DateOfBirth and ContactNumber"
-}
-HTTP/1.1 200 
-Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700548266&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=1xLtmNTi3Eq4FcDbqGYnI%2BQixyzbCOsyIoMjIAhPkUE%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700548266&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=1xLtmNTi3Eq4FcDbqGYnI%2BQixyzbCOsyIoMjIAhPkUE%3D
-Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
-Connection: keep-alive
-Vary: Origin
-Vary: Access-Control-Request-Method
-Vary: Access-Control-Request-Headers
-X-Content-Type-Options: nosniff
-X-Xss-Protection: 1; mode=block
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Tue, 21 Nov 2023 06:31:06 GMT
-Via: 1.1 vegur
-
-{
-    "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZGVsaW5lZ3JhY2UuYUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1NDgyNjYsImV4cCI6MTcwMDU3NzA2Nn0.KXQ9bMI6VRUrcg8WIAoa_qWKMtKXOVhTaSQhobPkCW3T7i8ANbTiuCKevOiwRUptOB0mqkFhwLFXTGVJ3ptkMQ",
-    "type": "Bearer ",
-    "userId": 107,
-    "loginUserEmail": "adelinegrace.a@gmail.com",
-    "roles": [
-        "ROLE_DIETICIAN"
-    ]
-}
-HTTP/1.1 400 
-Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700548267&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=abX75GZRYMP4PnKIu03ekih5mPYvcFgv%2FPl%2FJ4d6s1E%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700548267&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=abX75GZRYMP4PnKIu03ekih5mPYvcFgv%2FPl%2FJ4d6s1E%3D
-Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
-Connection: keep-alive
-Vary: Origin
-Vary: Access-Control-Request-Method
-Vary: Access-Control-Request-Headers
-X-Content-Type-Options: nosniff
-X-Xss-Protection: 1; mode=block
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Tue, 21 Nov 2023 06:31:07 GMT
-Via: 1.1 vegur
-
-{
-    "errorCode": "INVALID_REQ_DATA",
-    "errorMessage": "Invalid food catgory: Must be one of the categories in {VEGAN, VEGETARIAN, JAIN, EGGETARIAN, NONVEG}\n "
-}
-HTTP/1.1 200 
-Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700548268&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=wdNqD3w2oBTTnR1sKDPp5ZnZrosidE549kfWjPKLr%2FM%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700548268&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=wdNqD3w2oBTTnR1sKDPp5ZnZrosidE549kfWjPKLr%2FM%3D
-Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
-Connection: keep-alive
-Vary: Origin
-Vary: Access-Control-Request-Method
-Vary: Access-Control-Request-Headers
-X-Content-Type-Options: nosniff
-X-Xss-Protection: 1; mode=block
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Tue, 21 Nov 2023 06:31:07 GMT
-Via: 1.1 vegur
-
-{
-    "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZGVsaW5lZ3JhY2UuYUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1NDgyNjgsImV4cCI6MTcwMDU3NzA2OH0.4uTT1Jdx4KefjT89roY4Rp-zuHK5JsxmkMXnu34_SM2UQziBPvHGItH1YwDCDCPVIsbTUOFu0W3oCk9qgSzGfA",
-    "type": "Bearer ",
-    "userId": 107,
-    "loginUserEmail": "adelinegrace.a@gmail.com",
-    "roles": [
-        "ROLE_DIETICIAN"
-    ]
-}
-HTTP/1.1 400 
-Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700548268&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=wdNqD3w2oBTTnR1sKDPp5ZnZrosidE549kfWjPKLr%2FM%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700548268&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=wdNqD3w2oBTTnR1sKDPp5ZnZrosidE549kfWjPKLr%2FM%3D
-Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
-Connection: keep-alive
-Vary: Origin
-Vary: Access-Control-Request-Method
-Vary: Access-Control-Request-Headers
-X-Content-Type-Options: nosniff
-X-Xss-Protection: 1; mode=block
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Tue, 21 Nov 2023 06:31:07 GMT
-Via: 1.1 vegur
-
-{
-    "errorCode": "INVALID_REQ_DATA",
-    "errorMessage": "User First Name is Mandatory!\n "
-}
-HTTP/1.1 200 
-Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700548268&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=wdNqD3w2oBTTnR1sKDPp5ZnZrosidE549kfWjPKLr%2FM%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700548268&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=wdNqD3w2oBTTnR1sKDPp5ZnZrosidE549kfWjPKLr%2FM%3D
-Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
-Connection: keep-alive
-Vary: Origin
-Vary: Access-Control-Request-Method
-Vary: Access-Control-Request-Headers
-X-Content-Type-Options: nosniff
-X-Xss-Protection: 1; mode=block
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Tue, 21 Nov 2023 06:31:07 GMT
-Via: 1.1 vegur
-
-{
-    "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZGVsaW5lZ3JhY2UuYUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1NDgyNjgsImV4cCI6MTcwMDU3NzA2OH0.4uTT1Jdx4KefjT89roY4Rp-zuHK5JsxmkMXnu34_SM2UQziBPvHGItH1YwDCDCPVIsbTUOFu0W3oCk9qgSzGfA",
-    "type": "Bearer ",
-    "userId": 107,
-    "loginUserEmail": "adelinegrace.a@gmail.com",
-    "roles": [
-        "ROLE_DIETICIAN"
-    ]
-}
-HTTP/1.1 400 
-Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700548268&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=wdNqD3w2oBTTnR1sKDPp5ZnZrosidE549kfWjPKLr%2FM%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700548268&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=wdNqD3w2oBTTnR1sKDPp5ZnZrosidE549kfWjPKLr%2FM%3D
-Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
-Connection: keep-alive
-Vary: Origin
-Vary: Access-Control-Request-Method
-Vary: Access-Control-Request-Headers
-X-Content-Type-Options: nosniff
-X-Xss-Protection: 1; mode=block
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Tue, 21 Nov 2023 06:31:08 GMT
-Via: 1.1 vegur
-
-{
-    "errorCode": "INVALID_REQ_DATA",
-    "errorMessage": "User Last Name is Mandatory!\n "
-}
-HTTP/1.1 200 
-Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700548269&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=%2FR%2FcfbOGqXbknsGAuiM2m%2FqYp9Cu8n97U%2B2LTWnVEhw%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700548269&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=%2FR%2FcfbOGqXbknsGAuiM2m%2FqYp9Cu8n97U%2B2LTWnVEhw%3D
-Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
-Connection: keep-alive
-Vary: Origin
-Vary: Access-Control-Request-Method
-Vary: Access-Control-Request-Headers
-X-Content-Type-Options: nosniff
-X-Xss-Protection: 1; mode=block
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Tue, 21 Nov 2023 06:31:08 GMT
-Via: 1.1 vegur
-
-{
-    "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZGVsaW5lZ3JhY2UuYUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1NDgyNjksImV4cCI6MTcwMDU3NzA2OX0.56xuuVRdZbYbceY_PKaN-3U93YEv_PplXDXWisx9Kf7QQrIpIw9WO2BkKPzEt8nHG6npqMspBK0Xwk22iCdlgA",
-    "type": "Bearer ",
-    "userId": 107,
-    "loginUserEmail": "adelinegrace.a@gmail.com",
-    "roles": [
-        "ROLE_DIETICIAN"
-    ]
-}
-HTTP/1.1 400 
-Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700548269&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=%2FR%2FcfbOGqXbknsGAuiM2m%2FqYp9Cu8n97U%2B2LTWnVEhw%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700548269&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=%2FR%2FcfbOGqXbknsGAuiM2m%2FqYp9Cu8n97U%2B2LTWnVEhw%3D
-Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
-Connection: keep-alive
-Vary: Origin
-Vary: Access-Control-Request-Method
-Vary: Access-Control-Request-Headers
-X-Content-Type-Options: nosniff
-X-Xss-Protection: 1; mode=block
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Tue, 21 Nov 2023 06:31:10 GMT
-Via: 1.1 vegur
-
-{
-    "errorCode": "INVALID_REQ_DATA",
-    "errorMessage": "Invalid Email Id!\n "
-}
-HTTP/1.1 200 
-Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700548270&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=Zn6CGi%2BaBudXU7DaA7DeeCJpZT7Es600k3alPn7ug04%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700548270&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=Zn6CGi%2BaBudXU7DaA7DeeCJpZT7Es600k3alPn7ug04%3D
-Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
-Connection: keep-alive
-Vary: Origin
-Vary: Access-Control-Request-Method
-Vary: Access-Control-Request-Headers
-X-Content-Type-Options: nosniff
-X-Xss-Protection: 1; mode=block
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Tue, 21 Nov 2023 06:31:10 GMT
-Via: 1.1 vegur
-
-{
-    "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZGVsaW5lZ3JhY2UuYUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1NDgyNzAsImV4cCI6MTcwMDU3NzA3MH0.epPT8ne6yZ7VzEuVcYb-Tm1Ofs4R2q9qwp3aBSO5nXPtnO78vjI5JPptSVH07ReEubFHaet5zZrPgizcRmAc9Q",
-    "type": "Bearer ",
-    "userId": 107,
-    "loginUserEmail": "adelinegrace.a@gmail.com",
-    "roles": [
-        "ROLE_DIETICIAN"
-    ]
-}
-HTTP/1.1 400 
-Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700548270&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=Zn6CGi%2BaBudXU7DaA7DeeCJpZT7Es600k3alPn7ug04%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700548270&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=Zn6CGi%2BaBudXU7DaA7DeeCJpZT7Es600k3alPn7ug04%3D
-Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
-Connection: keep-alive
-Vary: Origin
-Vary: Access-Control-Request-Method
-Vary: Access-Control-Request-Headers
-X-Content-Type-Options: nosniff
-X-Xss-Protection: 1; mode=block
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Tue, 21 Nov 2023 06:31:10 GMT
-Via: 1.1 vegur
-
-{
-    "errorCode": "INVALID_REQ_DATA",
-    "errorMessage": "Contact number should contain 10 digits\n "
-}
-HTTP/1.1 200 
-Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700548271&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=DKaafAeAw0xruLCSBX0JimZenFtUM22VV%2Bu6kajUryI%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700548271&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=DKaafAeAw0xruLCSBX0JimZenFtUM22VV%2Bu6kajUryI%3D
-Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
-Connection: keep-alive
-Vary: Origin
-Vary: Access-Control-Request-Method
-Vary: Access-Control-Request-Headers
-X-Content-Type-Options: nosniff
-X-Xss-Protection: 1; mode=block
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Tue, 21 Nov 2023 06:31:10 GMT
-Via: 1.1 vegur
-
-{
-    "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZGVsaW5lZ3JhY2UuYUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1NDgyNzEsImV4cCI6MTcwMDU3NzA3MX0.qahRQHyTelLn64q9cwqPe9gAJMg_WcT1H_5ZesZt-4MpV63rwu6iq34rugKnPxIzSYhIi8lYbGMJ9Edxt-aQcA",
-    "type": "Bearer ",
-    "userId": 107,
-    "loginUserEmail": "adelinegrace.a@gmail.com",
+    "userId": 106,
+    "loginUserEmail": "deepti.soni4@gmail.com",
     "roles": [
         "ROLE_DIETICIAN"
     ]
 }
 HTTP/1.1 200 
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700548271&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=DKaafAeAw0xruLCSBX0JimZenFtUM22VV%2Bu6kajUryI%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700548271&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=DKaafAeAw0xruLCSBX0JimZenFtUM22VV%2Bu6kajUryI%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700601838&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=BewFTllwIsVewH9ZVHTma6mDJLNXMzvd3C6cmyQ2MpU%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700601838&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=BewFTllwIsVewH9ZVHTma6mDJLNXMzvd3C6cmyQ2MpU%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 Vary: Origin
@@ -431,77 +44,22 @@ Expires: 0
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 21 Nov 2023 06:31:11 GMT
+Date: Tue, 21 Nov 2023 21:23:58 GMT
 Via: 1.1 vegur
 
 {
-    "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZGVsaW5lZ3JhY2UuYUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1NDgyNzEsImV4cCI6MTcwMDU3NzA3MX0.qahRQHyTelLn64q9cwqPe9gAJMg_WcT1H_5ZesZt-4MpV63rwu6iq34rugKnPxIzSYhIi8lYbGMJ9Edxt-aQcA",
+    "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkZWVwdGkuc29uaTRAZ21haWwuY29tIiwiaWF0IjoxNzAwNjAxODM4LCJleHAiOjE3MDA2MzA2Mzh9.73T3jxrAXbjm_0qIA_blKu2o8APlGAFhyPGtUnDz2uVixZwxebOP1Jd53BxU3GHi0w3U6Id770YlU84vHe9MsQ",
     "type": "Bearer ",
-    "userId": 107,
-    "loginUserEmail": "adelinegrace.a@gmail.com",
-    "roles": [
-        "ROLE_DIETICIAN"
-    ]
-}
-HTTP/1.1 500 
-Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700548271&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=DKaafAeAw0xruLCSBX0JimZenFtUM22VV%2Bu6kajUryI%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700548271&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=DKaafAeAw0xruLCSBX0JimZenFtUM22VV%2Bu6kajUryI%3D
-Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
-Connection: keep-alive
-Vary: Origin
-Vary: Access-Control-Request-Method
-Vary: Access-Control-Request-Headers
-X-Content-Type-Options: nosniff
-X-Xss-Protection: 1; mode=block
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Tue, 21 Nov 2023 06:31:11 GMT
-Via: 1.1 vegur
-
-{
-    "timestamp": "2023-11-21T06:31:11.547+00:00",
-    "status": 500,
-    "error": "Internal Server Error",
-    "path": "/dietician/patient"
-}
-HTTP/1.1 200 
-Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700548271&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=DKaafAeAw0xruLCSBX0JimZenFtUM22VV%2Bu6kajUryI%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700548271&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=DKaafAeAw0xruLCSBX0JimZenFtUM22VV%2Bu6kajUryI%3D
-Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
-Connection: keep-alive
-Vary: Origin
-Vary: Access-Control-Request-Method
-Vary: Access-Control-Request-Headers
-X-Content-Type-Options: nosniff
-X-Xss-Protection: 1; mode=block
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Tue, 21 Nov 2023 06:31:11 GMT
-Via: 1.1 vegur
-
-{
-    "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkaGl2eWFyb29wYXJAZ21haWwuY29tIiwiaWF0IjoxNzAwNTQ4MjcxLCJleHAiOjE3MDA1NzcwNzF9.8BysP4fwkoiaE1NJ_SqxZ41qQq0JUkrsDnexNxsjvo3AfgKvIFnKmiESHKTStvD291ddncr1VmfWiZ0OjAWuXw",
-    "type": "Bearer ",
-    "userId": 111,
-    "loginUserEmail": "dhivyaroopar@gmail.com",
+    "userId": 106,
+    "loginUserEmail": "deepti.soni4@gmail.com",
     "roles": [
         "ROLE_DIETICIAN"
     ]
 }
 HTTP/1.1 200 
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700548271&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=DKaafAeAw0xruLCSBX0JimZenFtUM22VV%2Bu6kajUryI%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700548271&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=DKaafAeAw0xruLCSBX0JimZenFtUM22VV%2Bu6kajUryI%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700601839&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=C8Oq68TWVWhilROu8grycSE006iSqTNB0WDpoL7MLZc%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700601839&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=C8Oq68TWVWhilROu8grycSE006iSqTNB0WDpoL7MLZc%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 Vary: Origin
@@ -515,22 +73,22 @@ Expires: 0
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 21 Nov 2023 06:31:11 GMT
+Date: Tue, 21 Nov 2023 21:23:58 GMT
 Via: 1.1 vegur
 
 {
-    "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkaGl2eWFyb29wYXJAZ21haWwuY29tIiwiaWF0IjoxNzAwNTQ4MjcyLCJleHAiOjE3MDA1NzcwNzJ9.-XZZTArKkI69DX9jSX0LsL6xu_C3EwQSzMUr36INFcDZBUZCaC8WefJV6fOH7GnusOuX-_zDsHfm1VqfH32_3A",
+    "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkZWVwdGkuc29uaTRAZ21haWwuY29tIiwiaWF0IjoxNzAwNjAxODM5LCJleHAiOjE3MDA2MzA2Mzl9.BkUw3UQ9CrZt4wFFXUDrhG0B0Ni9LQznndo2t8J1zMWBl_PlOybVEdsKawfOWBmNnFbXmO39YRyB1mUm9T1XfA",
     "type": "Bearer ",
-    "userId": 111,
-    "loginUserEmail": "dhivyaroopar@gmail.com",
+    "userId": 106,
+    "loginUserEmail": "deepti.soni4@gmail.com",
     "roles": [
         "ROLE_DIETICIAN"
     ]
 }
 HTTP/1.1 200 
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700548272&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=7U63%2FFsjsCLYA6e97zMQQjbkprefDLeX%2FPB7uPvVszU%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700548272&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=7U63%2FFsjsCLYA6e97zMQQjbkprefDLeX%2FPB7uPvVszU%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700601839&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=C8Oq68TWVWhilROu8grycSE006iSqTNB0WDpoL7MLZc%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700601839&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=C8Oq68TWVWhilROu8grycSE006iSqTNB0WDpoL7MLZc%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 Vary: Origin
@@ -544,22 +102,22 @@ Expires: 0
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 21 Nov 2023 06:31:11 GMT
+Date: Tue, 21 Nov 2023 21:23:59 GMT
 Via: 1.1 vegur
 
 {
-    "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkaGl2eWFyb29wYXJAZ21haWwuY29tIiwiaWF0IjoxNzAwNTQ4MjcyLCJleHAiOjE3MDA1NzcwNzJ9.-XZZTArKkI69DX9jSX0LsL6xu_C3EwQSzMUr36INFcDZBUZCaC8WefJV6fOH7GnusOuX-_zDsHfm1VqfH32_3A",
+    "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkZWVwdGkuc29uaTRAZ21haWwuY29tIiwiaWF0IjoxNzAwNjAxODM5LCJleHAiOjE3MDA2MzA2Mzl9.BkUw3UQ9CrZt4wFFXUDrhG0B0Ni9LQznndo2t8J1zMWBl_PlOybVEdsKawfOWBmNnFbXmO39YRyB1mUm9T1XfA",
     "type": "Bearer ",
-    "userId": 111,
-    "loginUserEmail": "dhivyaroopar@gmail.com",
+    "userId": 106,
+    "loginUserEmail": "deepti.soni4@gmail.com",
     "roles": [
         "ROLE_DIETICIAN"
     ]
 }
 HTTP/1.1 200 
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700548272&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=7U63%2FFsjsCLYA6e97zMQQjbkprefDLeX%2FPB7uPvVszU%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700548272&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=7U63%2FFsjsCLYA6e97zMQQjbkprefDLeX%2FPB7uPvVszU%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700601840&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=dsJIzjc1A7mKgnIjqOJTfM4UUm%2FvQgWJDaNyEgfwrq4%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700601840&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=dsJIzjc1A7mKgnIjqOJTfM4UUm%2FvQgWJDaNyEgfwrq4%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 Vary: Origin
@@ -573,22 +131,22 @@ Expires: 0
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 21 Nov 2023 06:31:12 GMT
+Date: Tue, 21 Nov 2023 21:23:59 GMT
 Via: 1.1 vegur
 
 {
-    "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkaGl2eWFyb29wYXJAZ21haWwuY29tIiwiaWF0IjoxNzAwNTQ4MjcyLCJleHAiOjE3MDA1NzcwNzJ9.-XZZTArKkI69DX9jSX0LsL6xu_C3EwQSzMUr36INFcDZBUZCaC8WefJV6fOH7GnusOuX-_zDsHfm1VqfH32_3A",
+    "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzd2V0aGEuZ3VsbGFwYWxsaTlAZ21haWwuY29tIiwiaWF0IjoxNzAwNjAxODQwLCJleHAiOjE3MDA2MzA2NDB9.STaKudnLz6ebdaWafJCzSzjW6YTTVRb_ygGndewRCUtg5gbSmLJ9tsBy4qat1guzk3uhuzkfSy416Zy7e_jP6A",
     "type": "Bearer ",
-    "userId": 111,
-    "loginUserEmail": "dhivyaroopar@gmail.com",
+    "userId": 108,
+    "loginUserEmail": "swetha.gullapalli9@gmail.com",
     "roles": [
         "ROLE_DIETICIAN"
     ]
 }
 HTTP/1.1 200 
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700548272&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=7U63%2FFsjsCLYA6e97zMQQjbkprefDLeX%2FPB7uPvVszU%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700548272&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=7U63%2FFsjsCLYA6e97zMQQjbkprefDLeX%2FPB7uPvVszU%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700601840&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=dsJIzjc1A7mKgnIjqOJTfM4UUm%2FvQgWJDaNyEgfwrq4%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700601840&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=dsJIzjc1A7mKgnIjqOJTfM4UUm%2FvQgWJDaNyEgfwrq4%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 Vary: Origin
@@ -602,15 +160,151 @@ Expires: 0
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Tue, 21 Nov 2023 06:31:12 GMT
+Date: Tue, 21 Nov 2023 21:23:59 GMT
 Via: 1.1 vegur
 
 {
-    "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkaGl2eWFyb29wYXJAZ21haWwuY29tIiwiaWF0IjoxNzAwNTQ4MjcyLCJleHAiOjE3MDA1NzcwNzJ9.-XZZTArKkI69DX9jSX0LsL6xu_C3EwQSzMUr36INFcDZBUZCaC8WefJV6fOH7GnusOuX-_zDsHfm1VqfH32_3A",
+    "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzd2V0aGEuZ3VsbGFwYWxsaTlAZ21haWwuY29tIiwiaWF0IjoxNzAwNjAxODQwLCJleHAiOjE3MDA2MzA2NDB9.STaKudnLz6ebdaWafJCzSzjW6YTTVRb_ygGndewRCUtg5gbSmLJ9tsBy4qat1guzk3uhuzkfSy416Zy7e_jP6A",
     "type": "Bearer ",
-    "userId": 111,
-    "loginUserEmail": "dhivyaroopar@gmail.com",
+    "userId": 108,
+    "loginUserEmail": "swetha.gullapalli9@gmail.com",
     "roles": [
         "ROLE_DIETICIAN"
     ]
+}
+HTTP/1.1 401 
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700601841&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=vh%2BZIkR9CBItJJuB43r4WyM1BWSGRHEzVZiUZOhOotA%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700601841&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=vh%2BZIkR9CBItJJuB43r4WyM1BWSGRHEzVZiUZOhOotA%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 21 Nov 2023 21:24:01 GMT
+Via: 1.1 vegur
+
+{
+    "timestamp": "2023-11-21T21:24:01.528+00:00",
+    "status": 401,
+    "error": "Unauthorized",
+    "path": "/dietician/patient/00"
+}
+HTTP/1.1 200 
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700601841&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=vh%2BZIkR9CBItJJuB43r4WyM1BWSGRHEzVZiUZOhOotA%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700601841&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=vh%2BZIkR9CBItJJuB43r4WyM1BWSGRHEzVZiUZOhOotA%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 21 Nov 2023 21:24:01 GMT
+Via: 1.1 vegur
+
+{
+    "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzd2V0aGEuZ3VsbGFwYWxsaTlAZ21haWwuY29tIiwiaWF0IjoxNzAwNjAxODQxLCJleHAiOjE3MDA2MzA2NDF9.F6L1_76kK_ffnDOcdVB2WTIeJPzzC1ltPnpdZle0AtkVSPC1RVTFmaKGyRuMTQv2wojCYJNcUd05v7eUZ3lwNQ",
+    "type": "Bearer ",
+    "userId": 108,
+    "loginUserEmail": "swetha.gullapalli9@gmail.com",
+    "roles": [
+        "ROLE_DIETICIAN"
+    ]
+}
+HTTP/1.1 401 
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700601841&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=vh%2BZIkR9CBItJJuB43r4WyM1BWSGRHEzVZiUZOhOotA%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700601841&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=vh%2BZIkR9CBItJJuB43r4WyM1BWSGRHEzVZiUZOhOotA%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 21 Nov 2023 21:24:01 GMT
+Via: 1.1 vegur
+
+{
+    "timestamp": "2023-11-21T21:24:01.929+00:00",
+    "status": 401,
+    "error": "Unauthorized",
+    "path": "/dietician/patient/00"
+}
+HTTP/1.1 200 
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700601842&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=jC5GHL3gUu4Sg%2BPUQsMKcONHpZF%2FBy9sQTHre7%2FiLj0%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700601842&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=jC5GHL3gUu4Sg%2BPUQsMKcONHpZF%2FBy9sQTHre7%2FiLj0%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 21 Nov 2023 21:24:01 GMT
+Via: 1.1 vegur
+
+{
+    "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzd2V0aGEuZ3VsbGFwYWxsaTlAZ21haWwuY29tIiwiaWF0IjoxNzAwNjAxODQyLCJleHAiOjE3MDA2MzA2NDJ9.2_E7qGw_xOG-_R-BL1Qo9gQtXg2osVCN2WxtcV1yeytMWmdia_Yd7xgSzggf7ruq1wgru8KhaTjR_KK7z58haQ",
+    "type": "Bearer ",
+    "userId": 108,
+    "loginUserEmail": "swetha.gullapalli9@gmail.com",
+    "roles": [
+        "ROLE_DIETICIAN"
+    ]
+}
+HTTP/1.1 401 
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1700601842&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=jC5GHL3gUu4Sg%2BPUQsMKcONHpZF%2FBy9sQTHre7%2FiLj0%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1700601842&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=jC5GHL3gUu4Sg%2BPUQsMKcONHpZF%2FBy9sQTHre7%2FiLj0%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Tue, 21 Nov 2023 21:24:01 GMT
+Via: 1.1 vegur
+
+{
+    "timestamp": "2023-11-21T21:24:02.435+00:00",
+    "status": 401,
+    "error": "Unauthorized",
+    "path": "/dietician/patient/00"
 }

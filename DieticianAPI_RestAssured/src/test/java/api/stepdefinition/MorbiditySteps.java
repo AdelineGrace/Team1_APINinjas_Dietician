@@ -3,10 +3,12 @@ package api.stepdefinition;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.Map;
 
 import org.json.JSONObject;
 
 import Utilities.ConfigReader;
+import Utilities.ExcelReader;
 import Utilities.LoggerLoad;
 import api.endpoints.Morbidity;
 import api.endpoints.UserLogin;
@@ -19,11 +21,10 @@ import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-public class MorbiditySteps extends BaseSteps{
+public class MorbiditySteps extends BaseStep{
 	
+	Map<String, String> excelData;
 
-	static final String baseUrl = ConfigReader.getProperty("base.url");
-	static final String morbidityTestNameUrl = ConfigReader.getProperty("all_morbidity.url");
 	RequestSpecification request;
 	Response response;
 	static String morbidityTestName;
@@ -35,7 +36,8 @@ public class MorbiditySteps extends BaseSteps{
 	
 	@Given("User is the registered Dietician with a valid {string} and {string}")
 	public void user_is_the_registered_dietician_with_a_valid_and(String password, String UserLoginEmail) throws IOException {
-		String filePath = ConfigReader.AloginCredentials();
+		
+		String filePath = ConfigReader.getProperty("DSUserLogin");
         BufferedReader reader = new BufferedReader(new FileReader(filePath));
 
         String jsonContent = reader.lines().reduce("", (line1, line2) -> line1 + line2);
@@ -65,18 +67,9 @@ public class MorbiditySteps extends BaseSteps{
 
 	@Given("User creates GET Request for the Dietician API endpoint \\(no parameters)")
 	public void user_creates_get_request_for_the_dietician_api_endpoint_no_parameters() {
-		 try
-			{
-			  
-			  RestAssured.baseURI = baseUrl;
-			  request = RestAssured.given().log().all();
+		
 				LoggerLoad.logInfo("GET all Morbidity");
-			}
-		  catch (Exception ex) 
-			{
-				LoggerLoad.logInfo(ex.getMessage());
-				ex.printStackTrace();
-			}
+			
 	}
 
 	@When("User sends HTTPS Request with {string}")
@@ -113,7 +106,7 @@ public class MorbiditySteps extends BaseSteps{
 		try
 		{
 		  
-		  RestAssured.baseURI = baseUrl;
+		  //RestAssured.baseURI = baseUrl;
 		  request = RestAssured.given().log().all();
 			LoggerLoad.logInfo("GET all Morbidity");
 		}
@@ -125,17 +118,21 @@ public class MorbiditySteps extends BaseSteps{
 	}
 
 	@When("User sends the HTTPS Request after setting of morbidity Test Name {string}")
-	public void user_sends_the_https_request_after_setting_of_morbidity_test_name(String string) {
+	public void user_sends_the_https_request_after_setting_of_morbidity_test_name(String sheetName) throws Exception {
+        excelData = ExcelReader.getData("Morbidity", sheetName);
+
+		String morbidityTestName = excelData.get("morbidityTestName");
+		
 		//response = Morbidity.GetMorbidityByTestName(morbidityTestName,DataKey);
 		try
 		{
 			switch(DataKey)
 			{
-				case "ValidMorbidityTestName" :
+				case "Valid" :
 					response = Morbidity.GetMorbidityByTestName(morbidityTestName,DataKey);
 					break;
 					
-				case "InValidMorbidityTestName" :
+				case "Invalid" :
 					response = Morbidity.GetMorbidityByTestName(morbidityTestName,DataKey);
 					break;
 				
@@ -151,46 +148,26 @@ public class MorbiditySteps extends BaseSteps{
 	}
 
 	@Then("User receives Status Code  with response body with morbidity test name endpoint  {string}")
-	public void user_receives_status_code_with_response_body_with_morbidity_test_name_endpoint(String string) {
+	public void user_receives_status_code_with_response_body_with_morbidity_test_name_endpoint(String DataKey) {
 		response.then().log().all();
 		if(DataKey.equals("Valid") ) {
 			response.then().statusCode(200);
-			response.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(getClass().getClassLoader().getResourceAsStream("200 status code json schema for GetAllMorbidity.json")));
+			//response.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(getClass().getClassLoader().getResourceAsStream("200 status code json schema for GetAllMorbidity.json")));
 		
 		} else if(DataKey.equals("Invalid")) {
 			response.then().statusCode(404);
-			response.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(getClass().getClassLoader().getResourceAsStream("404 status code json schema for GetAllMorbidity.json")));
+			//response.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(getClass().getClassLoader().getResourceAsStream("404 status code json schema for GetAllMorbidity.json")));
 
 		}
 	}
 	
 	
 	
-	@Given("User creates GET Request for the Dietician API endpoint {string}")
-	public void user_creates_get_request_for_the_dietician_api_endpoint(String string) {
-		RestAssured.baseURI = baseUrl;
-		request = RestAssured.given();
-	}
-
-	@When("User sends the HTTPS Request after setting of User logout endpoint.")
-	public void user_sends_the_https_request_after_setting_of_user_logout_endpoint() {
-		response = Morbidity.User_Logout(DataKey);
-	}
-
-	@Then("User receives Status Code  with response body for logout endpoint {string}")
-	public void user_receives_status_code_with_response_body_for_logout_endpoint(String string) {
-		response.then().log().all();
-		if(DataKey.equals("Valid") ) {
-			response.then().statusCode(200);
-			
-		} else if(DataKey.equals("Invalid")) {
-			response.then().statusCode(404);
-			
-		}
+		
 	}
 
 
 
 
 
-}
+

@@ -5,7 +5,6 @@ import Utilities.ConfigReader;
 
 
 import api.routes.UserDietician_routes;
-import api.stepdefinition.BaseStep;
 import api.stepdefinition.UserDieticianSteps;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;

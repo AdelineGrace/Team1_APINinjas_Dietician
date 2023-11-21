@@ -17,13 +17,11 @@ public class UserLogin {
 	
 	public static Response UserLoginCredentials(UserLogin_request data)
 	{
-		//RestAssured.baseURI = ConfigReader.BaseURL();
-		//RestAssured.baseURI = "dietician-dev-41d9a344a720.herokuapp.com/dietician";
-
+		
 		RestAssured.baseURI = baseUrl;
         RequestSpecification request = RestAssured.given();
 		request.header("Content-Type", "application/json");
-		 request.header("Authorization", "Bearer " + Post_StepDefinition.bearerToken);
+	//	 request.header("Authorization", "Bearer " + Post_StepDefinition.bearerToken);
 		
     	 response = request.body(data)
                 .post(UserLogin_routes.userlogin());
@@ -31,5 +29,17 @@ public class UserLogin {
 		
 		return response;
 	}
+	public static Response PatientLoginCredentials(UserLogin_request data) {
+	    RestAssured.baseURI = baseUrl;
+	    RequestSpecification request = RestAssured.given();
+	    request.header("Content-Type", "application/json");
+	    request.header("Authorization", "No Auth");
+
+	    response = request.body(data)
+	            .post(UserLogin_routes.userlogin());
+
+	    return response;
+	}
+
 
 }
