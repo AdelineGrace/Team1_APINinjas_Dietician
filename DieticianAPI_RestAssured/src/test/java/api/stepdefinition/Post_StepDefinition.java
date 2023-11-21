@@ -4,8 +4,10 @@ import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStream;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -100,7 +102,7 @@ public class Post_StepDefinition extends BaseStep {
     public void user_receives_response_for_post_with(String sheetName, String header) {
         switch (header) {
             case "Post_Patient_Valid":
-            	response.then().assertThat().statusCode(HttpStatus.SC_OK)
+            	response.then().assertThat().statusCode(HttpStatus.SC_CREATED)
                 .body(JsonSchemaValidator.matchesJsonSchema(
                         getClass().getClassLoader().getResourceAsStream(ConfigReader.PostPatientSchema())));
 
@@ -122,8 +124,7 @@ public class Post_StepDefinition extends BaseStep {
 //                                getClass().getClassLoader().getResourceAsStream(ConfigReader.PostPatientSchema())));
 
                 PostPatient_response patient1 = response.getBody().as(PostPatient_response.class);
-
-                assertTrue(patient1.patientId != 0);
+                           assertTrue(patient1.patientId != 0);
 
                 assertEquals(patientRequest.FirstName, patient1.FirstName);
                 assertEquals(patientRequest.LastName, patient1.LastName);
@@ -139,13 +140,14 @@ public class Post_StepDefinition extends BaseStep {
             case "Post_Patient_Missing_FirstName":
             case "Post_Patient_Missing_LastName":
             case "Post_Patient_Invalid_Email":
-            case "Post_Patient_Missing_ContactNumber":
+            case "Post_Patient_Invalid_ContactNumber":
             case "Post_Patient_Missing_DateOfBirth":
+            	File responsebodyfile=new File("C:\\Users\\shaun\\git\\repository3\\DieticianAPI_RestAssured\\src\\test\\resources\\400badrequestjsonschema.json");
+            	
                 response.then().assertThat().statusCode(HttpStatus.SC_BAD_REQUEST)
-                        .body(JsonSchemaValidator.matchesJsonSchema(
-                                getClass().getClassLoader().getResourceAsStream(ConfigReader.BadRequestSchema())));
-
-                break;
+                        .body(JsonSchemaValidator.matchesJsonSchema(responsebodyfile));
+                              
+                                                                         break;
         }
     }
 
@@ -167,20 +169,18 @@ public class Post_StepDefinition extends BaseStep {
             case "Post_Patient_Missing_FirstName":
             case "Post_Patient_Missing_LastName":
             case "Post_Patient_Invalid_Email":
+            case "Post_Patient_Missing_DateOfBirth":
                 break;
             case "Post_Patient_ExistingUniqueField":
                 contactNumber = SharedContext.getExistingPhoneNumber();
-                email = SharedContext.getExistingEmail();
+                dateOfBirth = SharedContext.getDateOfBirth();
                 break;
-            case "Post_Patient_Missing_ContactNumber":
-                contactNumber = null;
+            case "Post_Patient_Invalid_ContactNumber":
+                contactNumber = excelData.get("ContactNumber");
                 break;
-            case "Post_Patient_Missing_DateOfBirth":
-                dateOfBirth = null;
-                break;
+                        
             case "Post_Patient_Missing_File":
                 Response responseMissingFile = PostPatient.CreatePatient(patientRequest, false);
-                responseMissingFile.then().log().all();
 
                 if (responseMissingFile.statusCode() == 201) {
                     PostPatient_response patientMissingFile = responseMissingFile.getBody()
@@ -211,7 +211,12 @@ public class Post_StepDefinition extends BaseStep {
                 existingPhoneNumber = patientValid.ContactNumber;
                 existingEmail = patientValid.Email;
                 fileId = patientValid.fileId;
+                SharedContext.setExistingPhoneNumber(existingPhoneNumber);
+                SharedContext.setExistingEmail(existingEmail);
+                SharedContext.setFileId(fileId);
                 SharedContext.setPatientIdValid(patientIdValid);
+                SharedContext.setDateOfBirth(dateOfBirth);
+
                 LoggerLoad.logInfo("PatientId for Post_Patient_Valid: " + patientIdValid);
             }
         }

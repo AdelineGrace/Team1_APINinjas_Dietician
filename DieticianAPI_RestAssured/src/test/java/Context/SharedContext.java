@@ -5,6 +5,7 @@ public class SharedContext {
     private static int patientIdMissingFile;
     private static int patientIdValid;
     private static String existingPhoneNumber = null;
+    private static String existingDateOfBirth = null;
     private static int fileId = 0;
     private static String existingEmail = null;
 
@@ -28,15 +29,22 @@ public class SharedContext {
         return existingPhoneNumber;
     }
 
-    public void setExistingPhoneNumber(String phoneNumber) {
+    public  static void setExistingPhoneNumber(String phoneNumber) {
         existingPhoneNumber = phoneNumber;
+    }
+    public static String getDateOfBirth() {
+        return existingDateOfBirth;
+    }
+
+    public  static void setDateOfBirth(String dateOfBirth) {
+        existingDateOfBirth = dateOfBirth;
     }
 
     public int getFileId() {
         return fileId;
     }
 
-    public void setFileId(int fileIdValue) {
+    public  static void setFileId(int fileIdValue) {
         fileId = fileIdValue;
     }
 
@@ -44,7 +52,7 @@ public class SharedContext {
         return existingEmail;
     }
 
-    public void setExistingEmail(String email) {
+    public static void setExistingEmail(String email) {
         existingEmail = email;
     }
 }

@@ -1600,3 +1600,259 @@
 [INFO ] 2023-11-20 14:14:32.694 [main] LoggerLoad - BearerToken was created
 [INFO ] 2023-11-20 14:14:32.888 [main] LoggerLoad - PatientInfo is initialized
 [INFO ] 2023-11-20 14:14:32.888 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_File
+[INFO ] 2023-11-20 17:18:38.035 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 17:18:39.355 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 17:18:40.161 [main] LoggerLoad - PatientId for Post_Patient_Valid: 4709
+[INFO ] 2023-11-20 17:18:40.163 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Valid
+[INFO ] 2023-11-20 17:18:40.680 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 17:18:40.823 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 17:18:40.824 [main] LoggerLoad - Patient POST request object created for- Post_Patient_ExistingUniqueField
+[INFO ] 2023-11-20 17:18:41.912 [main] LoggerLoad - Patient POST request sent for- Post_Patient_ExistingUniqueField
+[INFO ] 2023-11-20 17:18:42.253 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 17:18:42.433 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 17:18:42.433 [main] LoggerLoad - Patient POST request object created for- Post_Patient_NonAcceptedFoodCategory
+[INFO ] 2023-11-20 17:18:43.609 [main] LoggerLoad - Patient POST request sent for- Post_Patient_NonAcceptedFoodCategory
+[INFO ] 2023-11-20 17:18:43.881 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 17:18:43.990 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 17:18:43.990 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_FirstName
+[INFO ] 2023-11-20 17:18:44.306 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Missing_FirstName
+[INFO ] 2023-11-20 17:18:44.568 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 17:18:44.863 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 17:18:44.864 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_LastName
+[INFO ] 2023-11-20 17:18:46.193 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Missing_LastName
+[INFO ] 2023-11-20 17:18:46.493 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 17:18:46.588 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 17:18:46.588 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Invalid_Email
+[INFO ] 2023-11-20 17:18:46.909 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Invalid_Email
+[INFO ] 2023-11-20 17:18:47.210 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 17:18:47.344 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 17:18:47.345 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_ContactNumber
+[INFO ] 2023-11-20 17:18:47.632 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Missing_ContactNumber
+[INFO ] 2023-11-20 17:18:48.230 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 17:18:48.730 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 17:18:49.080 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 17:18:49.080 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_File
+[INFO ] 2023-11-20 17:27:46.752 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 17:27:48.044 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 17:27:48.719 [main] LoggerLoad - PatientId for Post_Patient_Valid: 4720
+[INFO ] 2023-11-20 17:27:48.720 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Valid
+[INFO ] 2023-11-20 17:27:49.261 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 17:27:49.400 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 17:27:49.400 [main] LoggerLoad - Patient POST request object created for- Post_Patient_ExistingUniqueField
+[INFO ] 2023-11-20 17:27:49.695 [main] LoggerLoad - Patient POST request sent for- Post_Patient_ExistingUniqueField
+[INFO ] 2023-11-20 17:27:50.017 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 17:27:50.220 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 17:27:50.220 [main] LoggerLoad - Patient POST request object created for- Post_Patient_NonAcceptedFoodCategory
+[INFO ] 2023-11-20 17:27:50.539 [main] LoggerLoad - Patient POST request sent for- Post_Patient_NonAcceptedFoodCategory
+[INFO ] 2023-11-20 17:27:50.774 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 17:27:50.834 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 17:27:50.835 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_FirstName
+[INFO ] 2023-11-20 17:27:51.182 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Missing_FirstName
+[INFO ] 2023-11-20 17:27:51.421 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 17:27:51.489 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 17:27:51.489 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_LastName
+[INFO ] 2023-11-20 17:27:51.989 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Missing_LastName
+[INFO ] 2023-11-20 17:27:52.469 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 17:27:52.556 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 17:27:52.556 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Invalid_Email
+[INFO ] 2023-11-20 17:27:53.696 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Invalid_Email
+[INFO ] 2023-11-20 17:27:53.967 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 17:27:54.393 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 17:27:54.396 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_ContactNumber
+[INFO ] 2023-11-20 17:27:55.569 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Missing_ContactNumber
+[INFO ] 2023-11-20 17:27:55.819 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 17:27:56.268 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 17:27:56.734 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 17:27:56.736 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_File
+[INFO ] 2023-11-20 17:38:47.009 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 17:38:48.371 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 17:38:49.072 [main] LoggerLoad - PatientId for Post_Patient_Valid: 4727
+[INFO ] 2023-11-20 17:38:49.072 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Valid
+[INFO ] 2023-11-20 17:38:49.934 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 17:38:50.108 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 17:38:50.109 [main] LoggerLoad - Patient POST request object created for- Post_Patient_ExistingUniqueField
+[INFO ] 2023-11-20 17:38:50.402 [main] LoggerLoad - Patient POST request sent for- Post_Patient_ExistingUniqueField
+[INFO ] 2023-11-20 17:38:50.740 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 17:38:50.850 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 17:38:50.850 [main] LoggerLoad - Patient POST request object created for- Post_Patient_NonAcceptedFoodCategory
+[INFO ] 2023-11-20 17:38:51.983 [main] LoggerLoad - Patient POST request sent for- Post_Patient_NonAcceptedFoodCategory
+[INFO ] 2023-11-20 17:38:52.301 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 17:38:52.636 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 17:38:52.638 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_FirstName
+[INFO ] 2023-11-20 17:38:53.169 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Missing_FirstName
+[INFO ] 2023-11-20 17:38:53.645 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 17:38:53.836 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 17:38:53.837 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_LastName
+[INFO ] 2023-11-20 17:38:55.048 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Missing_LastName
+[INFO ] 2023-11-20 17:38:55.668 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 17:38:55.786 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 17:38:55.786 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Invalid_Email
+[INFO ] 2023-11-20 17:38:56.906 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Invalid_Email
+[INFO ] 2023-11-20 17:38:57.228 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 17:38:57.513 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 17:38:57.516 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_ContactNumber
+[INFO ] 2023-11-20 17:38:58.691 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Missing_ContactNumber
+[INFO ] 2023-11-20 17:38:58.941 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 17:38:59.378 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 17:38:59.878 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 17:38:59.879 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_File
+[INFO ] 2023-11-20 17:50:12.491 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 17:50:13.665 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 17:50:14.409 [main] LoggerLoad - PatientId for Post_Patient_Valid: 4740
+[INFO ] 2023-11-20 17:50:14.409 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Valid
+[INFO ] 2023-11-20 17:50:15.121 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 17:50:15.273 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 17:50:15.273 [main] LoggerLoad - Patient POST request object created for- Post_Patient_ExistingUniqueField
+[INFO ] 2023-11-20 17:50:16.456 [main] LoggerLoad - Patient POST request sent for- Post_Patient_ExistingUniqueField
+[INFO ] 2023-11-20 17:50:16.991 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 17:50:17.101 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 17:50:17.102 [main] LoggerLoad - Patient POST request object created for- Post_Patient_NonAcceptedFoodCategory
+[INFO ] 2023-11-20 17:50:18.210 [main] LoggerLoad - Patient POST request sent for- Post_Patient_NonAcceptedFoodCategory
+[INFO ] 2023-11-20 17:50:18.516 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 17:50:18.741 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 17:50:18.741 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_FirstName
+[INFO ] 2023-11-20 17:50:19.900 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Missing_FirstName
+[INFO ] 2023-11-20 17:50:20.183 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 17:50:20.351 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 17:50:20.351 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_LastName
+[INFO ] 2023-11-20 17:50:20.835 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Missing_LastName
+[INFO ] 2023-11-20 17:50:21.238 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 17:50:21.405 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 17:50:21.407 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Invalid_Email
+[INFO ] 2023-11-20 17:50:21.764 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Invalid_Email
+[INFO ] 2023-11-20 17:50:22.406 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 17:50:22.474 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 17:50:22.476 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_ContactNumber
+[INFO ] 2023-11-20 17:50:23.587 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Missing_ContactNumber
+[INFO ] 2023-11-20 17:50:23.917 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 17:50:24.346 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 17:50:24.596 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 17:50:24.596 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_File
+[INFO ] 2023-11-20 18:21:22.486 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 18:21:25.050 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 18:21:26.091 [main] LoggerLoad - PatientId for Post_Patient_Valid: 4771
+[INFO ] 2023-11-20 18:21:26.091 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Valid
+[INFO ] 2023-11-20 18:21:27.664 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 18:21:27.980 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 18:21:27.980 [main] LoggerLoad - Patient POST request object created for- Post_Patient_ExistingUniqueField
+[INFO ] 2023-11-20 18:21:29.290 [main] LoggerLoad - Patient POST request sent for- Post_Patient_ExistingUniqueField
+[INFO ] 2023-11-20 18:21:29.659 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 18:21:29.978 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 18:21:29.980 [main] LoggerLoad - Patient POST request object created for- Post_Patient_NonAcceptedFoodCategory
+[INFO ] 2023-11-20 18:21:31.744 [main] LoggerLoad - Patient POST request sent for- Post_Patient_NonAcceptedFoodCategory
+[INFO ] 2023-11-20 18:21:32.955 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 18:21:33.279 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 18:21:33.279 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_FirstName
+[INFO ] 2023-11-20 18:21:33.857 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Missing_FirstName
+[INFO ] 2023-11-20 18:21:34.135 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 18:21:34.214 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 18:21:34.217 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_LastName
+[INFO ] 2023-11-20 18:21:34.687 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Missing_LastName
+[INFO ] 2023-11-20 18:21:35.017 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 18:21:35.578 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 18:21:35.579 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Invalid_Email
+[INFO ] 2023-11-20 18:21:35.851 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Invalid_Email
+[INFO ] 2023-11-20 18:21:36.563 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 18:21:36.629 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 18:21:36.630 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Invalid_ContactNumber
+[INFO ] 2023-11-20 18:21:36.897 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Invalid_ContactNumber
+[INFO ] 2023-11-20 18:21:37.216 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 18:21:38.053 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 18:21:38.318 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 18:21:38.318 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_File
+[INFO ] 2023-11-20 18:26:56.908 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 18:27:01.653 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 18:27:03.136 [main] LoggerLoad - PatientId for Post_Patient_Valid: 4778
+[INFO ] 2023-11-20 18:27:03.142 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Valid
+[INFO ] 2023-11-20 18:27:07.448 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 18:27:07.617 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 18:27:07.618 [main] LoggerLoad - Patient POST request object created for- Post_Patient_ExistingUniqueField
+[INFO ] 2023-11-20 18:27:08.899 [main] LoggerLoad - Patient POST request sent for- Post_Patient_ExistingUniqueField
+[INFO ] 2023-11-20 18:27:09.305 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 18:27:09.674 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 18:27:09.674 [main] LoggerLoad - Patient POST request object created for- Post_Patient_NonAcceptedFoodCategory
+[INFO ] 2023-11-20 18:27:10.076 [main] LoggerLoad - Patient POST request sent for- Post_Patient_NonAcceptedFoodCategory
+[INFO ] 2023-11-20 18:27:10.616 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 18:27:10.680 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 18:27:10.681 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_FirstName
+[INFO ] 2023-11-20 18:27:11.990 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Missing_FirstName
+[INFO ] 2023-11-20 18:27:12.779 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 18:27:12.909 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 18:27:12.909 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_LastName
+[INFO ] 2023-11-20 18:27:13.279 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Missing_LastName
+[INFO ] 2023-11-20 18:27:13.559 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 18:27:13.634 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 18:27:13.634 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Invalid_Email
+[INFO ] 2023-11-20 18:27:14.774 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Invalid_Email
+[INFO ] 2023-11-20 18:27:15.935 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 18:27:16.117 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 18:27:16.118 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Invalid_ContactNumber
+[INFO ] 2023-11-20 18:27:16.404 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Invalid_ContactNumber
+[INFO ] 2023-11-20 18:27:16.732 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 18:27:17.259 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 18:27:18.435 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 18:27:18.435 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_File
+[INFO ] 2023-11-20 18:32:08.490 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 18:32:10.934 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 18:32:11.703 [main] LoggerLoad - PatientId for Post_Patient_Valid: 4789
+[INFO ] 2023-11-20 18:32:11.703 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Valid
+[INFO ] 2023-11-20 18:32:12.468 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 18:32:12.725 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 18:32:12.726 [main] LoggerLoad - Patient POST request object created for- Post_Patient_ExistingUniqueField
+[INFO ] 2023-11-20 18:32:13.069 [main] LoggerLoad - Patient POST request sent for- Post_Patient_ExistingUniqueField
+[INFO ] 2023-11-20 18:32:13.431 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 18:32:13.504 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 18:32:13.504 [main] LoggerLoad - Patient POST request object created for- Post_Patient_NonAcceptedFoodCategory
+[INFO ] 2023-11-20 18:32:14.831 [main] LoggerLoad - Patient POST request sent for- Post_Patient_NonAcceptedFoodCategory
+[INFO ] 2023-11-20 18:32:15.219 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 18:32:15.557 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 18:32:15.557 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_FirstName
+[INFO ] 2023-11-20 18:32:16.985 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Missing_FirstName
+[INFO ] 2023-11-20 18:32:17.583 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 18:32:17.618 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 18:32:17.618 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_LastName
+[INFO ] 2023-11-20 18:32:18.867 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Missing_LastName
+[INFO ] 2023-11-20 18:32:19.124 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 18:32:19.199 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 18:32:19.199 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Invalid_Email
+[INFO ] 2023-11-20 18:32:19.678 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Invalid_Email
+[INFO ] 2023-11-20 18:32:19.923 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 18:32:20.033 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 18:32:20.033 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Invalid_ContactNumber
+[INFO ] 2023-11-20 18:32:21.237 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Invalid_ContactNumber
+[INFO ] 2023-11-20 18:32:21.469 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 18:32:21.769 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 18:32:22.046 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 18:32:22.046 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_File
+[INFO ] 2023-11-20 18:48:26.744 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 18:48:27.902 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 18:48:28.631 [main] LoggerLoad - PatientId for Post_Patient_Valid: 4822
+[INFO ] 2023-11-20 18:48:28.632 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Valid
+[INFO ] 2023-11-20 18:48:29.303 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 18:48:29.491 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 18:48:29.491 [main] LoggerLoad - Patient POST request object created for- Post_Patient_ExistingUniqueField
+[INFO ] 2023-11-20 18:48:29.851 [main] LoggerLoad - Patient POST request sent for- Post_Patient_ExistingUniqueField
+[INFO ] 2023-11-20 18:48:30.682 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 18:48:30.806 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 18:48:30.806 [main] LoggerLoad - Patient POST request object created for- Post_Patient_NonAcceptedFoodCategory
+[INFO ] 2023-11-20 18:48:31.122 [main] LoggerLoad - Patient POST request sent for- Post_Patient_NonAcceptedFoodCategory
+[INFO ] 2023-11-20 18:48:31.415 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 18:48:31.494 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 18:48:31.494 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_FirstName
+[INFO ] 2023-11-20 18:48:31.827 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Missing_FirstName
+[INFO ] 2023-11-20 18:48:32.078 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 18:48:32.148 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 18:48:32.148 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_LastName
+[INFO ] 2023-11-20 18:48:32.447 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Missing_LastName
+[INFO ] 2023-11-20 18:48:32.737 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 18:48:32.802 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 18:48:32.802 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Invalid_Email
+[INFO ] 2023-11-20 18:48:33.076 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Invalid_Email
+[INFO ] 2023-11-20 18:48:33.338 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 18:48:33.468 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 18:48:33.470 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Invalid_ContactNumber
+[INFO ] 2023-11-20 18:48:34.526 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Invalid_ContactNumber
+[INFO ] 2023-11-20 18:48:34.752 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 18:48:35.093 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 18:48:35.257 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 18:48:35.258 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_File

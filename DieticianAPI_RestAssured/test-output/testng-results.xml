@@ -1,108 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="0" failed="9" skipped="0">
+<testng-results ignored="0" total="9" passed="6" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-20T14:14:13 EST" name="Default suite" finished-at="2023-11-20T14:14:36 EST" duration-ms="23739">
+  <suite started-at="2023-11-20T18:48:15 EST" name="Default suite" finished-at="2023-11-20T18:48:41 EST" duration-ms="26367">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-11-20T14:14:13 EST" name="Default test" finished-at="2023-11-20T14:14:36 EST" duration-ms="23739">
+    <test started-at="2023-11-20T18:48:15 EST" name="Default test" finished-at="2023-11-20T18:48:41 EST" duration-ms="26367">
       <class name="runner.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T14:14:13 EST" name="setUpClass" finished-at="2023-11-20T14:14:17 EST" duration-ms="4214" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T18:48:15 EST" name="setUpClass" finished-at="2023-11-20T18:48:18 EST" duration-ms="2866" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1509bd56]]>
+                <![CDATA[org.testng.TestRunner@17796f47]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T14:14:17 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T14:14:24 EST" duration-ms="6928" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Check if user able to create a Patient with valid endpoint and request body (non existing values)"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Create Patient with Post"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.io.Reader.<init>(Reader.java:168)
-at java.base/java.io.InputStreamReader.<init>(InputStreamReader.java:89)
-at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:127)
-at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:104)
-at ✽.User receives response for POST "patient" with "Post_Patient_Valid"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T14:14:24 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T14:14:25 EST" duration-ms="818" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Check if user able to create a Patient with valid endpoint and request body (non existing values)"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Create Patient with Post"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.io.Reader.<init>(Reader.java:168)
-at java.base/java.io.InputStreamReader.<init>(InputStreamReader.java:89)
-at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:127)
-at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:145)
-at ✽.User receives response for POST "patient" with "Post_Patient_ExistingUniqueField"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T14:14:25 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T14:14:27 EST" duration-ms="1859" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Check if user able to create a Patient with valid endpoint and request body (non existing values)"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Create Patient with Post"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.io.Reader.<init>(Reader.java:168)
-at java.base/java.io.InputStreamReader.<init>(InputStreamReader.java:89)
-at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:127)
-at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:145)
-at ✽.User receives response for POST "patient" with "Post_Patient_NonAcceptedFoodCategory"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T14:14:27 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T14:14:27 EST" duration-ms="881" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T18:48:18 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T18:48:28 EST" duration-ms="10891" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -118,12 +37,12 @@ at ✽.User receives response for POST "patient" with "Post_Patient_NonAcceptedF
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
-Expected status code <400> but was <201>.
+Expected status code <201> but was <200>.
 ]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: 1 expectation failed.
-Expected status code <400> but was <201>.
+Expected status code <201> but was <200>.
 
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
@@ -147,15 +66,15 @@ at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecific
 at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:144)
-at ✽.User receives response for POST "patient" with "Post_Patient_Missing_FirstName"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
+at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:105)
+at ✽.User receives response for POST "patient" with "Post_Patient_Valid"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T14:14:28 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T14:14:29 EST" duration-ms="1596" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T18:48:28 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T18:48:30 EST" duration-ms="1457" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -168,45 +87,10 @@ at ✽.User receives response for POST "patient" with "Post_Patient_Missing_Firs
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[1 expectation failed.
-Expected status code <400> but was <201>.
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 1 expectation failed.
-Expected status code <400> but was <201>.
-
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
-at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
-at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
-at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
-at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:144)
-at ✽.User receives response for POST "patient" with "Post_Patient_Missing_LastName"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T14:14:29 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T14:14:30 EST" duration-ms="961" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T18:48:30 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T18:48:31 EST" duration-ms="727" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -219,21 +103,10 @@ at ✽.User receives response for POST "patient" with "Post_Patient_Missing_Last
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.io.Reader.<init>(Reader.java:168)
-at java.base/java.io.InputStreamReader.<init>(InputStreamReader.java:89)
-at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:127)
-at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:145)
-at ✽.User receives response for POST "patient" with "Post_Patient_Invalid_Email"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T14:14:30 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T14:14:31 EST" duration-ms="1328" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T18:48:31 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T18:48:31 EST" duration-ms="699" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -246,21 +119,58 @@ at ✽.User receives response for POST "patient" with "Post_Patient_Invalid_Emai
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.io.Reader.<init>(Reader.java:168)
-at java.base/java.io.InputStreamReader.<init>(InputStreamReader.java:89)
-at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:127)
-at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:145)
-at ✽.User receives response for POST "patient" with "Post_Patient_Missing_ContactNumber"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T14:14:31 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T14:14:32 EST" duration-ms="579" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T18:48:31 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T18:48:32 EST" duration-ms="616" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to create a Patient with valid endpoint and request body (non existing values)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create Patient with Post"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T18:48:32 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T18:48:33 EST" duration-ms="635" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to create a Patient with valid endpoint and request body (non existing values)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create Patient with Post"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T18:48:33 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T18:48:34 EST" duration-ms="1437" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if user able to create a Patient with valid endpoint and request body (non existing values)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create Patient with Post"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T18:48:34 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T18:48:34 EST" duration-ms="296" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -282,8 +192,8 @@ at ✽.User receives response for POST "patient" with "Post_Patient_Missing_Cont
 at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
 at java.base/java.lang.Integer.parseInt(Integer.java:675)
 at java.base/java.lang.Integer.parseInt(Integer.java:781)
-at api.stepdefinition.Post_StepDefinition.CreatePatientRequest(Post_StepDefinition.java:160)
-at api.stepdefinition.Post_StepDefinition.user_creates_post_request_for_the_dietician_api_endpoint_with(Post_StepDefinition.java:86)
+at api.stepdefinition.Post_StepDefinition.CreatePatientRequest(Post_StepDefinition.java:162)
+at api.stepdefinition.Post_StepDefinition.user_creates_post_request_for_the_dietician_api_endpoint_with(Post_StepDefinition.java:88)
 at ✽.User creates POST Request for the Dietician  API endpoint with "patient" and "Post_Patient_Missing_DateOfBirth"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:9)
 ]]>
             </full-stacktrace>
@@ -291,7 +201,7 @@ at ✽.User creates POST Request for the Dietician  API endpoint with "patient" 
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T14:14:32 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T14:14:32 EST" duration-ms="446" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T18:48:34 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T18:48:35 EST" duration-ms="489" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -307,11 +217,11 @@ at ✽.User creates POST Request for the Dietician  API endpoint with "patient" 
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "token" (class api.response.PostPatient_response), not marked as ignorable (12 known properties: "patientId", "LastName", "DieticianId", "FileMorbidity", "FileMorbidityCondition", "fileId", "ContactNumber", "DateOfBirth", "FirstName", "Email", "Allergy", "FoodCategory"])
- at [Source: (String)"{"token":"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZGVsaW5lZ3JhY2UuYUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1MDc2NzIsImV4cCI6MTcwMDUzNjQ3Mn0.REKM-sHMhKXEo-pnuOS7AvD95LUWVjzdfZ2VBAu_bdNaeNLp4Zla-fw49NmJ5_tJ7qkwvFwxky1E9PBoeGjd7w","type":"Bearer ","userId":107,"loginUserEmail":"adelinegrace.a@gmail.com","roles":["ROLE_DIETICIAN"]}"; line: 1, column: 11] (through reference chain: api.response.PostPatient_response["token"])]]>
+ at [Source: (String)"{"token":"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZGVsaW5lZ3JhY2UuYUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1MjQxMTUsImV4cCI6MTcwMDU1MjkxNX0.NVgyZ7fni7P_Y-GKFHZhU5GZ3BMx1mxfxBAkSnH-a25xH0dk-drHfxcqTRVnnlqgeU0do3stUCjScWnQRToQ-A","type":"Bearer ","userId":107,"loginUserEmail":"adelinegrace.a@gmail.com","roles":["ROLE_DIETICIAN"]}"; line: 1, column: 11] (through reference chain: api.response.PostPatient_response["token"])]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "token" (class api.response.PostPatient_response), not marked as ignorable (12 known properties: "patientId", "LastName", "DieticianId", "FileMorbidity", "FileMorbidityCondition", "fileId", "ContactNumber", "DateOfBirth", "FirstName", "Email", "Allergy", "FoodCategory"])
- at [Source: (String)"{"token":"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZGVsaW5lZ3JhY2UuYUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1MDc2NzIsImV4cCI6MTcwMDUzNjQ3Mn0.REKM-sHMhKXEo-pnuOS7AvD95LUWVjzdfZ2VBAu_bdNaeNLp4Zla-fw49NmJ5_tJ7qkwvFwxky1E9PBoeGjd7w","type":"Bearer ","userId":107,"loginUserEmail":"adelinegrace.a@gmail.com","roles":["ROLE_DIETICIAN"]}"; line: 1, column: 11] (through reference chain: api.response.PostPatient_response["token"])
+ at [Source: (String)"{"token":"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZGVsaW5lZ3JhY2UuYUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1MjQxMTUsImV4cCI6MTcwMDU1MjkxNX0.NVgyZ7fni7P_Y-GKFHZhU5GZ3BMx1mxfxBAkSnH-a25xH0dk-drHfxcqTRVnnlqgeU0do3stUCjScWnQRToQ-A","type":"Bearer ","userId":107,"loginUserEmail":"adelinegrace.a@gmail.com","roles":["ROLE_DIETICIAN"]}"; line: 1, column: 11] (through reference chain: api.response.PostPatient_response["token"])
 at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:30)
 at io.restassured.path.json.mapping.JsonPathObjectDeserializer$deserialize.call(Unknown Source)
 at io.restassured.internal.mapping.Jackson2Mapper.deserialize(Jackson2Mapper.groovy:58)
@@ -322,10 +232,10 @@ at io.restassured.internal.mapping.ObjectMapping.deserialize(ObjectMapping.groov
 at io.restassured.internal.mapping.ObjectMapping$deserialize$0.call(Unknown Source)
 at io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.as(RestAssuredResponseOptionsGroovyImpl.groovy:229)
 at io.restassured.internal.RestAssuredResponseOptionsImpl.as(RestAssuredResponseOptionsImpl.java:169)
-at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:124)
+at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:126)
 at ✽.User receives response for POST "patient" with "Post_Patient_Missing_File"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
 Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "token" (class api.response.PostPatient_response), not marked as ignorable (12 known properties: "patientId", "LastName", "DieticianId", "FileMorbidity", "FileMorbidityCondition", "fileId", "ContactNumber", "DateOfBirth", "FirstName", "Email", "Allergy", "FoodCategory"])
- at [Source: (String)"{"token":"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZGVsaW5lZ3JhY2UuYUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1MDc2NzIsImV4cCI6MTcwMDUzNjQ3Mn0.REKM-sHMhKXEo-pnuOS7AvD95LUWVjzdfZ2VBAu_bdNaeNLp4Zla-fw49NmJ5_tJ7qkwvFwxky1E9PBoeGjd7w","type":"Bearer ","userId":107,"loginUserEmail":"adelinegrace.a@gmail.com","roles":["ROLE_DIETICIAN"]}"; line: 1, column: 11] (through reference chain: api.response.PostPatient_response["token"])
+ at [Source: (String)"{"token":"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZGVsaW5lZ3JhY2UuYUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1MjQxMTUsImV4cCI6MTcwMDU1MjkxNX0.NVgyZ7fni7P_Y-GKFHZhU5GZ3BMx1mxfxBAkSnH-a25xH0dk-drHfxcqTRVnnlqgeU0do3stUCjScWnQRToQ-A","type":"Bearer ","userId":107,"loginUserEmail":"adelinegrace.a@gmail.com","roles":["ROLE_DIETICIAN"]}"; line: 1, column: 11] (through reference chain: api.response.PostPatient_response["token"])
 at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
 at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1138)
 at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2224)
@@ -346,7 +256,7 @@ at io.restassured.internal.mapping.ObjectMapping.deserialize(ObjectMapping.groov
 at io.restassured.internal.mapping.ObjectMapping$deserialize$0.call(Unknown Source)
 at io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.as(RestAssuredResponseOptionsGroovyImpl.groovy:229)
 at io.restassured.internal.RestAssuredResponseOptionsImpl.as(RestAssuredResponseOptionsImpl.java:169)
-at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:124)
+at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:126)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
@@ -399,7 +309,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T14:14:32 EST" name="tearDownClass" finished-at="2023-11-20T14:14:36 EST" duration-ms="4048" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T18:48:35 EST" name="tearDownClass" finished-at="2023-11-20T18:48:41 EST" duration-ms="6120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
