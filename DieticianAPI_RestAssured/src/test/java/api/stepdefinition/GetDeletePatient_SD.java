@@ -1,3 +1,4 @@
+package api.stepdefinition;
 //package stepdefinitions;
 //
 //import static io.restassured.RestAssured.given;

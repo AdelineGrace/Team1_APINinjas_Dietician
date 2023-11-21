@@ -1,4 +1,4 @@
-package api.response.java;
+package api.response;
 
 public class Morbidity_response {
 	 

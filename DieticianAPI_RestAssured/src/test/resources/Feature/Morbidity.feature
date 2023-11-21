@@ -3,9 +3,9 @@ Feature:
 GET Morbidities
     
    Background: User sets the Authorization header with the Bearer token
-   Given User is the registered Dietician with the valid "<password>" and "<UserLoginEmail>"
-   When User sends HTTP POST Request for User login with valid endpoint
-   Then User receives Bearer Token 
+   Given User is the registered Dietician with a valid "<password>" and "<UserLoginEmail>"
+   When User sends HTTP POST Request with User login with valid endpoint
+   Then User receives a Bearer Token 
     
     @Get_all_Morbidites
     Scenario Outline:

@@ -1,8 +1,16 @@
 package api.stepdefinition;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
+import org.json.JSONObject;
+
 import Utilities.ConfigReader;
 import Utilities.LoggerLoad;
 import api.endpoints.Morbidity;
+import api.endpoints.UserLogin;
+import api.request.UserLogin_request;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -21,24 +29,38 @@ public class MorbiditySteps extends BaseSteps{
 	static String morbidityTestName;
 	static String DataKey;
 	static int morbidityId;
+    public static String bearerToken;
+
 	
 	
-	
-	@Given("User is the registered Dietician with the valid {string} and {string}")
-	public void user_is_the_registered_dietician_with_the_valid_and(String string, String string2) {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	@Given("User is the registered Dietician with a valid {string} and {string}")
+	public void user_is_the_registered_dietician_with_a_valid_and(String password, String UserLoginEmail) throws IOException {
+		String filePath = ConfigReader.AloginCredentials();
+        BufferedReader reader = new BufferedReader(new FileReader(filePath));
+
+        String jsonContent = reader.lines().reduce("", (line1, line2) -> line1 + line2);
+
+        JSONObject jsonObject = new JSONObject(jsonContent);
+
+        String passwor = jsonObject.optString("password");
+        String userLoginEmail = jsonObject.optString("userLoginEmail");
+
+        UserLogin_request Alogin = new UserLogin_request(passwor, userLoginEmail);
+        response = UserLogin.UserLoginCredentials(Alogin);
+
+        reader.close();
 	}
 
-	@When("User sends HTTP POST Request for User login with valid endpoint")
-	public void user_sends_http_post_request_for_user_login_with_valid_endpoint() {
-	   
+	@When("User sends HTTP POST Request with User login with valid endpoint")
+	public void user_sends_http_post_request_with_user_login_with_valid_endpoint() {
+		response.then().statusCode(200);
+        bearerToken = response.jsonPath().getString("token");
 	}
 
-	@Then("User receives Bearer Token")
-	public void user_receives_bearer_token() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	@Then("User receives a Bearer Token")
+	public void user_receives_a_bearer_token() {
+	    LoggerLoad.logInfo("BearerToken was created");
+
 	}
 
 	@Given("User creates GET Request for the Dietician API endpoint \\(no parameters)")
