@@ -1,6 +1,11 @@
 package api.stepdefinition;
 
 import java.io.FileOutputStream;
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> origin/Dhivyabranch
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.OutputStream;
@@ -25,11 +30,11 @@ public class Hooks {
 		RestAssured.filters(RequestLoggingFilter.logRequestTo(stream));
 		
 		OutputStream fileR = new FileOutputStream(ConfigReader.getProperty("datapath") + "response_log.txt");
+	  
 		PrintStream streamR = new PrintStream(fileR, true);
 		RestAssured.filters(ResponseLoggingFilter.logResponseTo(streamR));
 		
 	} catch (IOException e) {
-		// TODO Auto-generated catch block
 		e.printStackTrace();
 	}
 	     

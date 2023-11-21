@@ -3,6 +3,7 @@ package api.endpoints;
 import java.io.File;
 
 import Utilities.ConfigReader;
+
 import api.request.PostPatient_request;
 import api.routes.PostPatient_routes;
 import api.stepdefinition.Post_StepDefinition;
@@ -11,6 +12,7 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
 public class PostPatient {
+	
 
     static String baseUrl;
     private static Response response;

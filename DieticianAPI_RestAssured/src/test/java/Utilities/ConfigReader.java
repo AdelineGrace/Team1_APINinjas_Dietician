@@ -13,8 +13,9 @@ import Utilities.LoggerLoad;
 public class ConfigReader {
 	private static Properties properties;
 
-	private static final String propertyFilePath = "C:\\Users\\shaun\\git\\repository3\\DieticianAPI_RestAssured\\src\\test\\resources\\Config\\config.properties";
 
+
+	private static final String propertyFilePath = "./src/test/resources/config/config.properties";
 	
 	static {
         loadProperty();
@@ -148,4 +149,25 @@ public class ConfigReader {
 		else
 			throw new RuntimeException("morbidityfile is not specified in the config.properties file");
 	}
+	
+	//User Dietician 
+	public static String getPatientDetailsURL()
+	{
+		String data = properties.getProperty("getPatientDetailsUrl");
+		if (data != null)
+			return data;
+		else
+			throw new RuntimeException("getPatientDetailsUrl is not specified in the config.properties file");
+	}
+	
+	public static String getPatientFileURL()
+	{
+		String data = properties.getProperty("getPatientFileUrl");
+		if (data != null)
+			return data;
+		else
+			throw new RuntimeException("getPatientFileUrl is not specified in the config.properties file");
+	}
+	
+	
 }

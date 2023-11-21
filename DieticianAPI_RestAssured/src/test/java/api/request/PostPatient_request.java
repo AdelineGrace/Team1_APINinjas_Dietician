@@ -4,6 +4,7 @@ import Utilities.LoggerLoad;
 
 public class PostPatient_request {
 
+
     public String FirstName;
     public String LastName;
     public String ContactNumber;
