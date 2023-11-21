@@ -74,6 +74,8 @@ public class ConfigReader {
 		else
 			throw new RuntimeException("postUrl is not specified in the config.properties file");
 	}
+	
+	//User Dietician 
 	public static String getPatientDetailsURL()
 	{
 		String data = properties.getProperty("getPatientDetailsUrl");
@@ -91,5 +93,6 @@ public class ConfigReader {
 		else
 			throw new RuntimeException("getPatientFileUrl is not specified in the config.properties file");
 	}
+	
 	
 }

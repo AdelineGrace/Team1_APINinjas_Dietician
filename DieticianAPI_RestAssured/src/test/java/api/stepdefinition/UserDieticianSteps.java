@@ -128,7 +128,7 @@ public class UserDieticianSteps extends BaseStep{
 				case "InvalidPatientIdMorbidityFileAttached" :
 					response.then().assertThat()
 						// Validate response status
-						.statusCode(HttpStatus.SC_OK)
+						.statusCode(HttpStatus.SC_NOT_FOUND)
 						// Validate content type
 						.contentType(ContentType.JSON)
 						// Validate json schema
@@ -226,7 +226,7 @@ public class UserDieticianSteps extends BaseStep{
 				case "InvalidFileId" :
 					response.then().assertThat()
 						// Validate response status
-						.statusCode(HttpStatus.SC_OK)
+						.statusCode(HttpStatus.SC_NOT_FOUND)
 						// Validate content type
 						.contentType(ContentType.JSON)
 						// Validate json schema
@@ -253,6 +253,9 @@ public class UserDieticianSteps extends BaseStep{
 		
 	    
 	}
+	
+	
+	
 	 
 
 }
