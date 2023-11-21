@@ -1,9 +1,9 @@
 Feature: Validating User as Dietician APIs
 
 Background: User sets the Authorization header with the Bearer token.
-Given User is the registered Dietician with the valid "<password>" and "<UserLoginEmail>"
-When User sends HTTP POST Request for User login with valid endpoint
-Then User receives Bearer Token 
+Given User is the registered Dietician with valid "<password>" and "<UserLoginEmail>"
+When User sends HTTP POST Request for User login with a valid endpoint
+Then User receives the Bearer Token 
 
 #GET (Get Patients Morbidity Details) ( User - dietician role)
 

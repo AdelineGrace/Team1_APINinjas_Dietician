@@ -13,7 +13,6 @@ public class PostPatient_response {
 	public String Allergy;
 	public String FoodCategory;
 	public String DateOfBirth;
-	public File MorbidityFile;
 	public int DieticianId;
 	public int fileId;
 	 public Map<String, Map<String, String>> FileMorbidity;

@@ -12,7 +12,8 @@ import io.cucumber.testng.CucumberOptions;
 					}, 
 			monochrome=false,  
 
-			features = {"src/test/resources/Feature/PostRequest.feature"}, 
+			features = {"src/test/resources/Feature/PostRequest.feature",
+					"src/test/resources/Feature/UserDietician.feature"}, 
 
 			glue= {"api.stepdefinition"} 
 		)

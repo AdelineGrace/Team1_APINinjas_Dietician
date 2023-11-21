@@ -1,0 +1,494 @@
+[INFO ] 2023-11-20 22:49:05.853 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 22:49:06.761 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 22:49:07.136 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Valid
+[INFO ] 2023-11-20 22:49:07.538 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 22:49:07.637 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 22:49:07.638 [main] LoggerLoad - Patient POST request object created for- Post_Patient_ExistingUniqueField
+[INFO ] 2023-11-20 22:49:08.724 [main] LoggerLoad - Patient POST request sent for- Post_Patient_ExistingUniqueField
+[INFO ] 2023-11-20 22:49:09.044 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 22:49:09.107 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 22:49:09.108 [main] LoggerLoad - Patient POST request object created for- Post_Patient_NonAcceptedFoodCategory
+[INFO ] 2023-11-20 22:49:10.196 [main] LoggerLoad - Patient POST request sent for- Post_Patient_NonAcceptedFoodCategory
+[INFO ] 2023-11-20 22:49:10.469 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 22:49:10.611 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 22:49:10.622 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_FirstName
+[INFO ] 2023-11-20 22:49:11.847 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Missing_FirstName
+[INFO ] 2023-11-20 22:49:12.090 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 22:49:12.121 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 22:49:12.122 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_LastName
+[INFO ] 2023-11-20 22:49:12.413 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Missing_LastName
+[INFO ] 2023-11-20 22:49:12.679 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 22:49:12.719 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 22:49:12.722 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Invalid_Email
+[INFO ] 2023-11-20 22:49:13.787 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Invalid_Email
+[INFO ] 2023-11-20 22:49:14.065 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 22:49:14.150 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 22:49:14.151 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Invalid_ContactNumber
+[INFO ] 2023-11-20 22:49:15.235 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Invalid_ContactNumber
+[INFO ] 2023-11-20 22:49:15.449 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 22:49:15.741 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 22:49:15.904 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 22:49:15.904 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_File
+[INFO ] 2023-11-20 22:49:53.410 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 22:49:54.393 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 22:49:54.858 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Valid
+[INFO ] 2023-11-20 22:49:55.653 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 22:49:55.740 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 22:49:55.741 [main] LoggerLoad - Patient POST request object created for- Post_Patient_ExistingUniqueField
+[INFO ] 2023-11-20 22:49:56.020 [main] LoggerLoad - Patient POST request sent for- Post_Patient_ExistingUniqueField
+[INFO ] 2023-11-20 22:49:56.734 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 22:49:56.898 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 22:49:56.911 [main] LoggerLoad - Patient POST request object created for- Post_Patient_NonAcceptedFoodCategory
+[INFO ] 2023-11-20 22:49:57.206 [main] LoggerLoad - Patient POST request sent for- Post_Patient_NonAcceptedFoodCategory
+[INFO ] 2023-11-20 22:50:02.362 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 22:50:02.397 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 22:50:02.397 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_FirstName
+[INFO ] 2023-11-20 22:50:03.439 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Missing_FirstName
+[INFO ] 2023-11-20 22:50:04.582 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 22:50:04.625 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 22:50:04.625 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_LastName
+[INFO ] 2023-11-20 22:50:05.691 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Missing_LastName
+[INFO ] 2023-11-20 22:50:06.117 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 22:50:06.147 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 22:50:06.148 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Invalid_Email
+[INFO ] 2023-11-20 22:50:06.394 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Invalid_Email
+[INFO ] 2023-11-20 22:50:06.653 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 22:50:06.690 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 22:50:06.691 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Invalid_ContactNumber
+[INFO ] 2023-11-20 22:50:06.974 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Invalid_ContactNumber
+[INFO ] 2023-11-20 22:50:07.190 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 22:50:07.489 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 22:50:07.633 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 22:50:07.633 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_File
+[INFO ] 2023-11-20 22:57:41.272 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 22:57:42.102 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 22:57:42.684 [main] LoggerLoad - PatientId for Post_Patient_Valid: 5251
+[INFO ] 2023-11-20 22:57:42.684 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Valid
+[INFO ] 2023-11-20 22:57:43.275 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 22:57:43.391 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 22:57:43.391 [main] LoggerLoad - Patient POST request object created for- Post_Patient_ExistingUniqueField
+[INFO ] 2023-11-20 22:57:44.502 [main] LoggerLoad - Patient POST request sent for- Post_Patient_ExistingUniqueField
+[INFO ] 2023-11-20 22:57:46.063 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 22:57:46.235 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 22:57:46.235 [main] LoggerLoad - Patient POST request object created for- Post_Patient_NonAcceptedFoodCategory
+[INFO ] 2023-11-20 22:57:47.339 [main] LoggerLoad - Patient POST request sent for- Post_Patient_NonAcceptedFoodCategory
+[INFO ] 2023-11-20 22:57:47.564 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 22:57:47.599 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 22:57:47.600 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_FirstName
+[INFO ] 2023-11-20 22:57:47.859 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Missing_FirstName
+[INFO ] 2023-11-20 22:57:48.103 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 22:57:48.162 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 22:57:48.162 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_LastName
+[INFO ] 2023-11-20 22:57:49.275 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Missing_LastName
+[INFO ] 2023-11-20 22:57:49.718 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 22:57:49.913 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 22:57:49.914 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Invalid_Email
+[INFO ] 2023-11-20 22:57:51.011 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Invalid_Email
+[INFO ] 2023-11-20 22:57:51.368 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 22:57:51.470 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 22:57:51.485 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Invalid_ContactNumber
+[INFO ] 2023-11-20 22:57:52.606 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Invalid_ContactNumber
+[INFO ] 2023-11-20 22:57:53.027 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 22:57:53.323 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 22:57:53.609 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 22:57:53.609 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_File
+[INFO ] 2023-11-20 23:20:09.947 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 23:20:10.925 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 23:20:11.853 [main] LoggerLoad - PatientId for Post_Patient_Valid: 5280
+[INFO ] 2023-11-20 23:20:11.858 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Valid
+[INFO ] 2023-11-20 23:20:13.625 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 23:20:13.673 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 23:20:13.673 [main] LoggerLoad - Patient POST request object created for- Post_Patient_ExistingUniqueField
+[INFO ] 2023-11-20 23:20:13.926 [main] LoggerLoad - Patient POST request sent for- Post_Patient_ExistingUniqueField
+[INFO ] 2023-11-20 23:20:14.477 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 23:20:14.579 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 23:20:14.580 [main] LoggerLoad - Patient POST request object created for- Post_Patient_NonAcceptedFoodCategory
+[INFO ] 2023-11-20 23:20:15.655 [main] LoggerLoad - Patient POST request sent for- Post_Patient_NonAcceptedFoodCategory
+[INFO ] 2023-11-20 23:20:15.997 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 23:20:16.172 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 23:20:16.197 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_FirstName
+[INFO ] 2023-11-20 23:20:17.359 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Missing_FirstName
+[INFO ] 2023-11-20 23:20:17.946 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 23:20:17.979 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 23:20:17.979 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_LastName
+[INFO ] 2023-11-20 23:20:18.223 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Missing_LastName
+[INFO ] 2023-11-20 23:20:18.450 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 23:20:18.498 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 23:20:18.499 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Invalid_Email
+[INFO ] 2023-11-20 23:20:18.745 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Invalid_Email
+[INFO ] 2023-11-20 23:20:19.010 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 23:20:19.064 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 23:20:19.066 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Invalid_ContactNumber
+[INFO ] 2023-11-20 23:20:19.368 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Invalid_ContactNumber
+[INFO ] 2023-11-20 23:20:19.634 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 23:20:20.212 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-20 23:20:20.429 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-20 23:20:20.429 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_File
+[INFO ] 2023-11-21 00:14:25.093 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:14:25.114 [main] LoggerLoad - Get patient morbidity details request created for ValidPatientIdMorbidityFileAttached
+[INFO ] 2023-11-21 00:14:25.213 [main] LoggerLoad - Invalid number of path parameters. Expected 1, was 0. Undefined path parameters are: patientId.
+[INFO ] 2023-11-21 00:14:26.165 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:14:26.167 [main] LoggerLoad - Get patient morbidity details request created for ValidPatientIdMorbidityFileMissing
+[INFO ] 2023-11-21 00:14:26.185 [main] LoggerLoad - Invalid number of path parameters. Expected 1, was 0. Undefined path parameters are: patientId.
+[INFO ] 2023-11-21 00:14:26.201 [main] LoggerLoad - com.github.fge.jsonschema.core.exceptions.InvalidSchemaException: fatal: invalid JSON Schema, cannot continue
+Syntax errors:
+[ {
+  "level" : "error",
+  "schema" : {
+    "loadingURI" : "#",
+    "pointer" : ""
+  },
+  "domain" : "syntax",
+  "message" : "JSON value is of type array, not a JSON Schema (expected an object)",
+  "found" : "array"
+} ]
+    level: "fatal"
+
+[INFO ] 2023-11-21 00:14:26.416 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:14:26.419 [main] LoggerLoad - Get patient morbidity details request created for InvalidPatientIdMorbidityFileAttached
+[INFO ] 2023-11-21 00:14:26.446 [main] LoggerLoad - Invalid number of path parameters. Expected 1, was 0. Undefined path parameters are: patientId.
+[INFO ] 2023-11-21 00:14:26.704 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:14:26.708 [main] LoggerLoad - Get patient morbidity details request created for ValidFileId
+[INFO ] 2023-11-21 00:14:26.711 [main] LoggerLoad - Get patient morbidity details request sent for- ValidFileId
+[INFO ] 2023-11-21 00:14:26.719 [main] LoggerLoad - java.io.FileNotFoundException: src\test\resources\Hypo Thyroid-Report.pdf.pdf (The system cannot find the file specified)
+[INFO ] 2023-11-21 00:14:26.957 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:14:26.960 [main] LoggerLoad - Get patient morbidity details request created for InvalidFileId
+[INFO ] 2023-11-21 00:14:26.962 [main] LoggerLoad - Get patient morbidity details request sent for- InvalidFileId
+[INFO ] 2023-11-21 00:18:58.082 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:18:58.092 [main] LoggerLoad - Get patient morbidity details request created for ValidPatientIdMorbidityFileAttached
+[INFO ] 2023-11-21 00:18:58.153 [main] LoggerLoad - Invalid number of path parameters. Expected 1, was 0. Undefined path parameters are: patientId.
+[INFO ] 2023-11-21 00:18:58.781 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:18:58.783 [main] LoggerLoad - Get patient morbidity details request created for ValidPatientIdMorbidityFileMissing
+[INFO ] 2023-11-21 00:18:58.805 [main] LoggerLoad - Invalid number of path parameters. Expected 1, was 0. Undefined path parameters are: patientId.
+[INFO ] 2023-11-21 00:18:58.820 [main] LoggerLoad - com.github.fge.jsonschema.core.exceptions.InvalidSchemaException: fatal: invalid JSON Schema, cannot continue
+Syntax errors:
+[ {
+  "level" : "error",
+  "schema" : {
+    "loadingURI" : "#",
+    "pointer" : ""
+  },
+  "domain" : "syntax",
+  "message" : "JSON value is of type array, not a JSON Schema (expected an object)",
+  "found" : "array"
+} ]
+    level: "fatal"
+
+[INFO ] 2023-11-21 00:18:59.067 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:18:59.069 [main] LoggerLoad - Get patient morbidity details request created for InvalidPatientIdMorbidityFileAttached
+[INFO ] 2023-11-21 00:18:59.091 [main] LoggerLoad - Invalid number of path parameters. Expected 1, was 0. Undefined path parameters are: patientId.
+[INFO ] 2023-11-21 00:18:59.357 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:18:59.362 [main] LoggerLoad - Get patient morbidity details request created for ValidFileId
+[INFO ] 2023-11-21 00:18:59.364 [main] LoggerLoad - Get patient morbidity details request sent for- ValidFileId
+[INFO ] 2023-11-21 00:18:59.374 [main] LoggerLoad - java.io.FileNotFoundException: src\test\resources\Hypo Thyroid-Report.pdf.pdf (The system cannot find the file specified)
+[INFO ] 2023-11-21 00:18:59.590 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:18:59.591 [main] LoggerLoad - Get patient morbidity details request created for InvalidFileId
+[INFO ] 2023-11-21 00:18:59.593 [main] LoggerLoad - Get patient morbidity details request sent for- InvalidFileId
+[INFO ] 2023-11-21 00:36:42.999 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:36:43.005 [main] LoggerLoad - Get patient morbidity details request created for ValidPatientIdMorbidityFileAttached
+[INFO ] 2023-11-21 00:36:43.058 [main] LoggerLoad - Invalid number of path parameters. Expected 1, was 0. Undefined path parameters are: patientId.
+[INFO ] 2023-11-21 00:36:43.683 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:36:43.685 [main] LoggerLoad - Get patient morbidity details request created for ValidPatientIdMorbidityFileMissing
+[INFO ] 2023-11-21 00:36:43.707 [main] LoggerLoad - Invalid number of path parameters. Expected 1, was 0. Undefined path parameters are: patientId.
+[INFO ] 2023-11-21 00:36:43.745 [main] LoggerLoad - com.github.fge.jsonschema.core.exceptions.InvalidSchemaException: fatal: invalid JSON Schema, cannot continue
+Syntax errors:
+[ {
+  "level" : "error",
+  "schema" : {
+    "loadingURI" : "#",
+    "pointer" : ""
+  },
+  "domain" : "syntax",
+  "message" : "JSON value is of type array, not a JSON Schema (expected an object)",
+  "found" : "array"
+} ]
+    level: "fatal"
+
+[INFO ] 2023-11-21 00:36:44.019 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:36:44.020 [main] LoggerLoad - Get patient morbidity details request created for InvalidPatientIdMorbidityFileAttached
+[INFO ] 2023-11-21 00:36:44.040 [main] LoggerLoad - Invalid number of path parameters. Expected 1, was 0. Undefined path parameters are: patientId.
+[INFO ] 2023-11-21 00:36:44.300 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:36:44.301 [main] LoggerLoad - Get patient morbidity details request created for ValidFileId
+[INFO ] 2023-11-21 00:36:44.303 [main] LoggerLoad - Get patient morbidity details request sent for- ValidFileId
+[INFO ] 2023-11-21 00:36:44.307 [main] LoggerLoad - java.io.FileNotFoundException: src\test\resources\Hypo Thyroid-Report.pdf.pdf (The system cannot find the file specified)
+[INFO ] 2023-11-21 00:36:44.530 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:36:44.531 [main] LoggerLoad - Get patient morbidity details request created for InvalidFileId
+[INFO ] 2023-11-21 00:36:44.532 [main] LoggerLoad - Get patient morbidity details request sent for- InvalidFileId
+[INFO ] 2023-11-21 00:52:38.067 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:52:38.073 [main] LoggerLoad - Get patient morbidity details request created for ValidPatientIdMorbidityFileAttached
+[INFO ] 2023-11-21 00:52:38.117 [main] LoggerLoad - Invalid number of path parameters. Expected 1, was 0. Undefined path parameters are: patientId.
+[INFO ] 2023-11-21 00:52:38.775 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:52:38.777 [main] LoggerLoad - Get patient morbidity details request created for ValidPatientIdMorbidityFileMissing
+[INFO ] 2023-11-21 00:52:38.803 [main] LoggerLoad - Invalid number of path parameters. Expected 1, was 0. Undefined path parameters are: patientId.
+[INFO ] 2023-11-21 00:52:38.831 [main] LoggerLoad - com.github.fge.jsonschema.core.exceptions.InvalidSchemaException: fatal: invalid JSON Schema, cannot continue
+Syntax errors:
+[ {
+  "level" : "error",
+  "schema" : {
+    "loadingURI" : "#",
+    "pointer" : ""
+  },
+  "domain" : "syntax",
+  "message" : "JSON value is of type array, not a JSON Schema (expected an object)",
+  "found" : "array"
+} ]
+    level: "fatal"
+
+[INFO ] 2023-11-21 00:52:39.120 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:52:39.122 [main] LoggerLoad - Get patient morbidity details request created for InvalidPatientIdMorbidityFileAttached
+[INFO ] 2023-11-21 00:52:39.136 [main] LoggerLoad - Invalid number of path parameters. Expected 1, was 0. Undefined path parameters are: patientId.
+[INFO ] 2023-11-21 00:52:39.401 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:52:39.403 [main] LoggerLoad - Get patient morbidity details request created for ValidFileId
+[INFO ] 2023-11-21 00:52:39.404 [main] LoggerLoad - Get patient morbidity details request sent for- ValidFileId
+[INFO ] 2023-11-21 00:52:39.409 [main] LoggerLoad - java.io.FileNotFoundException: src\test\resources\Hypo Thyroid-Report.pdf.pdf (The system cannot find the file specified)
+[INFO ] 2023-11-21 00:52:39.639 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:52:39.640 [main] LoggerLoad - Get patient morbidity details request created for InvalidFileId
+[INFO ] 2023-11-21 00:52:39.641 [main] LoggerLoad - Get patient morbidity details request sent for- InvalidFileId
+[INFO ] 2023-11-21 00:58:16.352 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:58:16.352 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:58:17.525 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-21 00:58:17.528 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-21 00:58:18.201 [main] LoggerLoad - PatientId for Post_Patient_Valid: 5468
+[INFO ] 2023-11-21 00:58:18.203 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Valid
+[INFO ] 2023-11-21 00:58:18.214 [main] LoggerLoad - PatientId for Post_Patient_Valid: 5469
+[INFO ] 2023-11-21 00:58:18.215 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Valid
+[INFO ] 2023-11-21 00:58:18.736 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:58:18.747 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:58:18.958 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-21 00:58:18.959 [main] LoggerLoad - Patient POST request object created for- Post_Patient_ExistingUniqueField
+[INFO ] 2023-11-21 00:58:18.973 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-21 00:58:18.973 [main] LoggerLoad - Patient POST request object created for- Post_Patient_ExistingUniqueField
+[INFO ] 2023-11-21 00:58:20.124 [main] LoggerLoad - Patient POST request sent for- Post_Patient_ExistingUniqueField
+[INFO ] 2023-11-21 00:58:20.140 [main] LoggerLoad - Patient POST request sent for- Post_Patient_ExistingUniqueField
+[INFO ] 2023-11-21 00:58:20.779 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:58:20.795 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:58:20.933 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-21 00:58:20.933 [main] LoggerLoad - Patient POST request object created for- Post_Patient_NonAcceptedFoodCategory
+[INFO ] 2023-11-21 00:58:20.976 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-21 00:58:20.978 [main] LoggerLoad - Patient POST request object created for- Post_Patient_NonAcceptedFoodCategory
+[INFO ] 2023-11-21 00:58:21.388 [main] LoggerLoad - Patient POST request sent for- Post_Patient_NonAcceptedFoodCategory
+[INFO ] 2023-11-21 00:58:21.600 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:58:21.636 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-21 00:58:21.637 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_FirstName
+[INFO ] 2023-11-21 00:58:22.293 [main] LoggerLoad - Patient POST request sent for- Post_Patient_NonAcceptedFoodCategory
+[INFO ] 2023-11-21 00:58:22.505 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:58:22.549 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-21 00:58:22.551 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_FirstName
+[INFO ] 2023-11-21 00:58:22.716 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Missing_FirstName
+[INFO ] 2023-11-21 00:58:22.939 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:58:22.996 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-21 00:58:22.997 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_LastName
+[INFO ] 2023-11-21 00:58:23.641 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Missing_FirstName
+[INFO ] 2023-11-21 00:58:23.878 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:58:23.916 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-21 00:58:23.916 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_LastName
+[INFO ] 2023-11-21 00:58:24.046 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Missing_LastName
+[INFO ] 2023-11-21 00:58:24.170 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Missing_LastName
+[INFO ] 2023-11-21 00:58:24.244 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:58:24.288 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-21 00:58:24.288 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Invalid_Email
+[INFO ] 2023-11-21 00:58:24.378 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:58:24.437 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-21 00:58:24.437 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Invalid_Email
+[INFO ] 2023-11-21 00:58:24.712 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Invalid_Email
+[INFO ] 2023-11-21 00:58:24.921 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:58:24.977 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-21 00:58:24.982 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Invalid_ContactNumber
+[INFO ] 2023-11-21 00:58:25.388 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Invalid_Email
+[INFO ] 2023-11-21 00:58:25.613 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:58:25.664 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-21 00:58:25.664 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Invalid_ContactNumber
+[INFO ] 2023-11-21 00:58:26.121 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Invalid_ContactNumber
+[INFO ] 2023-11-21 00:58:26.342 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:58:26.623 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:58:26.758 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Invalid_ContactNumber
+[INFO ] 2023-11-21 00:58:26.779 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-21 00:58:26.779 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_File
+[INFO ] 2023-11-21 00:58:27.033 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:58:27.035 [main] LoggerLoad - Get patient morbidity details request created for ValidPatientIdMorbidityFileAttached
+[INFO ] 2023-11-21 00:58:27.071 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:58:27.072 [main] LoggerLoad - Invalid number of path parameters. Expected 1, was 0. Undefined path parameters are: patientId.
+[INFO ] 2023-11-21 00:58:27.324 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:58:27.326 [main] LoggerLoad - Get patient morbidity details request created for ValidPatientIdMorbidityFileMissing
+[INFO ] 2023-11-21 00:58:27.339 [main] LoggerLoad - Invalid number of path parameters. Expected 1, was 0. Undefined path parameters are: patientId.
+[INFO ] 2023-11-21 00:58:27.355 [main] LoggerLoad - com.github.fge.jsonschema.core.exceptions.InvalidSchemaException: fatal: invalid JSON Schema, cannot continue
+Syntax errors:
+[ {
+  "level" : "error",
+  "schema" : {
+    "loadingURI" : "#",
+    "pointer" : ""
+  },
+  "domain" : "syntax",
+  "message" : "JSON value is of type array, not a JSON Schema (expected an object)",
+  "found" : "array"
+} ]
+    level: "fatal"
+
+[INFO ] 2023-11-21 00:58:27.363 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:58:27.512 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-21 00:58:27.512 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_File
+[INFO ] 2023-11-21 00:58:27.612 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:58:27.612 [main] LoggerLoad - Get patient morbidity details request created for InvalidPatientIdMorbidityFileAttached
+[INFO ] 2023-11-21 00:58:27.619 [main] LoggerLoad - Invalid number of path parameters. Expected 1, was 0. Undefined path parameters are: patientId.
+[INFO ] 2023-11-21 00:58:27.724 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:58:27.724 [main] LoggerLoad - Get patient morbidity details request created for ValidPatientIdMorbidityFileAttached
+[INFO ] 2023-11-21 00:58:27.765 [main] LoggerLoad - Invalid number of path parameters. Expected 1, was 0. Undefined path parameters are: patientId.
+[INFO ] 2023-11-21 00:58:27.804 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:58:27.805 [main] LoggerLoad - Get patient morbidity details request created for ValidFileId
+[INFO ] 2023-11-21 00:58:27.806 [main] LoggerLoad - Get patient morbidity details request sent for- ValidFileId
+[INFO ] 2023-11-21 00:58:27.810 [main] LoggerLoad - java.io.FileNotFoundException: src\test\resources\Hypo Thyroid-Report.pdf.pdf (The system cannot find the file specified)
+[INFO ] 2023-11-21 00:58:28.008 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:58:28.009 [main] LoggerLoad - Get patient morbidity details request created for ValidPatientIdMorbidityFileMissing
+[INFO ] 2023-11-21 00:58:28.030 [main] LoggerLoad - Invalid number of path parameters. Expected 1, was 0. Undefined path parameters are: patientId.
+[INFO ] 2023-11-21 00:58:28.055 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:58:28.057 [main] LoggerLoad - Get patient morbidity details request created for InvalidFileId
+[INFO ] 2023-11-21 00:58:28.059 [main] LoggerLoad - Get patient morbidity details request sent for- InvalidFileId
+[INFO ] 2023-11-21 00:58:28.071 [main] LoggerLoad - com.github.fge.jsonschema.core.exceptions.InvalidSchemaException: fatal: invalid JSON Schema, cannot continue
+Syntax errors:
+[ {
+  "level" : "error",
+  "schema" : {
+    "loadingURI" : "#",
+    "pointer" : ""
+  },
+  "domain" : "syntax",
+  "message" : "JSON value is of type array, not a JSON Schema (expected an object)",
+  "found" : "array"
+} ]
+    level: "fatal"
+
+[INFO ] 2023-11-21 00:58:28.350 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:58:28.351 [main] LoggerLoad - Get patient morbidity details request created for InvalidPatientIdMorbidityFileAttached
+[INFO ] 2023-11-21 00:58:28.379 [main] LoggerLoad - Invalid number of path parameters. Expected 1, was 0. Undefined path parameters are: patientId.
+[INFO ] 2023-11-21 00:58:28.893 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:58:28.895 [main] LoggerLoad - Get patient morbidity details request created for ValidFileId
+[INFO ] 2023-11-21 00:58:28.895 [main] LoggerLoad - Get patient morbidity details request sent for- ValidFileId
+[INFO ] 2023-11-21 00:58:28.898 [main] LoggerLoad - java.io.FileNotFoundException: src\test\resources\Hypo Thyroid-Report.pdf.pdf (The system cannot find the file specified)
+[INFO ] 2023-11-21 00:58:29.284 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 00:58:29.285 [main] LoggerLoad - Get patient morbidity details request created for InvalidFileId
+[INFO ] 2023-11-21 00:58:29.285 [main] LoggerLoad - Get patient morbidity details request sent for- InvalidFileId
+[INFO ] 2023-11-21 01:20:18.908 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 01:20:19.976 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-21 01:20:20.476 [main] LoggerLoad - PatientId for Post_Patient_Valid: 5503
+[INFO ] 2023-11-21 01:20:20.476 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Valid
+[INFO ] 2023-11-21 01:20:20.824 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 01:20:20.886 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-21 01:20:20.886 [main] LoggerLoad - Patient POST request object created for- Post_Patient_ExistingUniqueField
+[INFO ] 2023-11-21 01:20:21.963 [main] LoggerLoad - Patient POST request sent for- Post_Patient_ExistingUniqueField
+[INFO ] 2023-11-21 01:20:22.512 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 01:20:22.564 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-21 01:20:22.564 [main] LoggerLoad - Patient POST request object created for- Post_Patient_NonAcceptedFoodCategory
+[INFO ] 2023-11-21 01:20:22.828 [main] LoggerLoad - Patient POST request sent for- Post_Patient_NonAcceptedFoodCategory
+[INFO ] 2023-11-21 01:20:23.087 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 01:20:23.133 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-21 01:20:23.134 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_FirstName
+[INFO ] 2023-11-21 01:20:24.222 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Missing_FirstName
+[INFO ] 2023-11-21 01:20:24.489 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 01:20:24.529 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-21 01:20:24.530 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_LastName
+[INFO ] 2023-11-21 01:20:25.584 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Missing_LastName
+[INFO ] 2023-11-21 01:20:25.808 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 01:20:25.880 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-21 01:20:25.881 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Invalid_Email
+[INFO ] 2023-11-21 01:20:26.181 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Invalid_Email
+[INFO ] 2023-11-21 01:20:26.427 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 01:20:26.476 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-21 01:20:26.479 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Invalid_ContactNumber
+[INFO ] 2023-11-21 01:20:26.745 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Invalid_ContactNumber
+[INFO ] 2023-11-21 01:20:26.954 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 01:20:27.290 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 01:20:27.492 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-21 01:20:27.493 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_File
+[INFO ] 2023-11-21 01:20:27.770 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 01:20:27.770 [main] LoggerLoad - Get patient morbidity details request created for ValidPatientIdMorbidityFileAttached
+[INFO ] 2023-11-21 01:20:27.799 [main] LoggerLoad - Invalid number of path parameters. Expected 1, was 0. Undefined path parameters are: patientId.
+[INFO ] 2023-11-21 01:20:28.013 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 01:20:28.014 [main] LoggerLoad - Get patient morbidity details request created for ValidPatientIdMorbidityFileMissing
+[INFO ] 2023-11-21 01:20:28.022 [main] LoggerLoad - Invalid number of path parameters. Expected 1, was 0. Undefined path parameters are: patientId.
+[INFO ] 2023-11-21 01:20:28.033 [main] LoggerLoad - com.github.fge.jsonschema.core.exceptions.InvalidSchemaException: fatal: invalid JSON Schema, cannot continue
+Syntax errors:
+[ {
+  "level" : "error",
+  "schema" : {
+    "loadingURI" : "#",
+    "pointer" : ""
+  },
+  "domain" : "syntax",
+  "message" : "JSON value is of type array, not a JSON Schema (expected an object)",
+  "found" : "array"
+} ]
+    level: "fatal"
+
+[INFO ] 2023-11-21 01:20:28.251 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 01:20:28.252 [main] LoggerLoad - Get patient morbidity details request created for InvalidPatientIdMorbidityFileAttached
+[INFO ] 2023-11-21 01:20:28.268 [main] LoggerLoad - Invalid number of path parameters. Expected 1, was 0. Undefined path parameters are: patientId.
+[INFO ] 2023-11-21 01:20:28.459 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 01:20:28.460 [main] LoggerLoad - Get patient morbidity details request created for ValidFileId
+[INFO ] 2023-11-21 01:20:28.461 [main] LoggerLoad - Get patient morbidity details request sent for- ValidFileId
+[INFO ] 2023-11-21 01:20:28.462 [main] LoggerLoad - java.io.FileNotFoundException: src\test\resources\Hypo Thyroid-Report.pdf.pdf (The system cannot find the file specified)
+[INFO ] 2023-11-21 01:20:28.667 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 01:20:28.668 [main] LoggerLoad - Get patient morbidity details request created for InvalidFileId
+[INFO ] 2023-11-21 01:20:28.669 [main] LoggerLoad - Get patient morbidity details request sent for- InvalidFileId
+[INFO ] 2023-11-21 01:31:03.218 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 01:31:03.890 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-21 01:31:04.431 [main] LoggerLoad - PatientId for Post_Patient_Valid: 5535
+[INFO ] 2023-11-21 01:31:04.432 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Valid
+[INFO ] 2023-11-21 01:31:04.786 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 01:31:04.862 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-21 01:31:04.862 [main] LoggerLoad - Patient POST request object created for- Post_Patient_ExistingUniqueField
+[INFO ] 2023-11-21 01:31:05.957 [main] LoggerLoad - Patient POST request sent for- Post_Patient_ExistingUniqueField
+[INFO ] 2023-11-21 01:31:06.455 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 01:31:06.506 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-21 01:31:06.508 [main] LoggerLoad - Patient POST request object created for- Post_Patient_NonAcceptedFoodCategory
+[INFO ] 2023-11-21 01:31:07.584 [main] LoggerLoad - Patient POST request sent for- Post_Patient_NonAcceptedFoodCategory
+[INFO ] 2023-11-21 01:31:07.834 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 01:31:07.891 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-21 01:31:07.891 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_FirstName
+[INFO ] 2023-11-21 01:31:08.151 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Missing_FirstName
+[INFO ] 2023-11-21 01:31:08.423 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 01:31:08.462 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-21 01:31:08.462 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_LastName
+[INFO ] 2023-11-21 01:31:08.710 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Missing_LastName
+[INFO ] 2023-11-21 01:31:08.938 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 01:31:08.986 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-21 01:31:08.986 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Invalid_Email
+[INFO ] 2023-11-21 01:31:10.068 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Invalid_Email
+[INFO ] 2023-11-21 01:31:10.316 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 01:31:10.370 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-21 01:31:10.371 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Invalid_ContactNumber
+[INFO ] 2023-11-21 01:31:10.630 [main] LoggerLoad - Patient POST request sent for- Post_Patient_Invalid_ContactNumber
+[INFO ] 2023-11-21 01:31:10.845 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 01:31:11.124 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 01:31:11.245 [main] LoggerLoad - PatientInfo is initialized
+[INFO ] 2023-11-21 01:31:11.245 [main] LoggerLoad - Patient POST request object created for- Post_Patient_Missing_File
+[INFO ] 2023-11-21 01:31:11.493 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 01:31:11.496 [main] LoggerLoad - Get patient morbidity details request created for ValidPatientIdMorbidityFileAttached
+[INFO ] 2023-11-21 01:31:11.531 [main] LoggerLoad - Invalid number of path parameters. Expected 1, was 0. Undefined path parameters are: patientId.
+[INFO ] 2023-11-21 01:31:11.788 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 01:31:11.789 [main] LoggerLoad - Get patient morbidity details request created for ValidPatientIdMorbidityFileMissing
+[INFO ] 2023-11-21 01:31:11.798 [main] LoggerLoad - Invalid number of path parameters. Expected 1, was 0. Undefined path parameters are: patientId.
+[INFO ] 2023-11-21 01:31:11.810 [main] LoggerLoad - com.github.fge.jsonschema.core.exceptions.InvalidSchemaException: fatal: invalid JSON Schema, cannot continue
+Syntax errors:
+[ {
+  "level" : "error",
+  "schema" : {
+    "loadingURI" : "#",
+    "pointer" : ""
+  },
+  "domain" : "syntax",
+  "message" : "JSON value is of type array, not a JSON Schema (expected an object)",
+  "found" : "array"
+} ]
+    level: "fatal"
+
+[INFO ] 2023-11-21 01:31:12.012 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 01:31:12.013 [main] LoggerLoad - Get patient morbidity details request created for InvalidPatientIdMorbidityFileAttached
+[INFO ] 2023-11-21 01:31:12.021 [main] LoggerLoad - Invalid number of path parameters. Expected 1, was 0. Undefined path parameters are: patientId.
+[INFO ] 2023-11-21 01:31:12.245 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 01:31:12.245 [main] LoggerLoad - Get patient morbidity details request created for ValidFileId
+[INFO ] 2023-11-21 01:31:12.247 [main] LoggerLoad - Get patient morbidity details request sent for- ValidFileId
+[INFO ] 2023-11-21 01:31:12.250 [main] LoggerLoad - java.io.FileNotFoundException: src\test\resources\Hypo Thyroid-Report.pdf.pdf (The system cannot find the file specified)
+[INFO ] 2023-11-21 01:31:12.450 [main] LoggerLoad - BearerToken was created
+[INFO ] 2023-11-21 01:31:12.451 [main] LoggerLoad - Get patient morbidity details request created for InvalidFileId
+[INFO ] 2023-11-21 01:31:12.451 [main] LoggerLoad - Get patient morbidity details request sent for- InvalidFileId

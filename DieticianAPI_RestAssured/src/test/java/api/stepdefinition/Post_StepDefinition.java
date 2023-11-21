@@ -77,9 +77,7 @@ public class Post_StepDefinition extends BaseStep {
     }
     @Then("User receives Bearer Token")
 	public void user_receives_bearer_token() {
-	   // response.then().statusCode(200); 
 	    LoggerLoad.logInfo("BearerToken was created");
-	   // bearerToken = response.jsonPath().getString("token");
 
 	}
     @Given("User creates POST Request for the Dietician  API endpoint with {string} and {string}")

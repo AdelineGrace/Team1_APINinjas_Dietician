@@ -11,7 +11,7 @@ String baseUrl = ConfigReader.BaseURL();
 	
 PostPatient postpatient;
 UserLogin login;
-	
+UserDietician userDieticianEndpoints;
 
     public BaseStep() 
     {

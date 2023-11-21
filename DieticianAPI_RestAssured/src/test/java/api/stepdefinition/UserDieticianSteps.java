@@ -3,10 +3,14 @@ package api.stepdefinition;
 
 import static org.testng.Assert.assertEquals;
 
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.List;
 
 import org.apache.http.HttpStatus;
+import org.json.JSONObject;
 
 import Context.SharedContext;
 
@@ -22,47 +26,63 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import Utilities.LoggerLoad;
+import api.endpoints.UserLogin;
 import api.request.UserDietician_request;
+import api.request.UserLogin_request;
 import api.response.UserDietician_response;
 
 
 public class UserDieticianSteps extends BaseStep{
 	Response response;
 	UserDietician_request userDieticianreq;
-	static String fileId;
+	static int fileId;
 	static UserDietician_response userDieticianFileAdded;
-	
+    public static String bearerToken;
+
 	UserDietician_response userDieticianres;
-	@Given("User is the registered Dietician with the valid {string} and {string}")
-	public void user_is_the_registered_dietician_with_the_valid_and(String string, String string2) {
-	    
-	}
+	@Given("User is the registered Dietician with valid {string} and {string}")
+	public void user_is_the_registered_dietician_with_valid_and(String string, String string2) throws IOException {
+		 String filePath = ConfigReader.getProperty("DRUserlogin");
+	        BufferedReader reader = new BufferedReader(new FileReader(filePath));
 
+	        String jsonContent = reader.lines().reduce("", (line1, line2) -> line1 + line2);
 
-	@When("User sends HTTP POST Request for User login with valid endpoint")
-	public void user_sends_http_post_request_for_user_login_with_valid_endpoint() {
-	  
-	}
+	        JSONObject jsonObject = new JSONObject(jsonContent);
 
-	@Then("User receives Bearer Token")
-	public void user_receives_bearer_token() {
-	    
+	        String passwor = jsonObject.optString("password");
+	        String userLoginEmail = jsonObject.optString("userLoginEmail");
+
+	        UserLogin_request Alogin = new UserLogin_request(passwor, userLoginEmail);
+	        response = UserLogin.UserLoginCredentials(Alogin);
+
+	        reader.close();
 	}
+	 @When("User sends HTTP POST Request for User login with a valid endpoint")
+	    public void user_sends_http_post_request_for_user_login_with_a_valid_endpoint() {
+	        response.then().statusCode(200);
+	        bearerToken = response.jsonPath().getString("token");
+	    }
+	    @Then("User receives the Bearer Token")
+		public void user_receives_the_bearer_token() {
+		    LoggerLoad.logInfo("BearerToken was created");
+
+		}
+
 
 	@Given("User creates GET Request for the Patient endpoint with {string} scenario patientid")
 	public void user_creates_get_request_for_the_patient_endpoint_with_scenario(String patientId) {
-		try
-		{
-			RestAssured.baseURI = ConfigReader.BaseURL();
-			RequestSpecification request = RestAssured.given();
-			
+//		try
+//		{
+//			RestAssured.baseURI = ConfigReader.BaseURL();
+//			RequestSpecification request = RestAssured.given();
+//			
 			LoggerLoad.logInfo("Get patient morbidity details request created for " + patientId);
-		}
-		catch (Exception ex) 
-		{
-			LoggerLoad.logInfo(ex.getMessage());
-			ex.printStackTrace();
-		}
+//		}
+//		catch (Exception ex) 
+//		{
+//			LoggerLoad.logInfo(ex.getMessage());
+//			ex.printStackTrace();
+//		}
 	}
 
 	@When("User sends {string} request with patientid")
@@ -72,7 +92,7 @@ public class UserDieticianSteps extends BaseStep{
 			switch(scenario)
 			{
 				case "ValidPatientIdMorbidityFileAttached" :
-					response = userDieticianEndpoints.GetPatientMorbidityDetails(SharedContext.patientIdValid());
+					response = userDieticianEndpoints.GetPatientMorbidityDetails(SharedContext.getPatientIdValid());
 					break;
 					
 				case "ValidPatientIdMorbidityFileMissing" :
@@ -161,18 +181,18 @@ public class UserDieticianSteps extends BaseStep{
 	
 	@Given("User creates GET Request for the Patient endpoint with {string} scenario fileid")
 	public void user_creates_get_request_for_the_patient_endpoint_with_scenario_fileid(String fileId) {
-		try
-		{
-			RestAssured.baseURI = ConfigReader.BaseURL();
-			RequestSpecification request = RestAssured.given();
-			
+//		try
+//		{
+//			RestAssured.baseURI = ConfigReader.BaseURL();
+//			RequestSpecification request = RestAssured.given();
+//			
 			LoggerLoad.logInfo("Get patient morbidity details request created for " + fileId);
-		}
-		catch (Exception ex) 
-		{
-			LoggerLoad.logInfo(ex.getMessage());
-			ex.printStackTrace();
-		}
+//		}
+//		catch (Exception ex) 
+//		{
+//			LoggerLoad.logInfo(ex.getMessage());
+//			ex.printStackTrace();
+//		}
 	}
 
 	@When("User sends {string} request with fileid")
@@ -182,14 +202,14 @@ public class UserDieticianSteps extends BaseStep{
 			switch(scenario)
 			{
 				case "ValidPatientIdMorbidityFileAttached" :
-					response = userDieticianEndpoints.GetPatientFileReport(fileId);
+					response = userDieticianEndpoints.GetPatientFileReport(SharedContext.getFileId());
 					break;
 					
 				case "ValidPatientIdMorbidityFileMissing" :
-					response = userDieticianEndpoints.GetPatientFileReport(fileId);
+					response = userDieticianEndpoints.GetPatientFileReport(SharedContext.getFileId());
 					break;
 				case "InvalidPatientIdMorbidityFileAttached" :
-					response = userDieticianEndpoints.GetPatientFileReport(fileId);
+					response = userDieticianEndpoints.GetPatientFileReport(SharedContext.getFileId());
 					break;
 			}
 	

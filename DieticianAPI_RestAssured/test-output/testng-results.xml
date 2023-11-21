@@ -1,50 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<testng-results ignored="0" total="9" passed="6" failed="3" skipped="0">
+<testng-results ignored="0" total="14" passed="8" failed="6" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-20T18:48:15 EST" name="Default suite" finished-at="2023-11-20T18:48:41 EST" duration-ms="26367">
+  <suite started-at="2023-11-21T01:30:58 EST" name="Default suite" finished-at="2023-11-21T01:31:14 EST" duration-ms="15951">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-11-20T18:48:15 EST" name="Default test" finished-at="2023-11-20T18:48:41 EST" duration-ms="26367">
+    <test started-at="2023-11-21T01:30:58 EST" name="Default test" finished-at="2023-11-21T01:31:14 EST" duration-ms="15951">
       <class name="runner.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T18:48:15 EST" name="setUpClass" finished-at="2023-11-20T18:48:18 EST" duration-ms="2866" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-21T01:30:58 EST" name="setUpClass" finished-at="2023-11-21T01:31:00 EST" duration-ms="1541" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@17796f47]]>
-=======
-<testng-results ignored="0" total="13" passed="5" failed="8" skipped="0">
-  <reporter-output>
-  </reporter-output>
-  <suite started-at="2023-11-20T07:41:50 PST" name="Default suite" finished-at="2023-11-20T07:41:56 PST" duration-ms="6372">
-    <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@3a93b025]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
-    </groups>
-    <test started-at="2023-11-20T07:41:50 PST" name="Default test" finished-at="2023-11-20T07:41:56 PST" duration-ms="6372">
-      <class name="runner.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@3a93b025]" started-at="2023-11-20T07:41:50 PST" name="setUpClass" finished-at="2023-11-20T07:41:51 PST" duration-ms="1424" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@4dd4965a]]>
->>>>>>> origin/Dhivyabranch
+                <![CDATA[org.testng.TestRunner@678c0310]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-<<<<<<< HEAD
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T18:48:18 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T18:48:28 EST" duration-ms="10891" status="FAIL">
-=======
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@3a93b025]" started-at="2023-11-20T07:41:51 PST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T07:41:51 PST" duration-ms="367" status="FAIL">
->>>>>>> origin/Dhivyabranch
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-21T01:31:00 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-21T01:31:04 EST" duration-ms="4060" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -57,7 +34,6 @@
               </value>
             </param>
           </params>
-<<<<<<< HEAD
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -90,7 +66,7 @@ at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecific
 at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:105)
+at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:103)
 at ✽.User receives response for POST "patient" with "Post_Patient_Valid"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
 ]]>
             </full-stacktrace>
@@ -98,7 +74,7 @@ at ✽.User receives response for POST "patient" with "Post_Patient_Valid"(file:
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T18:48:28 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T18:48:30 EST" duration-ms="1457" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-21T01:31:04 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-21T01:31:06 EST" duration-ms="1679" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -114,7 +90,7 @@ at ✽.User receives response for POST "patient" with "Post_Patient_Valid"(file:
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T18:48:30 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T18:48:31 EST" duration-ms="727" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-21T01:31:06 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-21T01:31:07 EST" duration-ms="1383" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -130,7 +106,7 @@ at ✽.User receives response for POST "patient" with "Post_Patient_Valid"(file:
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T18:48:31 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T18:48:31 EST" duration-ms="699" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-21T01:31:07 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-21T01:31:08 EST" duration-ms="577" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -146,7 +122,7 @@ at ✽.User receives response for POST "patient" with "Post_Patient_Valid"(file:
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T18:48:31 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T18:48:32 EST" duration-ms="616" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-21T01:31:08 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-21T01:31:08 EST" duration-ms="540" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -162,7 +138,7 @@ at ✽.User receives response for POST "patient" with "Post_Patient_Valid"(file:
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T18:48:32 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T18:48:33 EST" duration-ms="635" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-21T01:31:08 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-21T01:31:10 EST" duration-ms="1366" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -178,7 +154,7 @@ at ✽.User receives response for POST "patient" with "Post_Patient_Valid"(file:
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T18:48:33 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T18:48:34 EST" duration-ms="1437" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-21T01:31:10 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-21T01:31:10 EST" duration-ms="544" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -194,7 +170,7 @@ at ✽.User receives response for POST "patient" with "Post_Patient_Valid"(file:
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T18:48:34 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T18:48:34 EST" duration-ms="296" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-21T01:31:10 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-21T01:31:10 EST" duration-ms="277" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -216,8 +192,8 @@ at ✽.User receives response for POST "patient" with "Post_Patient_Valid"(file:
 at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
 at java.base/java.lang.Integer.parseInt(Integer.java:675)
 at java.base/java.lang.Integer.parseInt(Integer.java:781)
-at api.stepdefinition.Post_StepDefinition.CreatePatientRequest(Post_StepDefinition.java:162)
-at api.stepdefinition.Post_StepDefinition.user_creates_post_request_for_the_dietician_api_endpoint_with(Post_StepDefinition.java:88)
+at api.stepdefinition.Post_StepDefinition.CreatePatientRequest(Post_StepDefinition.java:160)
+at api.stepdefinition.Post_StepDefinition.user_creates_post_request_for_the_dietician_api_endpoint_with(Post_StepDefinition.java:86)
 at ✽.User creates POST Request for the Dietician  API endpoint with "patient" and "Post_Patient_Missing_DateOfBirth"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:9)
 ]]>
             </full-stacktrace>
@@ -225,7 +201,7 @@ at ✽.User creates POST Request for the Dietician  API endpoint with "patient" 
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T18:48:34 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T18:48:35 EST" duration-ms="489" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-21T01:31:10 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-21T01:31:11 EST" duration-ms="338" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -240,12 +216,12 @@ at ✽.User creates POST Request for the Dietician  API endpoint with "patient" 
           </params>
           <exception class="java.lang.RuntimeException">
             <message>
-              <![CDATA[com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "token" (class api.response.PostPatient_response), not marked as ignorable (12 known properties: "patientId", "LastName", "DieticianId", "FileMorbidity", "FileMorbidityCondition", "fileId", "ContactNumber", "DateOfBirth", "FirstName", "Email", "Allergy", "FoodCategory"])
- at [Source: (String)"{"token":"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZGVsaW5lZ3JhY2UuYUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1MjQxMTUsImV4cCI6MTcwMDU1MjkxNX0.NVgyZ7fni7P_Y-GKFHZhU5GZ3BMx1mxfxBAkSnH-a25xH0dk-drHfxcqTRVnnlqgeU0do3stUCjScWnQRToQ-A","type":"Bearer ","userId":107,"loginUserEmail":"adelinegrace.a@gmail.com","roles":["ROLE_DIETICIAN"]}"; line: 1, column: 11] (through reference chain: api.response.PostPatient_response["token"])]]>
+              <![CDATA[com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "token" (class api.response.PostPatient_response), not marked as ignorable (13 known properties: "patientId", "LastName", "DieticianId", "FileMorbidity", "ContactNumber", "FileMorbidityCondition", "fileId", "DateOfBirth", "FirstName", "Email", "MorbidityFile", "Allergy", "FoodCategory"])
+ at [Source: (String)"{"token":"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZGVsaW5lZ3JhY2UuYUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1NDgyNzEsImV4cCI6MTcwMDU3NzA3MX0.qahRQHyTelLn64q9cwqPe9gAJMg_WcT1H_5ZesZt-4MpV63rwu6iq34rugKnPxIzSYhIi8lYbGMJ9Edxt-aQcA","type":"Bearer ","userId":107,"loginUserEmail":"adelinegrace.a@gmail.com","roles":["ROLE_DIETICIAN"]}"; line: 1, column: 11] (through reference chain: api.response.PostPatient_response["token"])]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "token" (class api.response.PostPatient_response), not marked as ignorable (12 known properties: "patientId", "LastName", "DieticianId", "FileMorbidity", "FileMorbidityCondition", "fileId", "ContactNumber", "DateOfBirth", "FirstName", "Email", "Allergy", "FoodCategory"])
- at [Source: (String)"{"token":"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZGVsaW5lZ3JhY2UuYUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1MjQxMTUsImV4cCI6MTcwMDU1MjkxNX0.NVgyZ7fni7P_Y-GKFHZhU5GZ3BMx1mxfxBAkSnH-a25xH0dk-drHfxcqTRVnnlqgeU0do3stUCjScWnQRToQ-A","type":"Bearer ","userId":107,"loginUserEmail":"adelinegrace.a@gmail.com","roles":["ROLE_DIETICIAN"]}"; line: 1, column: 11] (through reference chain: api.response.PostPatient_response["token"])
+              <![CDATA[java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "token" (class api.response.PostPatient_response), not marked as ignorable (13 known properties: "patientId", "LastName", "DieticianId", "FileMorbidity", "ContactNumber", "FileMorbidityCondition", "fileId", "DateOfBirth", "FirstName", "Email", "MorbidityFile", "Allergy", "FoodCategory"])
+ at [Source: (String)"{"token":"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZGVsaW5lZ3JhY2UuYUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1NDgyNzEsImV4cCI6MTcwMDU3NzA3MX0.qahRQHyTelLn64q9cwqPe9gAJMg_WcT1H_5ZesZt-4MpV63rwu6iq34rugKnPxIzSYhIi8lYbGMJ9Edxt-aQcA","type":"Bearer ","userId":107,"loginUserEmail":"adelinegrace.a@gmail.com","roles":["ROLE_DIETICIAN"]}"; line: 1, column: 11] (through reference chain: api.response.PostPatient_response["token"])
 at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:30)
 at io.restassured.path.json.mapping.JsonPathObjectDeserializer$deserialize.call(Unknown Source)
 at io.restassured.internal.mapping.Jackson2Mapper.deserialize(Jackson2Mapper.groovy:58)
@@ -256,10 +232,10 @@ at io.restassured.internal.mapping.ObjectMapping.deserialize(ObjectMapping.groov
 at io.restassured.internal.mapping.ObjectMapping$deserialize$0.call(Unknown Source)
 at io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.as(RestAssuredResponseOptionsGroovyImpl.groovy:229)
 at io.restassured.internal.RestAssuredResponseOptionsImpl.as(RestAssuredResponseOptionsImpl.java:169)
-at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:126)
+at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:124)
 at ✽.User receives response for POST "patient" with "Post_Patient_Missing_File"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/PostRequest.feature:11)
-Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "token" (class api.response.PostPatient_response), not marked as ignorable (12 known properties: "patientId", "LastName", "DieticianId", "FileMorbidity", "FileMorbidityCondition", "fileId", "ContactNumber", "DateOfBirth", "FirstName", "Email", "Allergy", "FoodCategory"])
- at [Source: (String)"{"token":"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZGVsaW5lZ3JhY2UuYUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1MjQxMTUsImV4cCI6MTcwMDU1MjkxNX0.NVgyZ7fni7P_Y-GKFHZhU5GZ3BMx1mxfxBAkSnH-a25xH0dk-drHfxcqTRVnnlqgeU0do3stUCjScWnQRToQ-A","type":"Bearer ","userId":107,"loginUserEmail":"adelinegrace.a@gmail.com","roles":["ROLE_DIETICIAN"]}"; line: 1, column: 11] (through reference chain: api.response.PostPatient_response["token"])
+Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "token" (class api.response.PostPatient_response), not marked as ignorable (13 known properties: "patientId", "LastName", "DieticianId", "FileMorbidity", "ContactNumber", "FileMorbidityCondition", "fileId", "DateOfBirth", "FirstName", "Email", "MorbidityFile", "Allergy", "FoodCategory"])
+ at [Source: (String)"{"token":"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZGVsaW5lZ3JhY2UuYUBnbWFpbC5jb20iLCJpYXQiOjE3MDA1NDgyNzEsImV4cCI6MTcwMDU3NzA3MX0.qahRQHyTelLn64q9cwqPe9gAJMg_WcT1H_5ZesZt-4MpV63rwu6iq34rugKnPxIzSYhIi8lYbGMJ9Edxt-aQcA","type":"Bearer ","userId":107,"loginUserEmail":"adelinegrace.a@gmail.com","roles":["ROLE_DIETICIAN"]}"; line: 1, column: 11] (through reference chain: api.response.PostPatient_response["token"])
 at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
 at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1138)
 at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2224)
@@ -280,7 +256,7 @@ at io.restassured.internal.mapping.ObjectMapping.deserialize(ObjectMapping.groov
 at io.restassured.internal.mapping.ObjectMapping$deserialize$0.call(Unknown Source)
 at io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.as(RestAssuredResponseOptionsGroovyImpl.groovy:229)
 at io.restassured.internal.RestAssuredResponseOptionsImpl.as(RestAssuredResponseOptionsImpl.java:169)
-at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:126)
+at api.stepdefinition.Post_StepDefinition.user_receives_response_for_post_with(Post_StepDefinition.java:124)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
@@ -296,53 +272,6 @@ at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
 at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
 at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
 at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-=======
-          <exception class="io.cucumber.testng.UndefinedStepException">
-            <message>
-              <![CDATA[The step 'User creates POST Request for the Dietician  API endpoint' and 2 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("User creates POST Request for the Dietician  API endpoint")
-public void user_creates_post_request_for_the_dietician_api_endpoint() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("User sends HTTPS Request and  request Body with mandatory fields and morbidity files from {string} with {string}")
-public void user_sends_https_request_and_request_body_with_mandatory_fields_and_morbidity_files_from_with(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("User receives response for POST {string} with {string}")
-public void user_receives_response_for_post_with(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User creates POST Request for the Dietician  API endpoint' and 2 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("User creates POST Request for the Dietician  API endpoint")
-public void user_creates_post_request_for_the_dietician_api_endpoint() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("User sends HTTPS Request and  request Body with mandatory fields and morbidity files from {string} with {string}")
-public void user_sends_https_request_and_request_body_with_mandatory_fields_and_morbidity_files_from_with(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("User receives response for POST {string} with {string}")
-public void user_receives_response_for_post_with(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
->>>>>>> origin/Dhivyabranch
 at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
 at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
 at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
@@ -376,683 +305,82 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-<<<<<<< HEAD
           </exception> <!-- java.lang.RuntimeException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-20T18:48:35 EST" name="tearDownClass" finished-at="2023-11-20T18:48:41 EST" duration-ms="6120" status="PASS">
-=======
-          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@3a93b025]" started-at="2023-11-20T07:41:51 PST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T07:41:51 PST" duration-ms="46" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-21T01:31:11 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-21T01:31:11 EST" duration-ms="300" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Check if user able to create a Patient with valid endpoint and request body (non existing values)"]]>
+                <![CDATA["Check if user is able to retrieve patient morbidity details with valid patientid"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Create Patient with Post"]]>
+                <![CDATA["Validating User as Dietician APIs"]]>
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.testng.UndefinedStepException">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[The step 'User creates POST Request for the Dietician  API endpoint' and 2 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
+              <![CDATA[1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["fileId","fileName","morbidConditionStr","morbidConditions","uploadDate"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["fileId","fileName","morbidConditionStr","morbidConditions","uploadDate"]
+    missing: ["fileId","fileName","morbidConditionStr","morbidConditions","uploadDate"]
 
-@Given("User creates POST Request for the Dietician  API endpoint")
-public void user_creates_post_request_for_the_dietician_api_endpoint() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("User sends HTTPS Request and  request Body with mandatory fields and morbidity files from {string} with {string}")
-public void user_sends_https_request_and_request_body_with_mandatory_fields_and_morbidity_files_from_with(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("User receives response for POST {string} with {string}")
-public void user_receives_response_for_post_with(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
+  Actual: {"token":"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkaGl2eWFyb29wYXJAZ21haWwuY29tIiwiaWF0IjoxNzAwNTQ4MjcxLCJleHAiOjE3MDA1NzcwNzF9.8BysP4fwkoiaE1NJ_SqxZ41qQq0JUkrsDnexNxsjvo3AfgKvIFnKmiESHKTStvD291ddncr1VmfWiZ0OjAWuXw","type":"Bearer ","userId":111,"loginUserEmail":"dhivyaroopar@gmail.com","roles":["ROLE_DIETICIAN"]}
 ]]>
             </message>
             <full-stacktrace>
-              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User creates POST Request for the Dietician  API endpoint' and 2 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["fileId","fileName","morbidConditionStr","morbidConditions","uploadDate"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["fileId","fileName","morbidConditionStr","morbidConditions","uploadDate"]
+    missing: ["fileId","fileName","morbidConditionStr","morbidConditions","uploadDate"]
 
-@Given("User creates POST Request for the Dietician  API endpoint")
-public void user_creates_post_request_for_the_dietician_api_endpoint() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("User sends HTTPS Request and  request Body with mandatory fields and morbidity files from {string} with {string}")
-public void user_sends_https_request_and_request_body_with_mandatory_fields_and_morbidity_files_from_with(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("User receives response for POST {string} with {string}")
-public void user_receives_response_for_post_with(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
+  Actual: {"token":"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkaGl2eWFyb29wYXJAZ21haWwuY29tIiwiaWF0IjoxNzAwNTQ4MjcxLCJleHAiOjE3MDA1NzcwNzF9.8BysP4fwkoiaE1NJ_SqxZ41qQq0JUkrsDnexNxsjvo3AfgKvIFnKmiESHKTStvD291ddncr1VmfWiZ0OjAWuXw","type":"Bearer ","userId":111,"loginUserEmail":"dhivyaroopar@gmail.com","roles":["ROLE_DIETICIAN"]}
 
-at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
-at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
-at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:107)
+at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+at api.stepdefinition.UserDieticianSteps.user_receives_the_status_code_and_message_based_on(UserDieticianSteps.java:130)
+at ✽.User receives the status code and message based on "ValidPatientIdMorbidityFileAttached"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/UserDietician.feature:13)
 ]]>
             </full-stacktrace>
-          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@3a93b025]" started-at="2023-11-20T07:41:51 PST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T07:41:52 PST" duration-ms="44" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Check if user able to create a Patient with valid endpoint and request body (non existing values)"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Create Patient with Post"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="io.cucumber.testng.UndefinedStepException">
-            <message>
-              <![CDATA[The step 'User creates POST Request for the Dietician  API endpoint' and 2 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("User creates POST Request for the Dietician  API endpoint")
-public void user_creates_post_request_for_the_dietician_api_endpoint() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("User sends HTTPS Request and  request Body with mandatory fields and morbidity files from {string} with {string}")
-public void user_sends_https_request_and_request_body_with_mandatory_fields_and_morbidity_files_from_with(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("User receives response for POST {string} with {string}")
-public void user_receives_response_for_post_with(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User creates POST Request for the Dietician  API endpoint' and 2 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("User creates POST Request for the Dietician  API endpoint")
-public void user_creates_post_request_for_the_dietician_api_endpoint() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("User sends HTTPS Request and  request Body with mandatory fields and morbidity files from {string} with {string}")
-public void user_sends_https_request_and_request_body_with_mandatory_fields_and_morbidity_files_from_with(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("User receives response for POST {string} with {string}")
-public void user_receives_response_for_post_with(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
-at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
-at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@3a93b025]" started-at="2023-11-20T07:41:52 PST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T07:41:52 PST" duration-ms="32" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Check if user able to create a Patient with valid endpoint and request body (non existing values)"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Create Patient with Post"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="io.cucumber.testng.UndefinedStepException">
-            <message>
-              <![CDATA[The step 'User creates POST Request for the Dietician  API endpoint' and 2 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("User creates POST Request for the Dietician  API endpoint")
-public void user_creates_post_request_for_the_dietician_api_endpoint() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("User sends HTTPS Request and  request Body with mandatory fields and morbidity files from {string} with {string}")
-public void user_sends_https_request_and_request_body_with_mandatory_fields_and_morbidity_files_from_with(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("User receives response for POST {string} with {string}")
-public void user_receives_response_for_post_with(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User creates POST Request for the Dietician  API endpoint' and 2 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("User creates POST Request for the Dietician  API endpoint")
-public void user_creates_post_request_for_the_dietician_api_endpoint() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("User sends HTTPS Request and  request Body with mandatory fields and morbidity files from {string} with {string}")
-public void user_sends_https_request_and_request_body_with_mandatory_fields_and_morbidity_files_from_with(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("User receives response for POST {string} with {string}")
-public void user_receives_response_for_post_with(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
-at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
-at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@3a93b025]" started-at="2023-11-20T07:41:52 PST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T07:41:52 PST" duration-ms="23" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Check if user able to create a Patient with valid endpoint and request body (non existing values)"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Create Patient with Post"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="io.cucumber.testng.UndefinedStepException">
-            <message>
-              <![CDATA[The step 'User creates POST Request for the Dietician  API endpoint' and 2 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("User creates POST Request for the Dietician  API endpoint")
-public void user_creates_post_request_for_the_dietician_api_endpoint() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("User sends HTTPS Request and  request Body with mandatory fields and morbidity files from {string} with {string}")
-public void user_sends_https_request_and_request_body_with_mandatory_fields_and_morbidity_files_from_with(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("User receives response for POST {string} with {string}")
-public void user_receives_response_for_post_with(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User creates POST Request for the Dietician  API endpoint' and 2 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("User creates POST Request for the Dietician  API endpoint")
-public void user_creates_post_request_for_the_dietician_api_endpoint() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("User sends HTTPS Request and  request Body with mandatory fields and morbidity files from {string} with {string}")
-public void user_sends_https_request_and_request_body_with_mandatory_fields_and_morbidity_files_from_with(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("User receives response for POST {string} with {string}")
-public void user_receives_response_for_post_with(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
-at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
-at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@3a93b025]" started-at="2023-11-20T07:41:52 PST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T07:41:52 PST" duration-ms="31" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Check if user able to create a Patient with valid endpoint and request body (non existing values)"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Create Patient with Post"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="io.cucumber.testng.UndefinedStepException">
-            <message>
-              <![CDATA[The step 'User creates POST Request for the Dietician  API endpoint' and 2 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("User creates POST Request for the Dietician  API endpoint")
-public void user_creates_post_request_for_the_dietician_api_endpoint() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("User sends HTTPS Request and  request Body with mandatory fields and morbidity files from {string} with {string}")
-public void user_sends_https_request_and_request_body_with_mandatory_fields_and_morbidity_files_from_with(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("User receives response for POST {string} with {string}")
-public void user_receives_response_for_post_with(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User creates POST Request for the Dietician  API endpoint' and 2 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("User creates POST Request for the Dietician  API endpoint")
-public void user_creates_post_request_for_the_dietician_api_endpoint() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("User sends HTTPS Request and  request Body with mandatory fields and morbidity files from {string} with {string}")
-public void user_sends_https_request_and_request_body_with_mandatory_fields_and_morbidity_files_from_with(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("User receives response for POST {string} with {string}")
-public void user_receives_response_for_post_with(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
-at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
-at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@3a93b025]" started-at="2023-11-20T07:41:52 PST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T07:41:52 PST" duration-ms="24" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Check if user able to create a Patient with valid endpoint and request body (non existing values)"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Create Patient with Post"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="io.cucumber.testng.UndefinedStepException">
-            <message>
-              <![CDATA[The step 'User creates POST Request for the Dietician  API endpoint' and 2 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("User creates POST Request for the Dietician  API endpoint")
-public void user_creates_post_request_for_the_dietician_api_endpoint() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("User sends HTTPS Request and  request Body with mandatory fields and morbidity files from {string} with {string}")
-public void user_sends_https_request_and_request_body_with_mandatory_fields_and_morbidity_files_from_with(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("User receives response for POST {string} with {string}")
-public void user_receives_response_for_post_with(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User creates POST Request for the Dietician  API endpoint' and 2 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("User creates POST Request for the Dietician  API endpoint")
-public void user_creates_post_request_for_the_dietician_api_endpoint() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("User sends HTTPS Request and  request Body with mandatory fields and morbidity files from {string} with {string}")
-public void user_sends_https_request_and_request_body_with_mandatory_fields_and_morbidity_files_from_with(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("User receives response for POST {string} with {string}")
-public void user_receives_response_for_post_with(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
-at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
-at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@3a93b025]" started-at="2023-11-20T07:41:52 PST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T07:41:52 PST" duration-ms="30" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Check if user able to create a Patient with valid endpoint and request body (non existing values)"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Create Patient with Post"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="io.cucumber.testng.UndefinedStepException">
-            <message>
-              <![CDATA[The step 'User creates POST Request for the Dietician  API endpoint' and 2 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("User creates POST Request for the Dietician  API endpoint")
-public void user_creates_post_request_for_the_dietician_api_endpoint() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("User sends HTTPS Request and  request Body with mandatory fields and morbidity files from {string} with {string}")
-public void user_sends_https_request_and_request_body_with_mandatory_fields_and_morbidity_files_from_with(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("User receives response for POST {string} with {string}")
-public void user_receives_response_for_post_with(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User creates POST Request for the Dietician  API endpoint' and 2 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("User creates POST Request for the Dietician  API endpoint")
-public void user_creates_post_request_for_the_dietician_api_endpoint() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("User sends HTTPS Request and  request Body with mandatory fields and morbidity files from {string} with {string}")
-public void user_sends_https_request_and_request_body_with_mandatory_fields_and_morbidity_files_from_with(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("User receives response for POST {string} with {string}")
-public void user_receives_response_for_post_with(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
-at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
-at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@3a93b025]" started-at="2023-11-20T07:41:52 PST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T07:41:53 PST" duration-ms="1285" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-21T01:31:11 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-21T01:31:11 EST" duration-ms="248" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1068,7 +396,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@3a93b025]" started-at="2023-11-20T07:41:53 PST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T07:41:53 PST" duration-ms="60" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-21T01:31:11 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-21T01:31:12 EST" duration-ms="217" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1081,26 +409,45 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <404> but was <200>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <404> but was <200>.
+
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+at api.stepdefinition.UserDieticianSteps.user_receives_the_status_code_and_message_based_on(UserDieticianSteps.java:151)
+at ✽.User receives the status code and message based on "InvalidPatientIdMorbidityFileAttached"(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/UserDietician.feature:13)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@3a93b025]" started-at="2023-11-20T07:41:53 PST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T07:41:53 PST" duration-ms="29" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Check if user is able to retrieve patient morbidity details with valid patientid"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Validating User as Dietician APIs"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@3a93b025]" started-at="2023-11-20T07:41:53 PST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T07:41:53 PST" duration-ms="15" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-21T01:31:12 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-21T01:31:12 EST" duration-ms="219" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1116,7 +463,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@3a93b025]" started-at="2023-11-20T07:41:53 PST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-20T07:41:53 PST" duration-ms="19" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-21T01:31:12 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-21T01:31:12 EST" duration-ms="204" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1129,11 +476,45 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <404> but was <200>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <404> but was <200>.
+
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+at api.stepdefinition.UserDieticianSteps.user_receives_the_status_code_and_message_based_on_with_file_report(UserDieticianSteps.java:249)
+at ✽.User receives the status code and message based on "InvalidFileId" with file report(file:///C:/Users/shaun/git/repository3/DieticianAPI_RestAssured/src/test/resources/Feature/UserDietician.feature:25)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@3a93b025]" started-at="2023-11-20T07:41:53 PST" name="tearDownClass" finished-at="2023-11-20T07:41:56 PST" duration-ms="2803" status="PASS">
->>>>>>> origin/Dhivyabranch
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@6ed3ccb2]" started-at="2023-11-21T01:31:12 EST" name="tearDownClass" finished-at="2023-11-21T01:31:14 EST" duration-ms="2379" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

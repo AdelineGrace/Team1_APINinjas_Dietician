@@ -16,7 +16,7 @@ public class UserDietician_routes {
 	    }
 	}
 	
-	public static String getPatientFilebyFileId(String fileId) {
+	public static String getPatientFilebyFileId(int fileId) {
 	    try {
 	        return ConfigReader.getPatientFileURL() + fileId;
 	    } catch (RuntimeException e) {

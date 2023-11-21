@@ -1,15 +1,19 @@
 package api.request;
 
-
 public class UserDietician_request {
-	public int patientId;
-	public String fileId;
+    private int patientId;
+    private int fileId;
 
-    public UserDietician_request(int PatiendId,String FileId)
-    {
-        this.patientId = PatiendId;
-        this.fileId = FileId;
-              
+    public UserDietician_request(int patientId, int fileId) {
+        this.patientId = patientId;
+        this.fileId = fileId;
     }
 
+    public int getPatientId() {
+        return patientId;
+    }
+
+    public int getFileId() {
+        return fileId;
+    }
 }
